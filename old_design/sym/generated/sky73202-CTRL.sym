@@ -1,0 +1,205 @@
+v 20060906 1
+P 100 4900 400 4900 1 0 0
+{
+T 300 4950 5 8 1 1 0 6 1
+pinnumber=1
+T 300 4850 5 8 0 1 0 8 1
+pinseq=1
+T 450 4900 9 8 1 1 0 0 1
+pinlabel=ENBL
+T 450 4900 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 4500 400 4500 1 0 0
+{
+T 300 4550 5 8 1 1 0 6 1
+pinnumber=28
+T 300 4450 5 8 0 1 0 8 1
+pinseq=2
+T 450 4500 9 8 1 1 0 0 1
+pinlabel=REF_CLK
+T 450 4500 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 3700 400 3700 1 0 0
+{
+T 300 3750 5 8 1 1 0 6 1
+pinnumber=17
+T 300 3650 5 8 0 1 0 8 1
+pinseq=3
+T 450 3700 9 8 1 1 0 0 1
+pinlabel=SPI_LE
+T 450 3700 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 3300 400 3300 1 0 0
+{
+T 300 3350 5 8 1 1 0 6 1
+pinnumber=18
+T 300 3250 5 8 0 1 0 8 1
+pinseq=4
+T 450 3300 9 8 1 1 0 0 1
+pinlabel=SPI_CLK
+T 450 3300 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 2900 400 2900 1 0 0
+{
+T 300 2950 5 8 1 1 0 6 1
+pinnumber=19
+T 300 2850 5 8 0 1 0 8 1
+pinseq=5
+T 450 2900 9 8 1 1 0 0 1
+pinlabel=SPI_DATA
+T 450 2900 5 8 0 1 0 2 1
+pintype=in
+}
+P 3500 4900 3200 4900 1 0 0
+{
+T 3300 4950 5 8 1 1 0 0 1
+pinnumber=27
+T 3300 4850 5 8 0 1 0 2 1
+pinseq=6
+T 3150 4900 9 8 1 1 0 6 1
+pinlabel=CLK_sel
+T 3150 4900 5 8 0 1 0 8 1
+pintype=in
+}
+P 3500 4500 3200 4500 1 0 0
+{
+T 3300 4550 5 8 1 1 0 0 1
+pinnumber=20
+T 3300 4450 5 8 0 1 0 2 1
+pinseq=7
+T 3150 4500 9 8 1 1 0 6 1
+pinlabel=CLR_reg
+T 3150 4500 5 8 0 1 0 8 1
+pintype=in
+}
+P 3500 4100 3200 4100 1 0 0
+{
+T 3300 4150 5 8 1 1 0 0 1
+pinnumber=24
+T 3300 4050 5 8 0 1 0 2 1
+pinseq=8
+T 3150 4100 9 8 1 1 0 6 1
+pinlabel=ManSel/Cal_EN
+T 3150 4100 5 8 0 1 0 8 1
+pintype=in
+}
+P 3500 3700 3200 3700 1 0 0
+{
+T 3300 3750 5 8 1 1 0 0 1
+pinnumber=2
+T 3300 3650 5 8 0 1 0 2 1
+pinseq=9
+T 3150 3700 9 8 1 1 0 6 1
+pinlabel=ManSel_0
+T 3150 3700 5 8 0 1 0 8 1
+pintype=in
+}
+P 3500 3300 3200 3300 1 0 0
+{
+T 3300 3350 5 8 1 1 0 0 1
+pinnumber=3
+T 3300 3250 5 8 0 1 0 2 1
+pinseq=10
+T 3150 3300 9 8 1 1 0 6 1
+pinlabel=ManSel_1
+T 3150 3300 5 8 0 1 0 8 1
+pintype=in
+}
+P 3500 2900 3200 2900 1 0 0
+{
+T 3300 2950 5 8 1 1 0 0 1
+pinnumber=4
+T 3300 2850 5 8 0 1 0 2 1
+pinseq=11
+T 3150 2900 9 8 1 1 0 6 1
+pinlabel=ManSel_2
+T 3150 2900 5 8 0 1 0 8 1
+pintype=in
+}
+P 3500 2500 3200 2500 1 0 0
+{
+T 3300 2550 5 8 1 1 0 0 1
+pinnumber=5
+T 3300 2450 5 8 0 1 0 2 1
+pinseq=12
+T 3150 2500 9 8 1 1 0 6 1
+pinlabel=ManSel_3
+T 3150 2500 5 8 0 1 0 8 1
+pintype=in
+}
+P 3500 2100 3200 2100 1 0 0
+{
+T 3300 2150 5 8 1 1 0 0 1
+pinnumber=6
+T 3300 2050 5 8 0 1 0 2 1
+pinseq=13
+T 3150 2100 9 8 1 1 0 6 1
+pinlabel=ManSel_4
+T 3150 2100 5 8 0 1 0 8 1
+pintype=in
+}
+P 3500 1700 3200 1700 1 0 0
+{
+T 3300 1750 5 8 1 1 0 0 1
+pinnumber=7
+T 3300 1650 5 8 0 1 0 2 1
+pinseq=14
+T 3150 1700 9 8 1 1 0 6 1
+pinlabel=ManSel_5
+T 3150 1700 5 8 0 1 0 8 1
+pintype=in
+}
+P 3500 1300 3200 1300 1 0 0
+{
+T 3300 1350 5 8 1 1 0 0 1
+pinnumber=21
+T 3300 1250 5 8 0 1 0 2 1
+pinseq=15
+T 3150 1300 9 8 1 1 0 6 1
+pinlabel=Tuned
+T 3150 1300 5 8 0 1 0 8 1
+pintype=out
+}
+P 3500 900 3200 900 1 0 0
+{
+T 3300 950 5 8 1 1 0 0 1
+pinnumber=22
+T 3300 850 5 8 0 1 0 2 1
+pinseq=16
+T 3150 900 9 8 1 1 0 6 1
+pinlabel=LowEdge/NC
+T 3150 900 5 8 0 1 0 8 1
+pintype=out
+}
+P 3500 500 3200 500 1 0 0
+{
+T 3300 550 5 8 1 1 0 0 1
+pinnumber=23
+T 3300 450 5 8 0 1 0 2 1
+pinseq=17
+T 3150 500 9 8 1 1 0 6 1
+pinlabel=HiEdge/NC
+T 3150 500 5 8 0 1 0 8 1
+pintype=out
+}
+B 400 100 2800 5200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 3200 5400 8 10 1 1 0 6 1
+refdes=U?
+T 400 5400 9 10 1 0 0 0 1
+SKY73202-CTRL
+T 400 5600 5 10 0 0 0 0 1
+device=SKY73202
+T 400 5800 5 10 0 0 0 0 1
+footprint=QFN32_5_EP
+T 400 6000 5 10 0 0 0 0 1
+author=mettus
+T 400 6200 5 10 0 0 0 0 1
+documentation=http://www.skyworks.com
+T 400 6400 5 10 0 0 0 0 1
+description=Dual Programmable Filter
+T 400 6600 5 10 0 0 0 0 1
+numslots=0

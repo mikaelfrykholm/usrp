@@ -1,0 +1,79 @@
+# This is the template file for creating symbols with tragesym
+# every line starting with '#' is a comment line.
+
+[options]
+# rotate_labels rotates the pintext of top and bottom pins
+# wordswap swaps labels if the pin is on the right side an looks like this:
+# "PB1 (CLK)"
+wordswap=yes
+rotate_labels=yes
+sort_labels=no
+generate_pinseq=yes
+sym_width=1400
+pinwidthvertikal=400
+pinwidthhorizontal=400
+
+[geda_attr]
+# name will be printed in the top of the symbol
+# if you have a device with slots, you'll have to use slot= and slotdef=
+# use comment= if there are special information you want to add
+version=20060906
+name=IPASS-SAS-X4
+device=IPASS-SAS-X4
+refdes=J?
+footprint=IPASS-SAS-X4
+description=Molex iPass SAS X4 connector
+documentation=http://www.molex.com
+author=mettus
+numslots=0
+#slot=1
+#slotdef=1:
+#slotdef=2:
+#slotdef=3:
+#slotdef=4:
+#comment=
+#comment=
+#comment=
+
+[pins]
+# tabseparated list of pin descriptions
+# pinnr is the physical number of the pin
+# seq is the pinseq= attribute, leave it blank if it doesn't matter
+# type can be (in, out, io, oc, oe, pas, tp, tri, clk, pwr)
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net
+# posit. can be (l,r,t,b) or empty for nets
+# net specifies the name of the Vcc or GND name
+# label represents the pinlabel. 
+#	negation lines can be added with _Q_ 
+#	if you want to add a "_" or "\" use "\_" and "\\" as escape sequences
+#-----------------------------------------------------
+#pinnr	seq	type	style	posit.	net	label	
+#-----------------------------------------------------
+A1		pwr	line	l		GND
+A2		in	line	l		RX0_P
+A3		in	dot	l		\_RX0_N\_
+A4		pwr	line	l		GND
+A5		in	line	l		RX1_P
+A6		in	dot	l		\_RX1_N\_
+A7		pwr	line	l		GND
+A8		in	line	l		RX2_P
+A9		in	dot	l		\_RX2_N\_
+A10		pwr	line	l		GND
+A11		in	line	l		RX3_P
+A12		in	dot	l		\_RX3_N\_
+A13		pwr	line	l		GND
+
+B1		pwr	line	r		GND
+B2		out	line	r		TX0_P
+B3		out	dot	r		\_TX0_N\_
+B4		pwr	line	r		GND
+B5		out	line	r		TX1_P
+B6		out	dot	r		\_TX1_N\_
+B7		pwr	line	r		GND
+B8		out	line	r		TX2_P
+B9		out	dot	r		\_TX2_N\_
+B10		pwr	line	r		GND
+B11		out	line	r		TX3_P
+B12		out	dot	r		\_TX3_N\_
+B13		pwr	line	r		GND
+

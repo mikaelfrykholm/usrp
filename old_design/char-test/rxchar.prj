@@ -1,0 +1,6 @@
+# List all schematics
+schematics rxchar.sch
+
+output-name rxchar
+
+elements-dir ./pkg/newlib

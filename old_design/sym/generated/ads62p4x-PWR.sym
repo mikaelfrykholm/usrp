@@ -1,0 +1,251 @@
+v 20060906 1
+P 100 5700 400 5700 1 0 0
+{
+T 300 5750 5 8 1 1 0 6 1
+pinnumber=16
+T 300 5650 5 8 0 1 0 8 1
+pinseq=1
+T 450 5700 9 8 1 1 0 0 1
+pinlabel=AVDD
+T 450 5700 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 100 5300 400 5300 1 0 0
+{
+T 300 5350 5 8 1 1 0 6 1
+pinnumber=33
+T 300 5250 5 8 0 1 0 8 1
+pinseq=2
+T 450 5300 9 8 1 1 0 0 1
+pinlabel=AVDD
+T 450 5300 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 100 4900 400 4900 1 0 0
+{
+T 300 4950 5 8 1 1 0 6 1
+pinnumber=34
+T 300 4850 5 8 0 1 0 8 1
+pinseq=3
+T 450 4900 9 8 1 1 0 0 1
+pinlabel=AVDD
+T 450 4900 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 2500 5700 2200 5700 1 0 0
+{
+T 2300 5750 5 8 1 1 0 0 1
+pinnumber=17
+T 2300 5650 5 8 0 1 0 2 1
+pinseq=4
+T 2150 5700 9 8 1 1 0 6 1
+pinlabel=AGND
+T 2150 5700 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2500 5300 2200 5300 1 0 0
+{
+T 2300 5350 5 8 1 1 0 0 1
+pinnumber=18
+T 2300 5250 5 8 0 1 0 2 1
+pinseq=5
+T 2150 5300 9 8 1 1 0 6 1
+pinlabel=AGND
+T 2150 5300 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2500 4900 2200 4900 1 0 0
+{
+T 2300 4950 5 8 1 1 0 0 1
+pinnumber=21
+T 2300 4850 5 8 0 1 0 2 1
+pinseq=6
+T 2150 4900 9 8 1 1 0 6 1
+pinlabel=AGND
+T 2150 4900 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2500 4500 2200 4500 1 0 0
+{
+T 2300 4550 5 8 1 1 0 0 1
+pinnumber=22
+T 2300 4450 5 8 0 1 0 2 1
+pinseq=7
+T 2150 4500 9 8 1 1 0 6 1
+pinlabel=AGND
+T 2150 4500 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2500 4100 2200 4100 1 0 0
+{
+T 2300 4150 5 8 1 1 0 0 1
+pinnumber=24
+T 2300 4050 5 8 0 1 0 2 1
+pinseq=8
+T 2150 4100 9 8 1 1 0 6 1
+pinlabel=AGND
+T 2150 4100 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2500 3700 2200 3700 1 0 0
+{
+T 2300 3750 5 8 1 1 0 0 1
+pinnumber=27
+T 2300 3650 5 8 0 1 0 2 1
+pinseq=9
+T 2150 3700 9 8 1 1 0 6 1
+pinlabel=AGND
+T 2150 3700 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2500 3300 2200 3300 1 0 0
+{
+T 2300 3350 5 8 1 1 0 0 1
+pinnumber=28
+T 2300 3250 5 8 0 1 0 2 1
+pinseq=10
+T 2150 3300 9 8 1 1 0 6 1
+pinlabel=AGND
+T 2150 3300 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2500 2900 2200 2900 1 0 0
+{
+T 2300 2950 5 8 1 1 0 0 1
+pinnumber=31
+T 2300 2850 5 8 0 1 0 2 1
+pinseq=11
+T 2150 2900 9 8 1 1 0 6 1
+pinlabel=AGND
+T 2150 2900 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2500 2500 2200 2500 1 0 0
+{
+T 2300 2550 5 8 1 1 0 0 1
+pinnumber=32
+T 2300 2450 5 8 0 1 0 2 1
+pinseq=12
+T 2150 2500 9 8 1 1 0 6 1
+pinlabel=AGND
+T 2150 2500 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 100 4500 400 4500 1 0 0
+{
+T 300 4550 5 8 1 1 0 6 1
+pinnumber=1
+T 300 4450 5 8 0 1 0 8 1
+pinseq=13
+T 450 4500 9 8 1 1 0 0 1
+pinlabel=DRVDD
+T 450 4500 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 100 4100 400 4100 1 0 0
+{
+T 300 4150 5 8 1 1 0 6 1
+pinnumber=38
+T 300 4050 5 8 0 1 0 8 1
+pinseq=14
+T 450 4100 9 8 1 1 0 0 1
+pinlabel=DRVDD
+T 450 4100 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 100 3700 400 3700 1 0 0
+{
+T 300 3750 5 8 1 1 0 6 1
+pinnumber=48
+T 300 3650 5 8 0 1 0 8 1
+pinseq=15
+T 450 3700 9 8 1 1 0 0 1
+pinlabel=DRVDD
+T 450 3700 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 100 3300 400 3300 1 0 0
+{
+T 300 3350 5 8 1 1 0 6 1
+pinnumber=58
+T 300 3250 5 8 0 1 0 8 1
+pinseq=16
+T 450 3300 9 8 1 1 0 0 1
+pinlabel=DRVDD
+T 450 3300 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 2500 2100 2200 2100 1 0 0
+{
+T 2300 2150 5 8 1 1 0 0 1
+pinnumber=39
+T 2300 2050 5 8 0 1 0 2 1
+pinseq=17
+T 2150 2100 9 8 1 1 0 6 1
+pinlabel=DRGND
+T 2150 2100 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2500 1700 2200 1700 1 0 0
+{
+T 2300 1750 5 8 1 1 0 0 1
+pinnumber=49
+T 2300 1650 5 8 0 1 0 2 1
+pinseq=18
+T 2150 1700 9 8 1 1 0 6 1
+pinlabel=DRGND
+T 2150 1700 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2500 1300 2200 1300 1 0 0
+{
+T 2300 1350 5 8 1 1 0 0 1
+pinnumber=59
+T 2300 1250 5 8 0 1 0 2 1
+pinseq=19
+T 2150 1300 9 8 1 1 0 6 1
+pinlabel=DRGND
+T 2150 1300 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2500 900 2200 900 1 0 0
+{
+T 2300 950 5 8 1 1 0 0 1
+pinnumber=64
+T 2300 850 5 8 0 1 0 2 1
+pinseq=20
+T 2150 900 9 8 1 1 0 6 1
+pinlabel=DRGND
+T 2150 900 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2500 500 2200 500 1 0 0
+{
+T 2300 550 5 8 1 1 0 0 1
+pinnumber=65
+T 2300 450 5 8 0 1 0 2 1
+pinseq=21
+T 2150 500 9 8 1 1 0 6 1
+pinlabel=DRGND
+T 2150 500 5 8 0 1 0 8 1
+pintype=pwr
+}
+B 400 100 1800 6000 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 2200 6200 8 10 1 1 0 6 1
+refdes=U?
+T 400 6200 9 10 1 0 0 0 1
+ADS62P4X-LVDS-PWR
+T 400 6400 5 10 0 0 0 0 1
+device=ADS62P4X
+T 400 6600 5 10 0 0 0 0 1
+footprint=QFN64
+T 400 6800 5 10 0 0 0 0 1
+author=mettus
+T 400 7000 5 10 0 0 0 0 1
+documentation=NA
+T 400 7200 5 10 0 0 0 0 1
+description=TI Dual 14-bit 125/105/80/65 MS/s ADC
+T 400 7400 5 10 0 0 0 0 1
+numslots=0
+T 400 7600 5 10 0 0 0 0 1
+comment=Part 1 of 3

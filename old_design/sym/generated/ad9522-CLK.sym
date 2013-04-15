@@ -1,0 +1,381 @@
+v 20090328 1
+P 100 10800 400 10800 1 0 0
+{
+T 300 10850 5 8 1 1 0 6 1
+pinnumber=9
+T 300 10750 5 8 0 1 0 8 1
+pinseq=1
+T 450 10800 9 8 1 1 0 0 1
+pinlabel=LF
+T 450 10800 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 10400 400 10400 1 0 0
+{
+T 300 10450 5 8 1 1 0 6 1
+pinnumber=64
+T 300 10350 5 8 0 1 0 8 1
+pinseq=2
+T 450 10400 9 8 1 1 0 0 1
+pinlabel=REFIN (REF1)
+T 450 10400 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 10000 400 10000 1 0 0
+{
+T 300 10050 5 8 1 1 0 6 1
+pinnumber=63
+T 300 9950 5 8 0 1 0 8 1
+pinseq=3
+T 450 10000 9 8 1 1 0 0 1
+pinlabel=\_REFIN\_ (REF2)
+T 450 10000 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 9600 400 9600 1 0 0
+{
+T 300 9650 5 8 1 1 0 6 1
+pinnumber=13
+T 300 9550 5 8 0 1 0 8 1
+pinseq=4
+T 450 9600 9 8 1 1 0 0 1
+pinlabel=CLK
+T 450 9600 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 9200 400 9200 1 0 0
+{
+T 300 9250 5 8 1 1 0 6 1
+pinnumber=14
+T 300 9150 5 8 0 1 0 8 1
+pinseq=5
+T 450 9200 9 8 1 1 0 0 1
+pinlabel=\_CLK\_
+T 450 9200 5 8 0 1 0 2 1
+pintype=in
+}
+P 4200 10800 3900 10800 1 0 0
+{
+T 4000 10850 5 8 1 1 0 0 1
+pinnumber=10
+T 4000 10750 5 8 0 1 0 2 1
+pinseq=6
+T 3850 10800 9 8 1 1 0 6 1
+pinlabel=BYPASS
+T 3850 10800 5 8 0 1 0 8 1
+pintype=out
+}
+P 4200 10400 3900 10400 1 0 0
+{
+T 4000 10450 5 8 1 1 0 0 1
+pinnumber=5
+T 4000 10350 5 8 0 1 0 2 1
+pinseq=7
+T 3850 10400 9 8 1 1 0 6 1
+pinlabel=CP
+T 3850 10400 5 8 0 1 0 8 1
+pintype=out
+}
+P 4200 10000 3900 10000 1 0 0
+{
+T 4000 10050 5 8 1 1 0 0 1
+pinnumber=56
+T 4000 9950 5 8 0 1 0 2 1
+pinseq=8
+T 3850 10000 9 8 1 1 0 6 1
+pinlabel=(OUT0A) OUT0
+T 3850 10000 5 8 0 1 0 8 1
+pintype=out
+}
+P 4200 9600 3900 9600 1 0 0
+{
+T 4000 9650 5 8 1 1 0 0 1
+pinnumber=55
+T 4000 9550 5 8 0 1 0 2 1
+pinseq=9
+T 3850 9600 9 8 1 1 0 6 1
+pinlabel=(OUT0B) \_OUT0\_
+T 3850 9600 5 8 0 1 0 8 1
+pintype=out
+}
+P 4200 9200 3900 9200 1 0 0
+{
+T 4000 9250 5 8 1 1 0 0 1
+pinnumber=53
+T 4000 9150 5 8 0 1 0 2 1
+pinseq=10
+T 3850 9200 9 8 1 1 0 6 1
+pinlabel=(OUT1A) OUT1
+T 3850 9200 5 8 0 1 0 8 1
+pintype=out
+}
+P 4200 8800 3900 8800 1 0 0
+{
+T 4000 8850 5 8 1 1 0 0 1
+pinnumber=52
+T 4000 8750 5 8 0 1 0 2 1
+pinseq=11
+T 3850 8800 9 8 1 1 0 6 1
+pinlabel=(OUT1B) \_OUT1\_
+T 3850 8800 5 8 0 1 0 8 1
+pintype=out
+}
+P 4200 8400 3900 8400 1 0 0
+{
+T 4000 8450 5 8 1 1 0 0 1
+pinnumber=51
+T 4000 8350 5 8 0 1 0 2 1
+pinseq=12
+T 3850 8400 9 8 1 1 0 6 1
+pinlabel=(OUT2A) OUT2
+T 3850 8400 5 8 0 1 0 8 1
+pintype=out
+}
+P 4200 8000 3900 8000 1 0 0
+{
+T 4000 8050 5 8 1 1 0 0 1
+pinnumber=50
+T 4000 7950 5 8 0 1 0 2 1
+pinseq=13
+T 3850 8000 9 8 1 1 0 6 1
+pinlabel=(OUT2B) \_OUT2\_
+T 3850 8000 5 8 0 1 0 8 1
+pintype=out
+}
+P 4200 7600 3900 7600 1 0 0
+{
+T 4000 7650 5 8 1 1 0 0 1
+pinnumber=48
+T 4000 7550 5 8 0 1 0 2 1
+pinseq=14
+T 3850 7600 9 8 1 1 0 6 1
+pinlabel=(OUT3A) OUT3
+T 3850 7600 5 8 0 1 0 8 1
+pintype=out
+}
+P 4200 7200 3900 7200 1 0 0
+{
+T 4000 7250 5 8 1 1 0 0 1
+pinnumber=47
+T 4000 7150 5 8 0 1 0 2 1
+pinseq=15
+T 3850 7200 9 8 1 1 0 6 1
+pinlabel=(OUT3B) \_OUT3\_
+T 3850 7200 5 8 0 1 0 8 1
+pintype=out
+}
+P 4200 6800 3900 6800 1 0 0
+{
+T 4000 6850 5 8 1 1 0 0 1
+pinnumber=45
+T 4000 6750 5 8 0 1 0 2 1
+pinseq=16
+T 3850 6800 9 8 1 1 0 6 1
+pinlabel=(OUT4A) OUT4
+T 3850 6800 5 8 0 1 0 8 1
+pintype=out
+}
+P 4200 6400 3900 6400 1 0 0
+{
+T 4000 6450 5 8 1 1 0 0 1
+pinnumber=44
+T 4000 6350 5 8 0 1 0 2 1
+pinseq=17
+T 3850 6400 9 8 1 1 0 6 1
+pinlabel=(OUT4B) \_OUT4\_
+T 3850 6400 5 8 0 1 0 8 1
+pintype=out
+}
+P 4200 6000 3900 6000 1 0 0
+{
+T 4000 6050 5 8 1 1 0 0 1
+pinnumber=43
+T 4000 5950 5 8 0 1 0 2 1
+pinseq=18
+T 3850 6000 9 8 1 1 0 6 1
+pinlabel=(OUT5A) OUT5
+T 3850 6000 5 8 0 1 0 8 1
+pintype=out
+}
+P 4200 5600 3900 5600 1 0 0
+{
+T 4000 5650 5 8 1 1 0 0 1
+pinnumber=42
+T 4000 5550 5 8 0 1 0 2 1
+pinseq=19
+T 3850 5600 9 8 1 1 0 6 1
+pinlabel=(OUT5B) \_OUT5\_
+T 3850 5600 5 8 0 1 0 8 1
+pintype=out
+}
+P 4200 5200 3900 5200 1 0 0
+{
+T 4000 5250 5 8 1 1 0 0 1
+pinnumber=33
+T 4000 5150 5 8 0 1 0 2 1
+pinseq=20
+T 3850 5200 9 8 1 1 0 6 1
+pinlabel=(OUT6A) OUT6
+T 3850 5200 5 8 0 1 0 8 1
+pintype=out
+}
+P 4200 4800 3900 4800 1 0 0
+{
+T 4000 4850 5 8 1 1 0 0 1
+pinnumber=34
+T 4000 4750 5 8 0 1 0 2 1
+pinseq=21
+T 3850 4800 9 8 1 1 0 6 1
+pinlabel=(OUT6B) \_OUT6\_
+T 3850 4800 5 8 0 1 0 8 1
+pintype=out
+}
+P 4200 4400 3900 4400 1 0 0
+{
+T 4000 4450 5 8 1 1 0 0 1
+pinnumber=36
+T 4000 4350 5 8 0 1 0 2 1
+pinseq=22
+T 3850 4400 9 8 1 1 0 6 1
+pinlabel=(OUT7A) OUT7
+T 3850 4400 5 8 0 1 0 8 1
+pintype=out
+}
+P 4200 4000 3900 4000 1 0 0
+{
+T 4000 4050 5 8 1 1 0 0 1
+pinnumber=37
+T 4000 3950 5 8 0 1 0 2 1
+pinseq=23
+T 3850 4000 9 8 1 1 0 6 1
+pinlabel=(OUT7B) \_OUT7\_
+T 3850 4000 5 8 0 1 0 8 1
+pintype=out
+}
+P 4200 3600 3900 3600 1 0 0
+{
+T 4000 3650 5 8 1 1 0 0 1
+pinnumber=38
+T 4000 3550 5 8 0 1 0 2 1
+pinseq=24
+T 3850 3600 9 8 1 1 0 6 1
+pinlabel=(OUT8A) OUT8
+T 3850 3600 5 8 0 1 0 8 1
+pintype=out
+}
+P 4200 3200 3900 3200 1 0 0
+{
+T 4000 3250 5 8 1 1 0 0 1
+pinnumber=39
+T 4000 3150 5 8 0 1 0 2 1
+pinseq=25
+T 3850 3200 9 8 1 1 0 6 1
+pinlabel=(OUT8B) \_OUT8\_
+T 3850 3200 5 8 0 1 0 8 1
+pintype=out
+}
+P 4200 2800 3900 2800 1 0 0
+{
+T 4000 2850 5 8 1 1 0 0 1
+pinnumber=25
+T 4000 2750 5 8 0 1 0 2 1
+pinseq=26
+T 3850 2800 9 8 1 1 0 6 1
+pinlabel=(OUT9A) OUT9
+T 3850 2800 5 8 0 1 0 8 1
+pintype=out
+}
+P 4200 2400 3900 2400 1 0 0
+{
+T 4000 2450 5 8 1 1 0 0 1
+pinnumber=26
+T 4000 2350 5 8 0 1 0 2 1
+pinseq=27
+T 3850 2400 9 8 1 1 0 6 1
+pinlabel=(OUT9B) \_OUT9\_
+T 3850 2400 5 8 0 1 0 8 1
+pintype=out
+}
+P 4200 2000 3900 2000 1 0 0
+{
+T 4000 2050 5 8 1 1 0 0 1
+pinnumber=28
+T 4000 1950 5 8 0 1 0 2 1
+pinseq=28
+T 3850 2000 9 8 1 1 0 6 1
+pinlabel=(OUT10A) OUT10
+T 3850 2000 5 8 0 1 0 8 1
+pintype=out
+}
+P 4200 1600 3900 1600 1 0 0
+{
+T 4000 1650 5 8 1 1 0 0 1
+pinnumber=29
+T 4000 1550 5 8 0 1 0 2 1
+pinseq=29
+T 3850 1600 9 8 1 1 0 6 1
+pinlabel=(OUT10B) \_OUT10\_
+T 3850 1600 5 8 0 1 0 8 1
+pintype=out
+}
+P 4200 1200 3900 1200 1 0 0
+{
+T 4000 1250 5 8 1 1 0 0 1
+pinnumber=30
+T 4000 1150 5 8 0 1 0 2 1
+pinseq=30
+T 3850 1200 9 8 1 1 0 6 1
+pinlabel=(OUT11A) OUT11
+T 3850 1200 5 8 0 1 0 8 1
+pintype=out
+}
+P 4200 800 3900 800 1 0 0
+{
+T 4000 850 5 8 1 1 0 0 1
+pinnumber=31
+T 4000 750 5 8 0 1 0 2 1
+pinseq=31
+T 3850 800 9 8 1 1 0 6 1
+pinlabel=(OUT11B) \_OUT11\_
+T 3850 800 5 8 0 1 0 8 1
+pintype=out
+}
+P 2000 100 2000 400 1 0 0
+{
+T 1950 300 5 8 1 1 90 6 1
+pinnumber=58
+T 2050 300 5 8 0 1 90 8 1
+pinseq=32
+T 2000 450 9 8 1 1 90 0 1
+pinlabel=RSET
+T 2000 450 5 8 0 1 90 2 1
+pintype=out
+}
+P 2400 100 2400 400 1 0 0
+{
+T 2350 300 5 8 1 1 90 6 1
+pinnumber=62
+T 2450 300 5 8 0 1 90 8 1
+pinseq=33
+T 2400 450 9 8 1 1 90 0 1
+pinlabel=CPRSET
+T 2400 450 5 8 0 1 90 2 1
+pintype=out
+}
+B 400 400 3500 10800 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 3900 11300 8 10 1 1 0 6 1
+refdes=U?
+T 1950 5700 9 10 1 0 0 0 1
+AD9522-CLK
+T 1950 5900 5 10 0 0 0 0 1
+device=AD9522-4BPCZ
+T 1950 6100 5 10 0 0 0 0 1
+footprint=CP-64-4
+T 1950 6300 5 10 0 0 0 0 1
+author=jblum
+T 1950 6500 5 10 0 0 0 0 1
+documentation=http://www.analog.com/en/clock-and-timing/clock-generation-and-distribution/ad9522-4/products/product.html
+T 1950 6700 5 10 0 0 0 0 1
+description=Clock Generator
+T 1950 6900 5 10 0 0 0 0 1
+numslots=0

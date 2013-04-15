@@ -1,0 +1,77 @@
+# This is the template file for creating symbols with tragesym
+# every line starting with '#' is a comment line.
+
+[options]
+# rotate_labels rotates the pintext of top and bottom pins
+# wordswap swaps labels if the pin is on the right side an looks like this:
+# "PB1 (CLK)"
+wordswap=yes
+rotate_labels=yes
+sort_labels=no
+generate_pinseq=yes
+sym_width=2400
+pinwidthvertikal=400
+pinwidthhorizontal=400
+
+[geda_attr]
+# name will be printed in the top of the symbol
+# if you have a device with slots, you'll have to use slot= and slotdef=
+# use comment= if there are special information you want to add
+version=20060906
+name=DP83865-MAC
+device=DP83865
+refdes=U?
+footprint=PQFP-128
+description=National Semi GigPHYter Gigabit Ethernet MAC
+documentation=NA
+author=mettus
+numslots=0
+#slot=1
+#slotdef=1:
+#slotdef=2:
+#slotdef=3:
+#slotdef=4:
+comment=Part 4 of 7
+#comment=
+#comment=
+
+[pins]
+# tabseparated list of pin descriptions
+# pinnr is the physical number of the pin
+# seq is the pinseq= attribute, leave it blank if it doesn't matter
+# type can be (in, out, io, oc, oe, pas, tp, tri, clk, pwr)
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net
+# posit. can be (l,r,t,b) or empty for nets
+# net specifies the name of the Vcc or GND name
+# label represents the pinlabel. 
+#	negation lines can be added with _Q_ 
+#	if you want to add a "_" or "\" use "\_" and "\\" as escape sequences
+#-----------------------------------------------------
+#pinnr	seq	type	style	posit.	net	label	
+#-----------------------------------------------------
+39		io	line	l		COL/CLK_MAC\_FREQ
+40		io	line	l		CRS/RGMII_SEL0
+60		io	line	l		TX_CLK/RGMII_SEL1
+76		in	line	r		TXD0
+75		in	line	r		TXD1
+72		in	line	r		TXD2
+71		in	line	r		TXD3
+68		in	line	r		TXD4
+67		in	line	r		TXD5
+66		in	line	r		TXD6
+65		in	line	r		TXD7
+62		in	line	r		TX_EN/TX_EN\ER
+79		in	line	r		GTX_CLK/TCK
+61		in	line	r		TX_ER
+57		out	line	l		RX_CLK
+56		out	line	l		RXD0
+55		out	line	l		RXD1
+52		out	line	l		RXD2
+51		out	line	l		RXD3
+50		out	line	l		RXD4
+47		out	line	l		RXD5
+46		out	line	l		RXD6
+45		out	line	l		RXD7
+41		out	line	l		RX_ER/RXDV\ER
+44		out	line	l		RX_DV/RCK
+

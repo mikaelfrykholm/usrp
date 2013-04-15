@@ -1,0 +1,3 @@
+gsch2pcb rf-test.prj
+gnetlist -g partslist3 -o rf-test.bom rf-test.sch
+

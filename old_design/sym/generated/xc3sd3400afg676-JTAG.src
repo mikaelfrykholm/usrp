@@ -1,0 +1,24 @@
+
+[options]
+wordswap=yes
+rotate_labels=yes
+sort_labels=yes
+generate_pinseq=yes
+sym_width=6000
+pinwidthvertikal=400
+pinwidthhorizontal=400
+[geda_attr]
+version=20060906
+name=XC3SD3400AFG676-JTAG
+device=XC3SD3400AFG676
+refdes=U?
+footprint=FG676
+description=Xilinx Spartan 3A-DSP 1800/3400 FG676
+documentation=http://www.xilinx.com
+author=xilinxgen.py
+numslots=0
+[pins]
+A25		io	line	l		TCK
+D4		io	line	l		TMS
+E23		io	line	l		TDO
+G7		io	line	l		TDI

@@ -1,0 +1,92 @@
+# This is the template file for creating symbols with tragesym
+# every line starting with '#' is a comment line.
+
+[options]
+# rotate_labels rotates the pintext of top and bottom pins
+# wordswap swaps labels if the pin is on the right side an looks like this:
+# "PB1 (CLK)"
+wordswap=yes
+rotate_labels=yes
+sort_labels=no
+generate_pinseq=yes
+sym_width=3500
+pinwidthvertikal=400
+pinwidthhorizontal=400
+
+[geda_attr]
+# name will be printed in the top of the symbol
+# if you have a device with slots, you'll have to use slot= and slotdef=
+# use comment= if there are special information you want to add
+version=20090328
+name=AD9522-CLK
+device=AD9522-4BPCZ
+refdes=U?
+footprint=CP-64-4
+description=Clock Generator
+documentation=http://www.analog.com/en/clock-and-timing/clock-generation-and-distribution/ad9522-4/products/product.html
+author=jblum
+numslots=0
+#slot=1
+#slotdef=1:
+#slotdef=2:
+#slotdef=3:
+#slotdef=4:
+#comment=
+#comment=
+
+[pins]
+# tabseparated list of pin descriptions
+# pinnr is the physical number of the pin
+# seq is the pinseq= attribute, leave it blank if it doesn't matter
+# type can be (in, out, io, oc, oe, pas, tp, tri, clk, pwr)
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net
+# posit. can be (l,r,t,b) or empty for nets
+# net specifies the name of the Vcc or GND name
+# label represents the pinlabel. 
+#	negation lines can be added with _Q_ 
+#	if you want to add a "_" or "\" use "\_" and "\\" as escape sequences
+#-----------------------------------------------------
+#pinnr	seq	type	style	posit.	net	label	
+#-----------------------------------------------------
+9		in	line	l		LF
+64		in	line	l		REFIN (REF1)
+63		in	line	l		\_REFIN\_ (REF2)
+13		in	line	l		CLK
+14		in	line	l		\_CLK\_
+10		out	line	r		BYPASS
+5		out	line	r		CP
+56		out	line	r		OUT0 (OUT0A)
+55		out	line	r		\_OUT0\_ (OUT0B)
+53		out	line	r		OUT1 (OUT1A)
+52		out	line	r		\_OUT1\_ (OUT1B)
+51		out	line	r		OUT2 (OUT2A)
+50		out	line	r		\_OUT2\_ (OUT2B)
+48		out	line	r		OUT3 (OUT3A)
+47		out	line	r		\_OUT3\_ (OUT3B)
+45		out	line	r		OUT4 (OUT4A)
+44		out	line	r		\_OUT4\_ (OUT4B)
+43		out	line	r		OUT5 (OUT5A)
+42		out	line	r		\_OUT5\_ (OUT5B)
+33		out	line	r		OUT6 (OUT6A)
+34		out	line	r		\_OUT6\_ (OUT6B)
+36		out	line	r		OUT7 (OUT7A)
+37		out	line	r		\_OUT7\_ (OUT7B)
+38		out	line	r		OUT8 (OUT8A)
+39		out	line	r		\_OUT8\_ (OUT8B)
+25		out	line	r		OUT9 (OUT9A)
+26		out	line	r		\_OUT9\_ (OUT9B)
+28		out	line	r		OUT10 (OUT10A)
+29		out	line	r		\_OUT10\_ (OUT10B)
+30		out	line	r		OUT11 (OUT11A)
+31		out	line	r		\_OUT11\_ (OUT11B)
+58		out	line	b		RSET
+62		out	line	b		CPRSET
+
+
+
+
+
+
+
+
+

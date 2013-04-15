@@ -1,0 +1,43 @@
+
+[options]
+wordswap=yes
+rotate_labels=yes
+sort_labels=yes
+generate_pinseq=yes
+sym_width=3200
+pinwidthvertikal=400
+pinwidthhorizontal=400
+[geda_attr]
+version=20060906
+name=XC3SXX00FG320-IO4
+device=XC3SXX00FG320
+refdes=U?
+footprint=FG320
+description=Xilinx Spartan 3 400/1000/1500 FG320
+documentation=http://www.xilinx.com
+author=xilinxgen.py
+numslots=0
+[pins]
+M10		pwr	line	b		VCCO_4
+M11		pwr	line	b		VCCO_4
+P12		io	line	l		IO
+P13		io	line	l		IO_L25P_4
+P14		io	line	r		IO_L06N_4/VREF_4
+R10		io	line	r		IO/VREF_4
+R11		io	line	l		IO_L29N_4
+R13		io	line	l		IO_L25N_4
+R14		io	line	l		IO_L06P_4
+T11		io	line	l		IO_L29P_4
+T13		pwr	line	b		VCCO_4
+T14		io	line	l		IO_L10N_4
+U11		pwr	line	b		VCCO_4
+U13		io	line	r		IO/VREF_4
+U14		io	line	l		IO_L10P_4
+U15		io	line	l		IO_L09N_4
+U16		io	line	l		IO_L01N_4/VRP_4/DCI
+V11		io	line	l		IO_L28P_4
+V12		io	line	l		IO_L28N_4
+V14		io	line	l		IO
+V15		io	line	l		IO_L09P_4
+V16		io	line	l		IO_L01P_4/VRN_4/DCI
+V17		io	line	r		IO/VREF_4

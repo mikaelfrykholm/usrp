@@ -1,0 +1,205 @@
+v 20060906 1
+P 100 1200 400 1200 1 0 0
+{
+T 300 1250 5 8 1 1 0 6 1
+pinnumber=2
+T 300 1150 5 8 0 1 0 8 1
+pinseq=1
+T 450 1200 9 8 1 1 0 0 1
+pinlabel=Vtune
+T 450 1200 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 800 400 800 1 0 0
+{
+T 300 850 5 8 1 1 0 6 1
+pinnumber=6
+T 300 750 5 8 0 1 0 8 1
+pinseq=2
+T 450 800 9 8 1 1 0 0 1
+pinlabel=Modulation
+T 450 800 5 8 0 1 0 2 1
+pintype=in
+}
+P 6300 1200 6000 1200 1 0 0
+{
+T 6100 1250 5 8 1 1 0 0 1
+pinnumber=14
+T 6100 1150 5 8 0 1 0 2 1
+pinseq=3
+T 5950 1200 9 8 1 1 0 6 1
+pinlabel=Vcc
+T 5950 1200 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 6300 800 6000 800 1 0 0
+{
+T 6100 850 5 8 1 1 0 0 1
+pinnumber=10
+T 6100 750 5 8 0 1 0 2 1
+pinseq=4
+T 5950 800 9 8 1 1 0 6 1
+pinlabel=RFout
+T 5950 800 5 8 0 1 0 8 1
+pintype=out
+}
+P 800 100 800 400 1 0 0
+{
+T 850 200 5 8 1 1 0 0 1
+pinnumber=1
+T 850 200 5 8 0 1 0 2 1
+pinseq=5
+T 800 450 9 8 1 1 0 3 1
+pinlabel=GND
+T 800 600 5 8 0 1 0 3 1
+pintype=pwr
+}
+P 1200 100 1200 400 1 0 0
+{
+T 1250 200 5 8 1 1 0 0 1
+pinnumber=3
+T 1250 200 5 8 0 1 0 2 1
+pinseq=6
+T 1200 450 9 8 1 1 0 3 1
+pinlabel=GND
+T 1200 600 5 8 0 1 0 3 1
+pintype=pwr
+}
+P 1600 100 1600 400 1 0 0
+{
+T 1650 200 5 8 1 1 0 0 1
+pinnumber=4
+T 1650 200 5 8 0 1 0 2 1
+pinseq=7
+T 1600 450 9 8 1 1 0 3 1
+pinlabel=GND
+T 1600 600 5 8 0 1 0 3 1
+pintype=pwr
+}
+P 2000 100 2000 400 1 0 0
+{
+T 2050 200 5 8 1 1 0 0 1
+pinnumber=5
+T 2050 200 5 8 0 1 0 2 1
+pinseq=8
+T 2000 450 9 8 1 1 0 3 1
+pinlabel=GND
+T 2000 600 5 8 0 1 0 3 1
+pintype=pwr
+}
+P 2400 100 2400 400 1 0 0
+{
+T 2450 200 5 8 1 1 0 0 1
+pinnumber=7
+T 2450 200 5 8 0 1 0 2 1
+pinseq=9
+T 2400 450 9 8 1 1 0 3 1
+pinlabel=GND
+T 2400 600 5 8 0 1 0 3 1
+pintype=pwr
+}
+P 2800 100 2800 400 1 0 0
+{
+T 2850 200 5 8 1 1 0 0 1
+pinnumber=8
+T 2850 200 5 8 0 1 0 2 1
+pinseq=10
+T 2800 450 9 8 1 1 0 3 1
+pinlabel=GND
+T 2800 600 5 8 0 1 0 3 1
+pintype=pwr
+}
+P 3200 100 3200 400 1 0 0
+{
+T 3250 200 5 8 1 1 0 0 1
+pinnumber=9
+T 3250 200 5 8 0 1 0 2 1
+pinseq=11
+T 3200 450 9 8 1 1 0 3 1
+pinlabel=GND
+T 3200 600 5 8 0 1 0 3 1
+pintype=pwr
+}
+P 3600 100 3600 400 1 0 0
+{
+T 3650 200 5 8 1 1 0 0 1
+pinnumber=11
+T 3650 200 5 8 0 1 0 2 1
+pinseq=12
+T 3600 450 9 8 1 1 0 3 1
+pinlabel=GND
+T 3600 600 5 8 0 1 0 3 1
+pintype=pwr
+}
+P 4000 100 4000 400 1 0 0
+{
+T 4050 200 5 8 1 1 0 0 1
+pinnumber=12
+T 4050 200 5 8 0 1 0 2 1
+pinseq=13
+T 4000 450 9 8 1 1 0 3 1
+pinlabel=GND
+T 4000 600 5 8 0 1 0 3 1
+pintype=pwr
+}
+P 4400 100 4400 400 1 0 0
+{
+T 4450 200 5 8 1 1 0 0 1
+pinnumber=13
+T 4450 200 5 8 0 1 0 2 1
+pinseq=14
+T 4400 450 9 8 1 1 0 3 1
+pinlabel=GND
+T 4400 600 5 8 0 1 0 3 1
+pintype=pwr
+}
+P 4800 100 4800 400 1 0 0
+{
+T 4850 200 5 8 1 1 0 0 1
+pinnumber=15
+T 4850 200 5 8 0 1 0 2 1
+pinseq=15
+T 4800 450 9 8 1 1 0 3 1
+pinlabel=GND
+T 4800 600 5 8 0 1 0 3 1
+pintype=pwr
+}
+P 5200 100 5200 400 1 0 0
+{
+T 5250 200 5 8 1 1 0 0 1
+pinnumber=16
+T 5250 200 5 8 0 1 0 2 1
+pinseq=16
+T 5200 450 9 8 1 1 0 3 1
+pinlabel=GND
+T 5200 600 5 8 0 1 0 3 1
+pintype=pwr
+}
+P 5600 100 5600 400 1 0 0
+{
+T 5650 200 5 8 1 1 0 0 1
+pinnumber=17
+T 5650 200 5 8 0 1 0 2 1
+pinseq=17
+T 5600 450 9 8 1 1 0 3 1
+pinlabel=GND_PKG
+T 5600 600 5 8 0 1 0 3 1
+pintype=pwr
+}
+B 400 400 5600 1200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 6000 1700 8 10 1 1 0 6 1
+refdes=U?
+T 3000 900 9 10 1 0 0 0 1
+SIRENZA-VCO
+T 3000 1100 5 10 0 0 0 0 1
+device=VCO190T
+T 3000 1300 5 10 0 0 0 0 1
+footprint=SIRENZA_VCO
+T 3000 1500 5 10 0 0 0 0 1
+author=mettus
+T 3000 1700 5 10 0 0 0 0 1
+documentation=NA
+T 3000 1900 5 10 0 0 0 0 1
+description=Sirenza VCO
+T 3000 2100 5 10 0 0 0 0 1
+numslots=0

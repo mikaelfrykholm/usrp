@@ -1,0 +1,134 @@
+#!/usr/bin/python
+
+import re
+matchstr = re.compile("_")
+is_input = re.compile("IP")
+is_io = re.compile("IO")
+
+def writepin(file,number,name,linetype,pintype,pos):
+    #newname = matchstr.sub("\\_",name)
+    newname = name
+    file.write("%s\t\t%s\t%s\t%s\t\t%s\n" % (number,pintype,linetype,pos,newname))
+
+pinfile = open ('XC3SD3400AFG676.csv','r')
+
+boilerplate = '''
+[options]
+wordswap=yes
+rotate_labels=yes
+sort_labels=yes
+generate_pinseq=yes
+sym_width=6000
+pinwidthvertikal=400
+pinwidthhorizontal=400
+[geda_attr]
+version=20060906
+name=XC3SD3400AFG676-%s
+device=XC3SD3400AFG676
+refdes=U?
+footprint=FG676
+description=Xilinx Spartan 3A-DSP 1800/3400 FG676
+documentation=http://www.xilinx.com
+author=xilinxgen.py
+numslots=0
+[pins]
+'''
+
+configfile = open ('xc3sd3400afg676-CFG.src', 'w')
+configfile.write(boilerplate % ("CFG",))
+
+jtagfile = open ('xc3sd3400afg676-JTAG.src', 'w')
+jtagfile.write(boilerplate % ("JTAG",))
+powerfile = open ('xc3sd3400afg676-PWR.src', 'w')
+powerfile.write(boilerplate % ("PWR",))
+topclockfile = open ('xc3sd3400afg676-TOPCLK.src', 'w')
+topclockfile.write(boilerplate % ("TOPCLK",))
+botclockfile = open ('xc3sd3400afg676-BOTCLK.src', 'w')
+botclockfile.write(boilerplate % ("BOTCLK",))
+lhclockfile = open ('xc3sd3400afg676-LHCLK.src', 'w')
+lhclockfile.write(boilerplate % ("LHCLK",))
+rhclockfile = open ('xc3sd3400afg676-RHCLK.src', 'w')
+rhclockfile.write(boilerplate % ("RHCLK",))
+
+iofiles = [0] * 4
+for i in range(4):
+    iofiles[i] = open ( ('xc3sd3400afg676-IO%d.src' % (i,)), 'w')
+    iofiles[i].write(boilerplate % ('IO%d' % (i,),))
+    
+dummy = pinfile.readline()
+lines = pinfile.readlines()
+
+for line in lines:
+    elements = line.strip().split(',')
+
+    pintype = elements[3]
+    #nc = elements[5] == "N.C."
+
+    #if(elements[5] != elements[9]) and not nc:
+    #    print "error"
+    #    print elements
+
+    #if nc and pintype != 'I/O' and pintype != 'VREF':
+    #    print "error"
+    #    print elements
+    
+    if(pintype == 'GND'):
+        writepin(powerfile,elements[0],elements[1],'line','pwr','r')
+    elif(pintype == 'VCCAUX'):
+        writepin(powerfile,elements[0],elements[1],'line','pwr','l')
+    elif(pintype == 'VCCO'):
+        #writepin(powerfile,elements[3],elements[6],'line','pwr','l')
+        writepin(iofiles[int(elements[2])],elements[0],elements[1],'line','pwr','b')
+    elif(pintype == 'VCCINT'):
+        writepin(powerfile,elements[0],elements[1],'line','pwr','l')
+
+    elif(pintype == 'JTAG'):
+        writepin(jtagfile,elements[0],elements[1],'line','io','l')
+
+    elif(pintype == 'CONFIG'):
+        #writepin(configfile,elements[0],elements[1],'line','io','b')
+        writepin(configfile,elements[0],elements[1],'line','io','l')
+
+    elif(pintype == 'PWRMGMT'):
+        #writepin(configfile,elements[0],elements[1],'line','io','b')
+        writepin(configfile,elements[0],elements[1],'line','io','l')
+
+    elif(pintype == 'DUAL'):
+        if(int(elements[2]) == 1):   # All these are for BPI mode, so just put in bank 1
+            writepin(iofiles[int(elements[2])],elements[0],elements[1],'line','io','l')
+        elif(int(elements[2]) == 2):
+            writepin(configfile,elements[0],elements[1],'line','io','r')
+        else:
+            writepin(configfile,elements[0],elements[1],'line','io','l')
+            
+    elif(pintype == 'GCLK'):
+        if(int(elements[2]) == 0):
+            writepin(topclockfile,elements[0],elements[1],'clk','clk','l')
+        else:
+            writepin(botclockfile,elements[0],elements[1],'clk','clk','l')
+            
+    elif(pintype == 'LHCLK'):
+        writepin(lhclockfile,elements[0],elements[1],'clk','clk','l')
+
+    elif(pintype == 'RHCLK'):
+        writepin(rhclockfile,elements[0],elements[1],'clk','clk','l')
+
+    elif(pintype == 'VREF'):
+        if(re.match(is_input,elements[1])):
+            writepin(iofiles[int(elements[2])],elements[0],elements[1],'line','in','r')
+        elif(re.match(is_io,elements[1])):
+            writepin(iofiles[int(elements[2])],elements[0],elements[1],'line','io','r')
+        else:
+            print "VREF pintype error", elements[1]
+
+    elif(pintype == 'I/O'):
+        writepin(iofiles[int(elements[2])],elements[0],elements[1],'line','io','l')
+
+    elif(pintype == 'INPUT'):
+        writepin(iofiles[int(elements[2])],elements[0],elements[1],'line','in','r')
+
+    elif(pintype == 'DCI'):
+        writepin(iofiles[int(elements[12])],elements[3],"%s/DCI" % (elements[6],),'line','io','l')
+
+    else:
+        print elements

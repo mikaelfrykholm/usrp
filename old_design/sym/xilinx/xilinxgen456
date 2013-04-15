@@ -1,0 +1,106 @@
+#!/usr/bin/python
+
+import re
+matchstr = re.compile("_")
+
+def writepin(file,number,name,linetype,pintype,pos):
+    #newname = matchstr.sub("\\_",name)
+    newname = name
+    file.write("%s\t\t%s\t%s\t%s\t\t%s\n" % (number,pintype,linetype,pos,newname))
+
+pinfile = open ('fg456_table.csv','r')
+
+boilerplate = '''
+[options]
+wordswap=yes
+rotate_labels=yes
+sort_labels=yes
+generate_pinseq=yes
+sym_width=3200
+pinwidthvertikal=400
+pinwidthhorizontal=400
+[geda_attr]
+version=20060906
+name=XC3SXX00FG456-%s
+device=XC3SXX00FG456
+refdes=U?
+footprint=FG456
+description=Xilinx Spartan 3 400/1000/1500/2000 FG456
+documentation=http://www.xilinx.com
+author=xilinxgen.py
+numslots=0
+[pins]
+'''
+
+configfile = open ('xc3sXX00fg456-CFG.src', 'w')
+configfile.write(boilerplate % ("CFG",))
+
+jtagfile = open ('xc3sXX00fg456-JTAG.src', 'w')
+jtagfile.write(boilerplate % ("JTAG",))
+powerfile = open ('xc3sXX00fg456-PWR.src', 'w')
+powerfile.write(boilerplate % ("PWR",))
+clockfile = open ('xc3sXX00fg456-CLK.src', 'w')
+clockfile.write(boilerplate % ("CLK",))
+
+iofiles = [0] * 8
+for i in range(8):
+    iofiles[i] = open ( ('xc3sXX00fg456-IO%d.src' % (i,)), 'w')
+    iofiles[i].write(boilerplate % ('IO%d' % (i,),))
+    
+dummy = pinfile.readline()
+lines = pinfile.readlines()
+
+for line in lines:
+    elements = line.strip().split(',')
+
+    pintype = elements[7]
+    nc = elements[5] == "N.C."
+
+    if(elements[5] != elements[9]) and not nc:
+        print "error"
+        print elements
+
+    if nc and pintype != 'I/O' and pintype != 'VREF':
+        print "error"
+        print elements
+    
+
+    if(pintype == 'GND'):
+        writepin(powerfile,elements[3],elements[6],'line','pwr','r')
+    elif(pintype == 'VCCAUX'):
+        writepin(powerfile,elements[3],elements[6],'line','pwr','l')
+    elif(pintype == 'VCCO'):
+        #writepin(powerfile,elements[3],elements[6],'line','pwr','l')
+        writepin(iofiles[int(elements[12])],elements[3],elements[6],'line','pwr','b')
+    elif(pintype == 'VCCINT'):
+        writepin(powerfile,elements[3],elements[6],'line','pwr','l')
+
+    elif(pintype == 'JTAG'):
+        writepin(jtagfile,elements[3],elements[6],'line','io','l')
+
+    elif(pintype == 'CONFIG'):
+        writepin(configfile,elements[3],elements[6],'line','io','l')
+
+    elif(pintype == 'DUAL'):
+        writepin(configfile,elements[3],elements[6],'line','io','r')
+
+    elif(pintype == 'GCLK'):
+        writepin(clockfile,elements[3],elements[6],'clk','clk','l')
+
+    elif(pintype == 'VREF'):
+        if nc:
+            writepin(iofiles[int(elements[12])],elements[3],"%s/400NC" % (elements[6],),'line','io','r')
+        else:
+            writepin(iofiles[int(elements[12])],elements[3],elements[6],'line','io','r')
+
+    elif(pintype == 'I/O'):
+        if nc:
+            writepin(iofiles[int(elements[12])],elements[3],"%s/400NC" % (elements[6],),'line','io','r')
+        else:
+            writepin(iofiles[int(elements[12])],elements[3],elements[6],'line','io','l')
+
+    elif(pintype == 'DCI'):
+        writepin(iofiles[int(elements[12])],elements[3],"%s/DCI" % (elements[6],),'line','io','l')
+
+    else:
+        print elements

@@ -1,0 +1,145 @@
+
+[options]
+wordswap=yes
+rotate_labels=yes
+sort_labels=yes
+generate_pinseq=yes
+sym_width=6000
+pinwidthvertikal=400
+pinwidthhorizontal=400
+[geda_attr]
+version=20060906
+name=XC3SD3400AFG676-IO1
+device=XC3SD3400AFG676
+refdes=U?
+footprint=FG676
+description=Xilinx Spartan 3A-DSP 1800/3400 FG676
+documentation=http://www.xilinx.com
+author=xilinxgen.py
+numslots=0
+[pins]
+AA22		io	line	l		IO_L09P_1
+AA23		io	line	l		IO_L09N_1
+AA24		io	line	l		IO_L11P_1
+AA25		io	line	l		IO_L11N_1
+AB23		io	line	l		IO_L07P_1
+AB24		io	line	r		IO_L07N_1/VREF_1
+AB25		pwr	line	b		VCCO_1
+AB26		io	line	l		IO_L06N_1
+AC23		io	line	l		IO_L03P_1/A0
+AC24		io	line	l		IO_L03N_1/A1
+AC25		io	line	l		IO_L05N_1
+AC26		io	line	l		IO_L06P_1
+AD25		io	line	l		IO_L02N_1/LDC0
+AD26		io	line	l		IO_L05P_1
+AE26		io	line	l		IO_L02P_1/LDC1
+B26		in	line	r		IP_1/VREF_1
+C25		io	line	l		IO_L63N_1/A23
+C26		io	line	l		IO_L63P_1/A22
+D24		io	line	l		IO_L61N_1
+D25		io	line	l		IO_L61P_1
+D26		io	line	l		IO_L60N_1
+E24		io	line	l		IO_L56P_1
+E25		pwr	line	b		VCCO_1
+E26		io	line	l		IO_L60P_1
+F22		io	line	r		IO_L58P_1/VREF_1
+F23		io	line	l		IO_L56N_1
+F24		io	line	l		IO_L54N_1
+F25		io	line	l		IO_L54P_1
+G21		io	line	l		IO_L64N_1/A25
+G22		io	line	l		IO_L58N_1
+G23		io	line	l		IO_L51P_1
+G24		io	line	l		IO_L51N_1
+G25		in	line	r		IP_1/VREF_1
+H20		io	line	l		IO_L64P_1/A24
+H21		io	line	l		IO_L62N_1/A21
+H22		pwr	line	b		VCCO_1
+H24		in	line	r		IP_1
+H25		pwr	line	b		VCCO_1
+H26		in	line	r		IP_1/VREF_1
+J19		io	line	l		IO_L59P_1
+J20		io	line	l		IO_L59N_1
+J21		io	line	l		IO_L62P_1/A20
+J22		io	line	l		IO_L49N_1
+J23		io	line	l		IO_L49P_1
+J25		io	line	l		IO_L43N_1/A19
+J26		io	line	l		IO_L43P_1/A18
+K18		io	line	l		IO_L57N_1
+K19		io	line	l		IO_L57P_1
+K20		io	line	l		IO_L53N_1
+K21		io	line	l		IO_L50N_1
+K22		io	line	l		IO_L46N_1
+K23		io	line	l		IO_L46P_1
+K24		in	line	r		IP_L40P_1
+K25		io	line	l		IO_L41P_1
+K26		io	line	l		IO_L41N_1
+L17		io	line	l		IO_L55N_1
+L18		io	line	l		IO_L55P_1
+L19		pwr	line	b		VCCO_1
+L20		io	line	l		IO_L53P_1
+L22		io	line	l		IO_L50P_1
+L23		in	line	r		IP_L40N_1
+L24		io	line	l		IO_L38P_1/A12
+L25		pwr	line	b		VCCO_1
+M18		io	line	l		IO_L47N_1
+M19		io	line	l		IO_L47P_1
+M20		io	line	l		IO_L42N_1/A17
+M21		io	line	l		IO_L45P_1
+M22		io	line	l		IO_L45N_1
+M23		io	line	l		IO_L38N_1/A13
+M24		in	line	r		IP_L36P_1/VREF_1
+M25		io	line	l		IO_L35N_1/A11
+M26		io	line	l		IO_L35P_1/A10
+N17		io	line	l		IO_L39N_1/A15
+N18		io	line	l		IO_L39P_1/A14
+N20		io	line	l		IO_L42P_1/A16
+N21		io	line	l		IO_L37N_1
+N22		pwr	line	b		VCCO_1
+N23		in	line	r		IP_L36N_1
+N25		in	line	r		IP_L32N_1
+N26		in	line	r		IP_L32P_1
+P22		io	line	l		IO_L37P_1
+R17		io	line	l		IO_L27N_1/A7
+R18		io	line	l		IO_L27P_1/A6
+R19		io	line	l		IO_L22P_1
+R20		io	line	l		IO_L22N_1
+R21		io	line	l		IO_L25P_1/A2
+R22		io	line	l		IO_L25N_1/A3
+R23		in	line	r		IP_L28P_1/VREF_1
+R24		in	line	r		IP_L28N_1
+R25		io	line	l		IO_L29P_1/A8
+R26		io	line	l		IO_L29N_1/A9
+T17		io	line	l		IO_L17N_1
+T18		io	line	l		IO_L17P_1
+T19		pwr	line	b		VCCO_1
+T20		io	line	l		IO_L14N_1
+T23		io	line	l		IO_L26P_1/A4
+T24		io	line	l		IO_L26N_1/A5
+T25		pwr	line	b		VCCO_1
+U18		io	line	l		IO_L12N_1
+U19		io	line	l		IO_L12P_1
+U20		io	line	l		IO_L10N_1
+U21		io	line	l		IO_L14P_1
+U22		io	line	l		IO_L21N_1
+U23		io	line	l		IO_L23P_1
+U24		io	line	r		IO_L23N_1/VREF_1
+U26		in	line	r		IP_1/VREF_1
+V18		io	line	l		IO_L08P_1
+V19		io	line	l		IO_L08N_1
+V21		io	line	l		IO_L10P_1
+V22		io	line	l		IO_L18N_1
+V23		io	line	l		IO_L21P_1
+V24		io	line	l		IO_L19P_1
+V25		io	line	l		IO_L19N_1
+V26		in	line	r		IP_1/VREF_1
+W20		io	line	l		IO_L04P_1
+W21		io	line	l		IO_L04N_1
+W22		pwr	line	b		VCCO_1
+W23		io	line	l		IO_L18P_1
+Y20		io	line	l		IO_L01P_1/HDC
+Y21		io	line	l		IO_L01N_1/LDC2
+Y22		io	line	l		IO_L13P_1
+Y23		io	line	l		IO_L13N_1
+Y24		io	line	l		IO_L15P_1
+Y25		io	line	l		IO_L15N_1
+Y26		in	line	r		IP_1

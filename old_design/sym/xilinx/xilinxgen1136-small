@@ -1,0 +1,127 @@
+#!/usr/bin/python
+
+pincount = 0
+
+import re
+underscore = re.compile("_")
+vcco = re.compile("VCCO")
+mgt = re.compile("MGT")
+av = re.compile("MGTAV")
+
+def writepin(file,number,name,linetype,pintype,pos):
+    #newname = underscore.sub("\\_",name)
+    newname = name
+    global pincount
+    file.write("%s\t\t%s\t%s\t%s\t\t%s\n" % (number,pintype,linetype,pos,newname))
+    pincount = pincount + 1
+
+pinfile = open ('ff1136_small.txt','r')
+
+boilerplate = '''
+[options]
+wordswap=yes
+rotate_labels=yes
+sort_labels=yes
+generate_pinseq=yes
+sym_width=6000
+pinwidthvertikal=400
+pinwidthhorizontal=400
+[geda_attr]
+version=20060906
+name=XC5V-FF1136SMALL-%s
+device=XC5V-FF1136SMALL
+refdes=U?
+footprint=FF1136
+description=Xilinx Virtex5 1136 pin BGA
+documentation=http://www.xilinx.com
+author=xilinxgen.py
+numslots=0
+[pins]
+'''
+
+vccintfile = open ('xc5v-ff1136small-VCCINT.src', 'w')
+vccintfile.write(boilerplate % ("VCCINT",))
+vccauxfile = open ('xc5v-ff1136small-VCCAUX.src', 'w')
+vccauxfile.write(boilerplate % ("VCCAUX",))
+gndfile = open ('xc5v-ff1136small-GND.src', 'w')
+gndfile.write(boilerplate % ("GND",))
+ncfile = open ('xc5v-ff1136small-NC.src', 'w')
+ncfile.write(boilerplate % ("NC",))
+otherfile = open ('xc5v-ff1136small-OTHER.src', 'w')
+otherfile.write(boilerplate % ("OTHER",))
+
+banks = 26
+iofiles = [0] * banks
+mgtbanks = 127
+mgtfiles = [0] * mgtbanks
+
+    
+dummy = pinfile.readline()
+dummy = pinfile.readline()
+lines = pinfile.readlines()
+
+alt_side_nc = alt_side_gnd = alt_side_vccint = alt_side_vccaux = 'l'
+for line in lines:
+    elements = line.strip().split('\t')
+
+    #writepin(file,number,name,linetype,pintype,pos):
+
+    if len(elements) == 3:
+        if elements[0] == 'U4' or elements[0] == 'U5' or elements[0] == 'V4' or elements[0] == 'V5':
+            writepin(otherfile,elements[0],elements[2],'line','pas','l')
+        elif elements[1] == 'NA':
+            if re.match(mgt,elements[2]):
+                if re.search(underscore,elements[2]):
+                    (dummy,bank) = elements[2].split('_')
+                    bank = int(bank)
+                    if(not(mgtfiles[bank])):
+                        mgtfiles[bank] = open ( ('xc5v-ff1136small-BANK%d.src' % (bank,)), 'w')
+                        mgtfiles[bank].write(boilerplate % ('BANK%d' % (bank,),))
+                    if re.match(av,elements[2]):
+                        writepin(mgtfiles[bank],elements[0],elements[2],'line','pwr','l')
+                    else:
+                        writepin(mgtfiles[bank],elements[0],elements[2],'line','io','r')
+                else:
+                    writepin(otherfile,elements[0],elements[2],'line','io','r')
+                    
+            elif elements[2] == 'GND':
+                writepin(gndfile,elements[0],elements[2],'line','pwr',alt_side_gnd)
+                if alt_side_gnd == 'l':
+                    alt_side_gnd = 'r'
+                else:
+                    alt_side_gnd = 'l'
+            elif elements[2] == 'VCCINT':
+                writepin(vccintfile,elements[0],elements[2],'line','pwr',alt_side_vccint)
+                if alt_side_vccint == 'l':
+                    alt_side_vccint = 'r'
+                else:
+                    alt_side_vccint = 'l'
+            elif elements[2] == 'VCCAUX':
+                writepin(vccauxfile,elements[0],elements[2],'line','pwr',alt_side_vccaux)
+                if alt_side_vccaux == 'l':
+                    alt_side_vccaux = 'r'
+                else:
+                    alt_side_vccaux = 'l'
+            else:
+                print elements
+
+        else:    
+            bank = int(elements[1])
+            if(not(iofiles[bank])):
+                iofiles[bank] = open ( ('xc5v-ff1136small-BANK%d.src' % (bank,)), 'w')
+                iofiles[bank].write(boilerplate % ('BANK%d' % (bank,),))
+            if re.match(vcco,elements[2]):
+                writepin(iofiles[bank],elements[0],elements[2],'line','pwr','b')
+            else:
+                writepin(iofiles[bank],elements[0],elements[2],'line','io','l')
+    else:
+        if len(elements)==2:
+            writepin(ncfile,elements[0],elements[1],'line','pas',alt_side_nc)
+            if alt_side_nc == 'l':
+                alt_side_nc = 'r'
+            else:
+                alt_side_nc = 'l'
+        else:
+            print "Ignored line:", elements
+            
+print "Total Pins: ", pincount

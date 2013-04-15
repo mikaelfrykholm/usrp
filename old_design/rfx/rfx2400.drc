@@ -1,0 +1,73 @@
+Checking non-numbered parts...
+
+Checking duplicated references...
+ERROR: Duplicated reference U103.
+ERROR: Duplicated reference U101.
+ERROR: Duplicated reference U2.
+ERROR: Duplicated reference U3.
+
+Checking nets with only one connection...
+
+Checking pins without the 'pintype' attribute...
+NOTE: Found pins without the 'pintype' attribute: U104:6 U104:3 U105:1 U105:3 J102:61 J102:59 J102:51 J102:49 J102:35 J102:36 J102:34 J102:30 J102:33 J102:31 J102:29 J102:27 J102:25 J102:22 J102:20 J102:19 J102:18 J102:17 J102:16 J102:15 J102:13 J102:11 J102:9 J102:10 J102:8 J102:7 J102:5 J102:6 J102:4 J102:37 J102:38 J102:3 J102:2 J102:1 U4:6 J1:59 J1:51 J1:35 J1:62 J1:60 J1:52 J1:50 J1:36 J1:34 J1:32 J1:30 J1:28 J1:33 J1:29 J1:26 J1:21 J1:20 J1:19 J1:18 J1:17 J1:16 J1:15 J1:14 J1:12 J102:12 J1:11 J1:10 J1:8 J1:9 J1:7 J1:6 J1:37 J1:38 J1:4 J1:2 J1:1 J1:24 J1:22 J102:21 J1:5 J1:3 J102:23 U4:3 U104:5 U104:1 U104:2 U104:4 U105:2 U105:4 J102:63 J102:57 J102:53 J102:47 J102:41 J102:64 J102:48 J102:42 U4:1 U4:2 U4:5 U4:4 J1:63 J1:47 J1:41 J1:64 J1:58 J1:54 J1:48 J1:42 
+Checking type of pins connected to a net...
+WARNING: Pin(s) with pintype 'input/output': U103:10 U103:9 U3:10 U3:9 
+	are connected by net 'AGND'
+	to pin(s) with pintype 'power': X101:2 U111:4 U110:4 U103:1 U103:22 U103:11 U103:8 U103:15 U103:3 U101:13 U101:9 U101:3 U101:10 U101:14 U101:4 U7:4 X1:2 U6:4 U5:4 U2:23 U2:7 U2:9 U2:27 U3:1 U3:22 U3:11 U3:8 U3:15 U3:3 FIL1:3 FIL1:6 FIL1:4 FIL1:1 U204:7 U203:4 U209:7 U209:6 U202:7 U202:6 
+
+Checking unconnected pins...
+ERROR: Unconnected pin J102:14
+ERROR: Unconnected pin J102:24
+ERROR: Unconnected pin J102:26
+ERROR: Unconnected pin J102:28
+ERROR: Unconnected pin J102:32
+ERROR: Unconnected pin J102:40
+ERROR: Unconnected pin J102:44
+ERROR: Unconnected pin J102:46
+ERROR: Unconnected pin J102:50
+ERROR: Unconnected pin J102:52
+ERROR: Unconnected pin J102:54
+ERROR: Unconnected pin J102:56
+ERROR: Unconnected pin J102:58
+ERROR: Unconnected pin J102:60
+ERROR: Unconnected pin J102:62
+ERROR: Unconnected pin J102:39
+ERROR: Unconnected pin J102:43
+ERROR: Unconnected pin J102:45
+ERROR: Unconnected pin J102:55
+ERROR: Unconnected pin U7:8
+ERROR: Unconnected pin U7:4
+ERROR: Unconnected pin J1:13
+ERROR: Unconnected pin J1:23
+ERROR: Unconnected pin J1:25
+ERROR: Unconnected pin J1:27
+ERROR: Unconnected pin J1:31
+ERROR: Unconnected pin J1:40
+ERROR: Unconnected pin J1:44
+ERROR: Unconnected pin J1:46
+ERROR: Unconnected pin J1:56
+ERROR: Unconnected pin J1:39
+ERROR: Unconnected pin J1:43
+ERROR: Unconnected pin J1:45
+ERROR: Unconnected pin J1:49
+ERROR: Unconnected pin J1:53
+ERROR: Unconnected pin J1:55
+ERROR: Unconnected pin J1:57
+ERROR: Unconnected pin J1:61
+
+Checking slots...
+
+Checking duplicated slots...
+ERROR: duplicated slot 1 of uref U103
+ERROR: duplicated slot 1 of uref U103
+ERROR: duplicated slot 1 of uref U101
+ERROR: duplicated slot 1 of uref U2
+ERROR: duplicated slot 1 of uref U2
+ERROR: duplicated slot 1 of uref U2
+ERROR: duplicated slot 1 of uref U3
+ERROR: duplicated slot 1 of uref U3
+
+Checking unused slots...
+
+Found 1 warnings.
+Found 50 errors.

@@ -1,0 +1,62 @@
+v 20060906 1
+P 100 900 400 900 1 0 0
+{
+T 300 950 5 8 1 1 0 6 1
+pinnumber=8
+T 300 850 5 8 0 1 0 8 1
+pinseq=1
+T 450 900 9 8 1 1 0 0 1
+pinlabel=Tune1
+T 450 900 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 500 400 500 1 0 0
+{
+T 300 550 5 8 1 1 0 6 1
+pinnumber=18
+T 300 450 5 8 0 1 0 8 1
+pinseq=2
+T 450 500 9 8 1 1 0 0 1
+pinlabel=CPout1
+T 450 500 5 8 0 1 0 2 1
+pintype=out
+}
+P 2100 900 1800 900 1 0 0
+{
+T 1900 950 5 8 1 1 0 0 1
+pinnumber=30
+T 1900 850 5 8 0 1 0 2 1
+pinseq=3
+T 1750 900 9 8 1 1 0 6 1
+pinlabel=Tune2
+T 1750 900 5 8 0 1 0 8 1
+pintype=in
+}
+P 2100 500 1800 500 1 0 0
+{
+T 1900 550 5 8 1 1 0 0 1
+pinnumber=26
+T 1900 450 5 8 0 1 0 2 1
+pinseq=4
+T 1750 500 9 8 1 1 0 6 1
+pinlabel=CPout2
+T 1750 500 5 8 0 1 0 8 1
+pintype=out
+}
+B 400 100 1400 1200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 1800 1400 8 10 1 1 0 6 1
+refdes=U?
+T 400 1400 9 10 1 0 0 0 1
+MAX355X-PLL
+T 400 1600 5 10 0 0 0 0 1
+device=MAX355X
+T 400 1800 5 10 0 0 0 0 1
+footprint=QFN48_7_EP
+T 400 2000 5 10 0 0 0 0 1
+author=mettus
+T 400 2200 5 10 0 0 0 0 1
+documentation=http://www.maxim-ic.com
+T 400 2400 5 10 0 0 0 0 1
+description=Maxim TV Tuner, max3550/1/3
+T 400 2600 5 10 0 0 0 0 1
+numslots=0

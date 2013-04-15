@@ -1,0 +1,93 @@
+# This is the template file for creating symbols with tragesym
+# every line starting with '#' is a comment line.
+
+[options]
+# rotate_labels rotates the pintext of top and bottom pins
+# wordswap swaps labels if the pin is on the right side an looks like this:
+# "PB1 (CLK)"
+wordswap=yes
+rotate_labels=yes
+sort_labels=no
+generate_pinseq=yes
+sym_width=2400
+pinwidthvertikal=400
+pinwidthhorizontal=400
+
+[geda_attr]
+# name will be printed in the top of the symbol
+# if you have a device with slots, you'll have to use slot= and slotdef=
+# use comment= if there are special information you want to add
+version=20060906
+name=XC9572-VQ44-IO
+device=XC9572-VQ44
+refdes=U?
+footprint=VQ44
+description=Xilinx CPLD
+documentation=http://www.xilinx.com
+author=mettus
+numslots=0
+#slot=1
+#slotdef=1:
+#slotdef=2:
+#slotdef=3:
+#slotdef=4:
+comment=Part 2 of 2
+#comment=
+#comment=
+
+[pins]
+# tabseparated list of pin descriptions
+# pinnr is the physical number of the pin
+# seq is the pinseq= attribute, leave it blank if it doesn't matter
+# type can be (in, out, io, oc, oe, pas, tp, tri, clk, pwr)
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net
+# posit. can be (l,r,t,b) or empty for nets
+# net specifies the name of the Vcc or GND name
+# label represents the pinlabel. 
+#	negation lines can be added with _Q_ 
+#	if you want to add a "_" or "\" use "\_" and "\\" as escape sequences
+#-----------------------------------------------------
+#pinnr	seq	type	style	posit.	net	label	
+#-----------------------------------------------------
+39		io	line	l		IO_B1MC2
+40		io	line	l		IO_B1MC5
+41		io	line	l		IO_B1MC6
+42		io	line	l		IO_B1MC8
+43		io	line	l		IO_B1MC9/GCK1
+44		io	line	l		IO_B1MC11/GCK2
+1		io	line	l		IO_B1MC14/GCK3
+2		io	line	l		IO_B1MC15
+3		io	line	l		IO_B1MC17
+
+29		io	line	l		IO_B2MC2
+30		io	line	l		IO_B2MC5
+31		io	line	l		IO_B2MC6
+32		io	line	l		IO_B2MC8
+33		io	line	l		IO_B2MC9/GSR
+34		io	line	l		IO_B2MC11/GTS2
+36		io	line	l		IO_B2MC14/GTS1
+37		io	line	l		IO_B2MC15
+38		io	line	l		IO_B2MC17
+
+5		io	line	r		IO_B3MC2
+6		io	line	r		IO_B3MC5
+7		io	line	r		IO_B3MC8
+8		io	line	r		IO_B3MC9
+12		io	line	r		IO_B3MC11
+13		io	line	r		IO_B3MC14
+14		io	line	r		IO_B3MC15
+18		io	line	r		IO_B3MC16
+16		io	line	r		IO_B3MC17
+
+19		io	line	r		IO_B4MC2
+20		io	line	r		IO_B4MC5
+21		io	line	r		IO_B4MC8
+22		io	line	r		IO_B4MC11
+23		io	line	r		IO_B4MC14
+27		io	line	r		IO_B4MC15
+28		io	line	r		IO_B4MC17
+
+9		in	line	b		TDI
+24		out	line	b		TDO
+11		in	clk	b		TCK
+10		in	line	b		TMS

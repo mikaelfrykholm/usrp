@@ -1,0 +1,3 @@
+gsch2pcb anr_int.prj
+gnetlist -g partslist3 -o anr_int.bom anr_int.sch
+

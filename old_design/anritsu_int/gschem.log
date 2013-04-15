@@ -1,0 +1,107 @@
+gEDA/gschem version 1.4.3.20081231
+gEDA/gschem comes with ABSOLUTELY NO WARRANTY; see COPYING for more details.
+This is free software, and you are welcome to redistribute it under certain
+conditions; please see the COPYING file for more details.
+
+Read system-gafrc file [/etc/gEDA/system-gafrc]
+Did not find optional ~/.gEDA/gafrc file [/home/nldudok1/.gEDA/gafrc]
+Read local gafrc file [/pub/projects/gnuradio/svn/usrp-hw-latest-completest-rev11655/anritsu_int/gafrc]
+Read system-gschemrc file [/etc/gEDA/system-gschemrc]
+Did not find optional ~/.gEDA/gschemrc file [/home/nldudok1/.gEDA/gschemrc]
+Did not find optional local gschemrc file [/pub/projects/gnuradio/svn/usrp-hw-latest-completest-rev11655/anritsu_int/gschemrc]
+Read init scm file [/usr/share/gEDA/scheme/gschem.scm]
+Loading schematic [/pub/projects/gnuradio/svn/usrp-hw-latest-completest-rev11655/anritsu_int/anr_int.sch]
+RC file [/pub/projects/gnuradio/svn/usrp-hw-latest-completest-rev11655/anritsu_int/gafrc] already read in.
+WARNING: Symbol version mismatch on refdes C21 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C26 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C27 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C30 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C31 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C32 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C25 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C1 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C5 (capacitor-2.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+Component [adp3336.sym] was not found in the component library
+WARNING: Symbol version mismatch on refdes C2 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C3 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes L1 (inductor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C4 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C6 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C7 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C22 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C19 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C20 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+Component [lt55x4.sym] was not found in the component library
+WARNING: Symbol version mismatch on refdes C19 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C16 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C10 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C12 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C9 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C11 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C13 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C8 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C17 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C14 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C15 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+Component [lt55x4.sym] was not found in the component library
+WARNING: Symbol version mismatch on refdes C18 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)

@@ -1,0 +1,40 @@
+v 20060906 1
+P 2100 900 1800 900 1 0 0
+{
+T 1900 950 5 8 1 1 0 0 1
+pinnumber=31
+T 1900 850 5 8 0 1 0 2 1
+pinseq=1
+T 1750 900 9 8 1 1 0 6 1
+pinlabel=MODE
+T 1750 900 5 8 0 1 0 8 1
+pintype=in
+}
+P 2100 500 1800 500 1 0 0
+{
+T 1900 550 5 8 1 1 0 0 1
+pinnumber=64
+T 1900 450 5 8 0 1 0 2 1
+pinseq=2
+T 1750 500 9 8 1 1 0 6 1
+pinlabel=ZZ
+T 1750 500 5 8 0 1 0 8 1
+pintype=in
+}
+B 400 100 1400 1200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 1800 1400 8 10 1 1 0 6 1
+refdes=U?
+T 400 1400 9 10 1 0 0 0 1
+CY7C1354C-AC-CTRL
+T 400 1600 5 10 0 0 0 0 1
+device=CY7C1354C-AC
+T 400 1800 5 10 0 0 0 0 1
+footprint=TQFP100
+T 400 2000 5 10 0 0 0 0 1
+author=mettus
+T 400 2200 5 10 0 0 0 0 1
+documentation=http://www.cypress.com
+T 400 2400 5 10 0 0 0 0 1
+description=256Kx36 ZBT/NoBL SRAM, 100-pin TQFP Package
+T 400 2600 5 10 0 0 0 0 1
+numslots=0

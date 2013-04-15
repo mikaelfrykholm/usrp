@@ -1,0 +1,83 @@
+
+[options]
+wordswap=yes
+rotate_labels=yes
+sort_labels=yes
+generate_pinseq=yes
+sym_width=3200
+pinwidthvertikal=400
+pinwidthhorizontal=400
+[geda_attr]
+version=20060906
+name=XC3SD1800ACS484-IO2
+device=XC3SD1800ACS484
+refdes=U?
+footprint=CS484
+description=Xilinx Spartan 3A-DSP 1800 CS484
+documentation=http://www.xilinx.com
+author=xilinxgen.py
+numslots=0
+[pins]
+AA4		io	line	l		IO_L04N_2
+AA5		pwr	line	b		VCCO_2
+AA6		in	line	r		IP_2
+AA8		io	line	l		IO_L08N_2
+AA9		pwr	line	b		VCCO_2
+AA13		pwr	line	b		VCCO_2
+AA15		io	line	l		IO_L19P_2
+AA18		pwr	line	b		VCCO_2
+AA19		io	line	l		IO_L27N_2
+AA20		io	line	l		IO_L30P_2
+AB2		io	line	r		IP_2/VREF_2
+AB4		io	line	l		IO_L04P_2
+AB5		io	line	l		IO_L05P_2
+AB6		io	line	l		IO_L05N_2
+AB7		io	line	l		IO_L08P_2
+AB11		io	line	r		IP_2/VREF_2
+AB14		io	line	l		IO_L19N_2
+AB15		in	line	r		IP_2
+AB17		io	line	l		IO_L23P_2
+AB18		io	line	l		IO_L23N_2
+AB19		io	line	l		IO_L27P_2
+AB20		io	line	l		IO_L30N_2
+U8		io	line	l		IO_L11N_2
+U9		io	line	l		IO_L10N_2
+U13		io	line	l		IO_L20P_2
+U14		io	line	l		IO_L25P_2
+U15		io	line	l		IO_L25N_2
+U16		io	line	l		IO_L28P_2
+V7		io	line	l		IO_L11P_2
+V8		io	line	l		IO_L06N_2
+V9		pwr	line	b		VCCO_2
+V10		io	line	l		IO_L10P_2
+V14		pwr	line	b		VCCO_2
+V15		io	line	r		IP_2/VREF_2
+V16		io	line	l		IO_L28N_2
+W4		io	line	r		IP_2/VREF_2
+W5		io	line	l		IO_L03P_2
+W8		io	line	l		IO_L06P_2
+W9		io	line	r		IP_2/VREF_2
+W10		in	line	r		IP_2
+W13		io	line	r		IP_2/VREF_2
+W14		io	line	l		IO_L21N_2
+W18		io	line	r		IP_2/VREF_2
+Y4		io	line	l		IO_L03N_2
+Y6		in	line	r		IP_2
+Y7		in	line	r		IP_2
+Y8		io	line	l		IO_L13P_2
+Y9		io	line	l		IO_L13N_2
+Y12		in	line	r		IP_2
+Y13		io	line	l		IO_L21P_2
+Y14		io	line	r		IP_2/VREF_2
+Y16		io	line	l		IO_L29N_2
+Y17		io	line	l		IO_L29P_2
+AA17		io	line	r		IO_L22P_2/AWAKE
+AB16		io	line	r		IO_L22N_2/DOUT
+Y5		io	line	r		IO_L07P_2/RDWR_B
+AB10		io	line	r		IO_L12P_2/D7
+AA10		io	line	r		IO_L12N_2/D6
+V11		io	line	r		IO_L14P_2/D5
+U10		io	line	r		IO_L14N_2/D4
+Y15		io	line	r		IO_L24N_2/D3
+Y18		io	line	r		IO_L26P_2/D2
+Y19		io	line	r		IO_L26N_2/D1

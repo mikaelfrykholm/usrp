@@ -1,0 +1,2 @@
+gnetlist -g partslist3 -o wbx_lo.bom rcv_wbx_lo.sch common_wbx_lo.sch trans_wbx_lo.sch
+gnetlist -g pads -o wbx_lo-pads.net rcv_wbx_lo.sch common_wbx_lo.sch trans_wbx_lo.sch

@@ -1,0 +1,6 @@
+gsch2pcb rxchar.prj
+gnetlist -g partslist3 -o rxchar.bom rxchar.sch
+
+gsch2pcb txchar.prj
+gnetlist -g partslist3 -o txchar.bom txchar.sch
+

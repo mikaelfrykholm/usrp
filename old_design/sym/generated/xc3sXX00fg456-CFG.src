@@ -1,0 +1,39 @@
+
+[options]
+wordswap=yes
+rotate_labels=yes
+sort_labels=yes
+generate_pinseq=yes
+sym_width=3200
+pinwidthvertikal=400
+pinwidthhorizontal=400
+[geda_attr]
+version=20060906
+name=XC3SXX00FG456-CFG
+device=XC3SXX00FG456
+refdes=U?
+footprint=FG456
+description=Xilinx Spartan 3 400/1000/1500/2000 FG456
+documentation=http://www.xilinx.com
+author=xilinxgen.py
+numslots=0
+[pins]
+A2		io	line	l		PROG_B
+B3		io	line	l		HSWAP_EN
+U12		io	line	r		IO_L30N_4/D2
+V11		io	line	r		IO_L31P_5/D5
+V12		io	line	r		IO_L30P_4/D3
+W11		io	line	r		IO_L31N_5/D4
+W12		io	line	r		IO_L31N_4/INIT_B
+Y4		io	line	r		IO_L01N_5/RDWR_B
+Y12		io	line	r		IO_L31P_4/DOUT/BUSY
+AA1		io	line	l		M1
+AA3		io	line	r		IO_L01P_5/CS_B
+AA9		io	line	r		IO_L28P_5/D7
+AA14		io	line	r		IO_L27N_4/DIN/D0
+AA22		io	line	l		CCLK
+AB2		io	line	l		M0
+AB3		io	line	l		M2
+AB9		io	line	r		IO_L28N_5/D6
+AB14		io	line	r		IO_L27P_4/D1
+AB21		io	line	l		DONE

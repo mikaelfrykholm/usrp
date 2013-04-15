@@ -1,0 +1,63 @@
+
+[options]
+wordswap=yes
+rotate_labels=yes
+sort_labels=yes
+generate_pinseq=yes
+sym_width=3200
+pinwidthvertikal=400
+pinwidthhorizontal=400
+[geda_attr]
+version=20060906
+name=XC3SXX00FG456-IO1
+device=XC3SXX00FG456
+refdes=U?
+footprint=FG456
+description=Xilinx Spartan 3 400/1000/1500/2000 FG456
+documentation=http://www.xilinx.com
+author=xilinxgen.py
+numslots=0
+[pins]
+A12		io	line	l		IO
+A13		io	line	l		IO_L30N_1
+A14		io	line	l		IO_L28N_1
+A15		io	line	l		IO_L25P_1
+A16		io	line	r		IO_L22N_1/400NC
+A18		io	line	r		IO_L10N_1/VREF_1
+A19		io	line	r		IO_L06N_1/VREF_1
+B13		io	line	l		IO_L30P_1
+B14		io	line	l		IO_L28P_1
+B15		io	line	l		IO_L25N_1
+B16		io	line	r		IO_L22P_1/400NC
+B17		io	line	l		IO_L16N_1
+B18		io	line	l		IO_L10P_1
+B19		io	line	l		IO_L06P_1
+B20		io	line	l		IO_L01P_1/VRN_1/DCI
+C13		io	line	l		IO_L29N_1
+C15		pwr	line	b		VCCO_1
+C16		io	line	r		IO_L19N_1/400NC
+C17		io	line	l		IO_L16P_1
+C18		io	line	l		IO_L09N_1
+C19		io	line	l		IO_L01N_1/VRP_1/DCI
+D12		io	line	r		IO_L31N_1/VREF_1
+D13		io	line	l		IO_L29P_1
+D14		io	line	l		IO_L27N_1
+D15		io	line	l		IO_L24N_1
+D16		io	line	r		IO_L19P_1/400NC
+D17		io	line	l		IO_L15N_1
+D18		io	line	l		IO_L09P_1
+E12		io	line	l		IO_L31P_1
+E13		io	line	r		IO/VREF_1
+E14		io	line	l		IO_L27P_1
+E15		io	line	l		IO_L24P_1
+E16		io	line	l		IO
+E17		io	line	l		IO_L15P_1
+F12		io	line	l		IO
+F13		io	line	l		IO
+F14		io	line	r		IO/VREF_1/400NC
+F15		pwr	line	b		VCCO_1
+F16		io	line	l		IO
+F17		io	line	l		IO
+G12		pwr	line	b		VCCO_1
+G13		pwr	line	b		VCCO_1
+G14		pwr	line	b		VCCO_1

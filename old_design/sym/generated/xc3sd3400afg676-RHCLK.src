@@ -1,0 +1,28 @@
+
+[options]
+wordswap=yes
+rotate_labels=yes
+sort_labels=yes
+generate_pinseq=yes
+sym_width=6000
+pinwidthvertikal=400
+pinwidthhorizontal=400
+[geda_attr]
+version=20060906
+name=XC3SD3400AFG676-RHCLK
+device=XC3SD3400AFG676
+refdes=U?
+footprint=FG676
+description=Xilinx Spartan 3A-DSP 1800/3400 FG676
+documentation=http://www.xilinx.com
+author=xilinxgen.py
+numslots=0
+[pins]
+N19		clk	clk	l		IO_L34N_1/RHCLK7
+N24		clk	clk	l		IO_L33N_1/RHCLK5
+P18		clk	clk	l		IO_L34P_1/IRDY1/RHCLK6
+P20		clk	clk	l		IO_L30N_1/RHCLK1
+P21		clk	clk	l		IO_L30P_1/RHCLK0
+P23		clk	clk	l		IO_L33P_1/RHCLK4
+P25		clk	clk	l		IO_L31N_1/TRDY1/RHCLK3
+P26		clk	clk	l		IO_L31P_1/RHCLK2

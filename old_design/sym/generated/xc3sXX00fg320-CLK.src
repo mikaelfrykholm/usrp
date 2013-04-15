@@ -1,0 +1,28 @@
+
+[options]
+wordswap=yes
+rotate_labels=yes
+sort_labels=yes
+generate_pinseq=yes
+sym_width=3200
+pinwidthvertikal=400
+pinwidthhorizontal=400
+[geda_attr]
+version=20060906
+name=XC3SXX00FG320-CLK
+device=XC3SXX00FG320
+refdes=U?
+footprint=FG320
+description=Xilinx Spartan 3 400/1000/1500 FG320
+documentation=http://www.xilinx.com
+author=xilinxgen.py
+numslots=0
+[pins]
+E9		clk	clk	l		IO_L32N_0/GCLK7
+E10		clk	clk	l		IO_L32N_1/GCLK5
+F9		clk	clk	l		IO_L32P_0/GCLK6
+F10		clk	clk	l		IO_L32P_1/GCLK4
+N9		clk	clk	l		IO_L32N_5/GCLK3
+N10		clk	clk	l		IO_L32N_4/GCLK1
+P9		clk	clk	l		IO_L32P_5/GCLK2
+P10		clk	clk	l		IO_L32P_4/GCLK0

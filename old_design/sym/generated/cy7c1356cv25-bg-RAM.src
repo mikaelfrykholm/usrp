@@ -1,0 +1,101 @@
+# This is the template file for creating symbols with tragesym
+# every line starting with '#' is a comment line.
+
+[options]
+# rotate_labels rotates the pintext of top and bottom pins
+# wordswap swaps labels if the pin is on the right side an looks like this:
+# "PB1 (CLK)"
+wordswap=yes
+rotate_labels=yes
+sort_labels=no
+generate_pinseq=yes
+sym_width=4400
+pinwidthvertikal=400
+pinwidthhorizontal=400
+
+[geda_attr]
+# name will be printed in the top of the symbol
+# if you have a device with slots, you'll have to use slot= and slotdef=
+# use comment= if there are special information you want to add
+version=20060906
+name=CY7C1356C-BG-RAM
+device=CY7C1356C-BG
+refdes=U?
+footprint=BGA119
+description=512Kx18 ZBT/NoBL SRAM, 119 pin BGA package
+documentation=http://www.cypress.com
+author=mettus
+numslots=0
+#slot=1
+#slotdef=1:
+#slotdef=2:
+#slotdef=3:
+#slotdef=4:
+#comment=
+#comment=
+#comment=
+
+[pins]
+# tabseparated list of pin descriptions
+# pinnr is the physical number of the pin
+# seq is the pinseq= attribute, leave it blank if it doesn't matter
+# type can be (in, out, io, oc, oe, pas, tp, tri, clk, pwr)
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net
+# posit. can be (l,r,t,b) or empty for nets
+# net specifies the name of the Vcc or GND name
+# label represents the pinlabel. 
+#	negation lines can be added with _Q_ 
+#	if you want to add a "_" or "\" use "\_" and "\\" as escape sequences
+#-----------------------------------------------------
+#pinnr	seq	type	style	posit.	net	label	
+#-----------------------------------------------------
+P7		io	line	l		DQa
+K7		io	line	l		DQa
+G7		io	line	l		DQa
+E7		io	line	l		DQa
+N6		io	line	l		DQa
+L6		io	line	l		DQa
+H6		io	line	l		DQa
+F6		io	line	l		DQa
+D6		io	line	l		DQPa
+
+D1		io	line	l		DQb
+H1		io	line	l		DQb
+L1		io	line	l		DQb
+N1		io	line	l		DQb
+E2		io	line	l		DQb
+G2		io	line	l		DQb
+K2		io	line	l		DQb
+M2		io	line	l		DQb
+P2		io	line	l		DQPb
+
+A2		in	line	r		A
+C2		in	line	r		A
+R2		in	line	r		A
+T2		in	line	r		A
+A3		in	line	r		A
+B3		in	line	r		A
+C3		in	line	r		A
+T3		in	line	r		A
+G4		in	line	r		A
+A5		in	line	r		A
+B5		in	line	r		A
+C5		in	line	r		A
+T5		in	line	r		A
+A6		in	line	r		A
+C6		in	line	r		A
+R6		in	line	r		A
+T6		in	line	r		A
+N4		in	line	r		A1
+P4		in	line	r		A0
+
+E4		in	dot	b		\_CE1\_
+B2		in	line	b		CE2
+B6		in	dot	b		\_CE3\_
+M4		in	dot	b		\_CEN\_
+K4		clk	clk	b		CLK
+H4		in	dot	b		\_WE\_
+F4		in	dot	b		\_OE\_
+B4		in	line	b		ADV/\_LD\_
+L5		in	dot	b		\_BWa\_
+G3		in	dot	b		\_BWb\_

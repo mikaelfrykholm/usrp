@@ -1,0 +1,249 @@
+v 20060906 1
+P 2900 5300 2600 5300 1 0 0
+{
+T 2700 5350 5 8 1 1 0 0 1
+pinnumber=9
+T 2700 5250 5 8 0 1 0 2 1
+pinseq=1
+T 2550 5300 9 8 1 1 0 6 1
+pinlabel=LASI
+T 2550 5300 5 8 0 1 0 8 1
+pintype=out
+}
+P 100 5300 400 5300 1 0 0
+{
+T 300 5350 5 8 1 1 0 6 1
+pinnumber=10
+T 300 5250 5 8 0 1 0 8 1
+pinseq=2
+T 450 5300 9 8 1 1 0 0 1
+pinlabel=RESET
+T 450 5300 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 4900 400 4900 1 0 0
+{
+T 300 4950 5 8 1 1 0 6 1
+pinnumber=12
+T 300 4850 5 8 0 1 0 8 1
+pinseq=3
+T 450 4900 9 8 1 1 0 0 1
+pinlabel=TX_ON_OFF
+T 450 4900 5 8 0 1 0 2 1
+pintype=in
+}
+P 2900 4900 2600 4900 1 0 0
+{
+T 2700 4950 5 8 1 1 0 0 1
+pinnumber=14
+T 2700 4850 5 8 0 1 0 2 1
+pinseq=4
+T 2550 4900 9 8 1 1 0 6 1
+pinlabel=MOD_DETECT
+T 2550 4900 5 8 0 1 0 8 1
+pintype=out
+}
+P 100 4500 400 4500 1 0 0
+{
+T 300 4550 5 8 1 1 0 6 1
+pinnumber=17
+T 300 4450 5 8 0 1 0 8 1
+pinseq=5
+T 450 4500 9 8 1 1 0 0 1
+pinlabel=MDIO
+T 450 4500 5 8 0 1 0 2 1
+pintype=io
+}
+P 100 4100 400 4100 1 0 0
+{
+T 300 4150 5 8 1 1 0 6 1
+pinnumber=18
+T 300 4050 5 8 0 1 0 8 1
+pinseq=6
+T 525 4100 9 8 1 1 0 0 1
+pinlabel=MDC
+T 525 4100 5 8 0 1 0 2 1
+pintype=clk
+}
+L 500 4100 400 4175 3 0 0 0 -1 -1
+L 500 4100 400 4025 3 0 0 0 -1 -1
+P 100 3700 400 3700 1 0 0
+{
+T 300 3750 5 8 1 1 0 6 1
+pinnumber=19
+T 300 3650 5 8 0 1 0 8 1
+pinseq=7
+T 450 3700 9 8 1 1 0 0 1
+pinlabel=PRTAD4
+T 450 3700 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 3300 400 3300 1 0 0
+{
+T 300 3350 5 8 1 1 0 6 1
+pinnumber=20
+T 300 3250 5 8 0 1 0 8 1
+pinseq=8
+T 450 3300 9 8 1 1 0 0 1
+pinlabel=PRTAD3
+T 450 3300 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 2900 400 2900 1 0 0
+{
+T 300 2950 5 8 1 1 0 6 1
+pinnumber=21
+T 300 2850 5 8 0 1 0 8 1
+pinseq=9
+T 450 2900 9 8 1 1 0 0 1
+pinlabel=PRTAD2
+T 450 2900 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 2500 400 2500 1 0 0
+{
+T 300 2550 5 8 1 1 0 6 1
+pinnumber=22
+T 300 2450 5 8 0 1 0 8 1
+pinseq=10
+T 450 2500 9 8 1 1 0 0 1
+pinlabel=PRTAD1
+T 450 2500 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 2100 400 2100 1 0 0
+{
+T 300 2150 5 8 1 1 0 6 1
+pinnumber=23
+T 300 2050 5 8 0 1 0 8 1
+pinseq=11
+T 450 2100 9 8 1 1 0 0 1
+pinlabel=PRTAD0
+T 450 2100 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 1700 400 1700 1 0 0
+{
+T 300 1750 5 8 1 1 0 6 1
+pinnumber=11
+T 300 1650 5 8 0 1 0 8 1
+pinseq=12
+T 450 1700 9 8 1 1 0 0 1
+pinlabel=VEND_SPECIFIC
+T 450 1700 5 8 0 1 0 2 1
+pintype=io
+}
+P 100 1300 400 1300 1 0 0
+{
+T 300 1350 5 8 1 1 0 6 1
+pinnumber=15
+T 300 1250 5 8 0 1 0 8 1
+pinseq=13
+T 450 1300 9 8 1 1 0 0 1
+pinlabel=VEND_SPECIFIC
+T 450 1300 5 8 0 1 0 2 1
+pintype=io
+}
+P 100 900 400 900 1 0 0
+{
+T 300 950 5 8 1 1 0 6 1
+pinnumber=16
+T 300 850 5 8 0 1 0 8 1
+pinseq=14
+T 450 900 9 8 1 1 0 0 1
+pinlabel=VEND_SPECIFIC
+T 450 900 5 8 0 1 0 2 1
+pintype=io
+}
+P 100 500 400 500 1 0 0
+{
+T 300 550 5 8 1 1 0 6 1
+pinnumber=24
+T 300 450 5 8 0 1 0 8 1
+pinseq=15
+T 450 500 9 8 1 1 0 0 1
+pinlabel=VEND_SPECIFIC
+T 450 500 5 8 0 1 0 2 1
+pintype=io
+}
+P 2900 4500 2600 4500 1 0 0
+{
+T 2700 4550 5 8 1 1 0 0 1
+pinnumber=13
+T 2700 4450 5 8 0 1 0 2 1
+pinseq=16
+T 2550 4500 9 8 1 1 0 6 1
+pinlabel=RESERVED
+T 2550 4500 5 8 0 1 0 8 1
+pintype=pas
+}
+P 2900 4100 2600 4100 1 0 0
+{
+T 2700 4150 5 8 1 1 0 0 1
+pinnumber=26
+T 2700 4050 5 8 0 1 0 2 1
+pinseq=17
+T 2550 4100 9 8 1 1 0 6 1
+pinlabel=RESERVED
+T 2550 4100 5 8 0 1 0 8 1
+pintype=pas
+}
+P 2900 3700 2600 3700 1 0 0
+{
+T 2700 3750 5 8 1 1 0 0 1
+pinnumber=38
+T 2700 3650 5 8 0 1 0 2 1
+pinseq=18
+T 2550 3700 9 8 1 1 0 6 1
+pinlabel=RESERVED
+T 2550 3700 5 8 0 1 0 8 1
+pintype=pas
+}
+P 2900 3300 2600 3300 1 0 0
+{
+T 2700 3350 5 8 1 1 0 0 1
+pinnumber=39
+T 2700 3250 5 8 0 1 0 2 1
+pinseq=19
+T 2550 3300 9 8 1 1 0 6 1
+pinlabel=RESERVED
+T 2550 3300 5 8 0 1 0 8 1
+pintype=pas
+}
+P 2900 2900 2600 2900 1 0 0
+{
+T 2700 2950 5 8 1 1 0 0 1
+pinnumber=67
+T 2700 2850 5 8 0 1 0 2 1
+pinseq=20
+T 2550 2900 9 8 1 1 0 6 1
+pinlabel=RESERVED
+T 2550 2900 5 8 0 1 0 8 1
+pintype=pas
+}
+P 2900 2500 2600 2500 1 0 0
+{
+T 2700 2550 5 8 1 1 0 0 1
+pinnumber=68
+T 2700 2450 5 8 0 1 0 2 1
+pinseq=21
+T 2550 2500 9 8 1 1 0 6 1
+pinlabel=RESERVED
+T 2550 2500 5 8 0 1 0 8 1
+pintype=pas
+}
+B 400 100 2200 5600 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 2600 5800 8 10 1 1 0 6 1
+refdes=J?
+T 400 5800 9 10 1 0 0 0 1
+XENPAK-X2-CTRL
+T 400 6000 5 10 0 0 0 0 1
+device=XENPAK-X2
+T 400 6200 5 10 0 0 0 0 1
+footprint=XENPAK_X2
+T 400 6400 5 10 0 0 0 0 1
+author=mettus
+T 400 6600 5 10 0 0 0 0 1
+description=XENPAK and X2 10GbE Modules
+T 400 6800 5 10 0 0 0 0 1
+numslots=0

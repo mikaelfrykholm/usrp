@@ -1,0 +1,6 @@
+# List all schematics
+schematics rf-test.sch
+
+output-name rf-test
+
+elements-dir ../pkg/newlib

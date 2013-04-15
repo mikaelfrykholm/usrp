@@ -1,0 +1,70 @@
+# This is the template file for creating symbols with tragesym
+# every line starting with '#' is a comment line.
+
+[options]
+# rotate_labels rotates the pintext of top and bottom pins
+# wordswap swaps labels if the pin is on the right side an looks like this:
+# "PB1 (CLK)"
+wordswap=yes
+rotate_labels=yes
+sort_labels=yes
+generate_pinseq=yes
+sym_width=1400
+pinwidthvertikal=400
+pinwidthhorizontal=400
+
+[geda_attr]
+# name will be printed in the top of the symbol
+# if you have a device with slots, you'll have to use slot= and slotdef=
+# use comment= if there are special information you want to add
+version=20060906
+name=AD9238-A
+device=AD9238
+refdes=U?
+footprint=LQFP64
+description=Analog Devices 12-bit 60 MS/s ADC
+documentation=NA
+author=mettus
+numslots=0
+#slot=1
+#slotdef=1:
+#slotdef=2:
+#slotdef=3:
+#slotdef=4:
+comment=Part 3 of 4
+#comment=
+#comment=
+
+[pins]
+# tabseparated list of pin descriptions
+# pinnr is the physical number of the pin
+# seq is the pinseq= attribute, leave it blank if it doesn't matter
+# type can be (in, out, io, oc, oe, pas, tp, tri, clk, pwr)
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net
+# posit. can be (l,r,t,b) or empty for nets
+# net specifies the name of the Vcc or GND name
+# label represents the pinlabel. 
+#	negation lines can be added with _Q_ 
+#	if you want to add a "_" or "\" use "\_" and "\\" as escape sequences
+#-----------------------------------------------------
+#pinnr	seq	type	style	posit.	net	label	
+#-----------------------------------------------------
+2		in	line	l		VIN+_A
+3		in	line	l		\_VIN-_A\_
+44		out	line	r		D0_A
+45		out	line	r		D1_A
+46		out	line	r		D2_A
+47		out	line	r		D3_A
+48		out	line	r		D4_A
+49		out	line	r		D5_A
+50		out	line	r		D6_A
+51		out	line	r		D7_A
+54		out	line	r		D8_A
+55		out	line	r		D9_A
+56		out	line	r		D10_A
+57		out	line	r		D11_A
+58		out	line	r		OTR_A
+59		in	dot	l		\_OEB_A\_
+60		in	line	l		PDWN_A
+63		clk	clk	l		CLK_A
+

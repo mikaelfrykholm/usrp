@@ -1,0 +1,78 @@
+# This is the template file for creating symbols with tragesym
+# every line starting with '#' is a comment line.
+
+[options]
+# rotate_labels rotates the pintext of top and bottom pins
+# wordswap swaps labels if the pin is on the right side an looks like this:
+# "PB1 (CLK)"
+wordswap=yes
+rotate_labels=yes
+sort_labels=no
+generate_pinseq=yes
+sym_width=4400
+pinwidthvertikal=400
+pinwidthhorizontal=400
+
+[geda_attr]
+# name will be printed in the top of the symbol
+# if you have a device with slots, you'll have to use slot= and slotdef=
+# use comment= if there are special information you want to add
+version=20060906
+name=TPS74401
+device=TPS74401
+refdes=U?
+footprint=QFN20_EP_5x5
+description=TI LDO Regulator
+documentation=http://www.ti.com
+author=mettus
+numslots=0
+#slot=1
+#slotdef=1:
+#slotdef=2:
+#slotdef=3:
+#slotdef=4:
+#comment=
+#comment=
+
+[pins]
+# tabseparated list of pin descriptions
+# pinnr is the physical number of the pin
+# seq is the pinseq= attribute, leave it blank if it doesn't matter
+# type can be (in, out, io, oc, oe, pas, tp, tri, clk, pwr)
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net
+# posit. can be (l,r,t,b) or empty for nets
+# net specifies the name of the Vcc or GND name
+# label represents the pinlabel. 
+#	negation lines can be added with _Q_ 
+#	if you want to add a "_" or "\" use "\_" and "\\" as escape sequences
+#-----------------------------------------------------
+#pinnr	seq	type	style	posit.	net	label	
+#-----------------------------------------------------
+5		in	line	l		Vin
+6		in	line	l		Vin
+7		in	line	l		Vin
+8		in	line	l		Vin
+			spacer	l
+10		in	line	l		Vbias
+11		in	line	l		EN
+			spacer	l
+15		in	line	l		SS
+
+9		out	line	r		PG
+			spacer	r
+1		pwr	line	r		Vout
+18		pwr	line	r		Vout
+19		pwr	line	r		Vout
+20		pwr	line	r		Vout
+			spacer	r
+16		in	line	r		FB
+
+2		pwr	line	b		GND/NC
+3		pwr	line	b		GND/NC
+4		pwr	line	b		GND/NC
+13		pwr	line	b		GND/NC
+14		pwr	line	b		GND/NC
+17		pwr	line	b		GND/NC
+21		pwr	line	b		GND_TAB
+12		pwr	line	b		GND
+

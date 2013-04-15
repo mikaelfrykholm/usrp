@@ -1,0 +1,28 @@
+
+[options]
+wordswap=yes
+rotate_labels=yes
+sort_labels=yes
+generate_pinseq=yes
+sym_width=6000
+pinwidthvertikal=400
+pinwidthhorizontal=400
+[geda_attr]
+version=20060906
+name=XC3SD3400AFG676-TOPCLK
+device=XC3SD3400AFG676
+refdes=U?
+footprint=FG676
+description=Xilinx Spartan 3A-DSP 1800/3400 FG676
+documentation=http://www.xilinx.com
+author=xilinxgen.py
+numslots=0
+[pins]
+A14		clk	clk	l		IO_L26N_0/GCLK7
+B13		clk	clk	l		IO_L28P_0/GCLK10
+B14		clk	clk	l		IO_L26P_0/GCLK6
+C13		clk	clk	l		IO_L28N_0/GCLK11
+F13		clk	clk	l		IO_L27P_0/GCLK8
+G13		clk	clk	l		IO_L27N_0/GCLK9
+J14		clk	clk	l		IO_L25N_0/GCLK5
+K14		clk	clk	l		IO_L25P_0/GCLK4

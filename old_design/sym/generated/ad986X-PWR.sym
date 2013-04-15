@@ -1,0 +1,548 @@
+v 20060906 1
+P 2100 10500 1800 10500 1 0 0
+{
+T 1900 10550 5 8 1 1 0 0 1
+pinnumber=100
+T 1900 10450 5 8 0 1 0 2 1
+pinseq=23
+T 1750 10500 9 8 1 1 0 6 1
+pinlabel=AGND
+T 1750 10500 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2100 10100 1800 10100 1 0 0
+{
+T 1900 10150 5 8 1 1 0 0 1
+pinnumber=103
+T 1900 10050 5 8 0 1 0 2 1
+pinseq=24
+T 1750 10100 9 8 1 1 0 6 1
+pinlabel=AGND
+T 1750 10100 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2100 9700 1800 9700 1 0 0
+{
+T 1900 9750 5 8 1 1 0 0 1
+pinnumber=106
+T 1900 9650 5 8 0 1 0 2 1
+pinseq=25
+T 1750 9700 9 8 1 1 0 6 1
+pinlabel=AGND
+T 1750 9700 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2100 9300 1800 9300 1 0 0
+{
+T 1900 9350 5 8 1 1 0 0 1
+pinnumber=109
+T 1900 9250 5 8 0 1 0 2 1
+pinseq=26
+T 1750 9300 9 8 1 1 0 6 1
+pinlabel=AGND
+T 1750 9300 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2100 8900 1800 8900 1 0 0
+{
+T 1900 8950 5 8 1 1 0 0 1
+pinnumber=110
+T 1900 8850 5 8 0 1 0 2 1
+pinseq=27
+T 1750 8900 9 8 1 1 0 6 1
+pinlabel=AGND
+T 1750 8900 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2100 8500 1800 8500 1 0 0
+{
+T 1900 8550 5 8 1 1 0 0 1
+pinnumber=112
+T 1900 8450 5 8 0 1 0 2 1
+pinseq=28
+T 1750 8500 9 8 1 1 0 6 1
+pinlabel=AGND
+T 1750 8500 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2100 8100 1800 8100 1 0 0
+{
+T 1900 8150 5 8 1 1 0 0 1
+pinnumber=113
+T 1900 8050 5 8 0 1 0 2 1
+pinseq=29
+T 1750 8100 9 8 1 1 0 6 1
+pinlabel=AGND
+T 1750 8100 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2100 7700 1800 7700 1 0 0
+{
+T 1900 7750 5 8 1 1 0 0 1
+pinnumber=116
+T 1900 7650 5 8 0 1 0 2 1
+pinseq=30
+T 1750 7700 9 8 1 1 0 6 1
+pinlabel=AGND
+T 1750 7700 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2100 7300 1800 7300 1 0 0
+{
+T 1900 7350 5 8 1 1 0 0 1
+pinnumber=119
+T 1900 7250 5 8 0 1 0 2 1
+pinseq=31
+T 1750 7300 9 8 1 1 0 6 1
+pinlabel=AGND
+T 1750 7300 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2100 6900 1800 6900 1 0 0
+{
+T 1900 6950 5 8 1 1 0 0 1
+pinnumber=122
+T 1900 6850 5 8 0 1 0 2 1
+pinseq=32
+T 1750 6900 9 8 1 1 0 6 1
+pinlabel=AGND
+T 1750 6900 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2100 6500 1800 6500 1 0 0
+{
+T 1900 6550 5 8 1 1 0 0 1
+pinnumber=19
+T 1900 6450 5 8 0 1 0 2 1
+pinseq=33
+T 1750 6500 9 8 1 1 0 6 1
+pinlabel=AGND
+T 1750 6500 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2100 6100 1800 6100 1 0 0
+{
+T 1900 6150 5 8 1 1 0 0 1
+pinnumber=24
+T 1900 6050 5 8 0 1 0 2 1
+pinseq=34
+T 1750 6100 9 8 1 1 0 6 1
+pinlabel=AGND
+T 1750 6100 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2100 5700 1800 5700 1 0 0
+{
+T 1900 5750 5 8 1 1 0 0 1
+pinnumber=27
+T 1900 5650 5 8 0 1 0 2 1
+pinseq=35
+T 1750 5700 9 8 1 1 0 6 1
+pinlabel=AGND
+T 1750 5700 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2100 5300 1800 5300 1 0 0
+{
+T 1900 5350 5 8 1 1 0 0 1
+pinnumber=28
+T 1900 5250 5 8 0 1 0 2 1
+pinseq=36
+T 1750 5300 9 8 1 1 0 6 1
+pinlabel=AGND
+T 1750 5300 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2100 4900 1800 4900 1 0 0
+{
+T 1900 4950 5 8 1 1 0 0 1
+pinnumber=31
+T 1900 4850 5 8 0 1 0 2 1
+pinseq=37
+T 1750 4900 9 8 1 1 0 6 1
+pinlabel=AGND
+T 1750 4900 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2100 4500 1800 4500 1 0 0
+{
+T 1900 4550 5 8 1 1 0 0 1
+pinnumber=11
+T 1900 4450 5 8 0 1 0 2 1
+pinseq=38
+T 1750 4500 9 8 1 1 0 6 1
+pinlabel=AGND
+T 1750 4500 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2100 4100 1800 4100 1 0 0
+{
+T 1900 4150 5 8 1 1 0 0 1
+pinnumber=16
+T 1900 4050 5 8 0 1 0 2 1
+pinseq=39
+T 1750 4100 9 8 1 1 0 6 1
+pinlabel=AGND
+T 1750 4100 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2100 3700 1800 3700 1 0 0
+{
+T 1900 3750 5 8 1 1 0 0 1
+pinnumber=2
+T 1900 3650 5 8 0 1 0 2 1
+pinseq=40
+T 1750 3700 9 8 1 1 0 6 1
+pinlabel=AGND
+T 1750 3700 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2100 3300 1800 3300 1 0 0
+{
+T 1900 3350 5 8 1 1 0 0 1
+pinnumber=9
+T 1900 3250 5 8 0 1 0 2 1
+pinseq=41
+T 1750 3300 9 8 1 1 0 6 1
+pinlabel=AGND
+T 1750 3300 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2100 2900 1800 2900 1 0 0
+{
+T 1900 2950 5 8 1 1 0 0 1
+pinnumber=34
+T 1900 2850 5 8 0 1 0 2 1
+pinseq=42
+T 1750 2900 9 8 1 1 0 6 1
+pinlabel=DGND
+T 1750 2900 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2100 2500 1800 2500 1 0 0
+{
+T 1900 2550 5 8 1 1 0 0 1
+pinnumber=35
+T 1900 2450 5 8 0 1 0 2 1
+pinseq=43
+T 1750 2500 9 8 1 1 0 6 1
+pinlabel=DGND
+T 1750 2500 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2100 2100 1800 2100 1 0 0
+{
+T 1900 2150 5 8 1 1 0 0 1
+pinnumber=52
+T 1900 2050 5 8 0 1 0 2 1
+pinseq=44
+T 1750 2100 9 8 1 1 0 6 1
+pinlabel=DGND
+T 1750 2100 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2100 1700 1800 1700 1 0 0
+{
+T 1900 1750 5 8 1 1 0 0 1
+pinnumber=58
+T 1900 1650 5 8 0 1 0 2 1
+pinseq=45
+T 1750 1700 9 8 1 1 0 6 1
+pinlabel=DGND
+T 1750 1700 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2100 1300 1800 1300 1 0 0
+{
+T 1900 1350 5 8 1 1 0 0 1
+pinnumber=60
+T 1900 1250 5 8 0 1 0 2 1
+pinseq=46
+T 1750 1300 9 8 1 1 0 6 1
+pinlabel=DGND
+T 1750 1300 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2100 900 1800 900 1 0 0
+{
+T 1900 950 5 8 1 1 0 0 1
+pinnumber=67
+T 1900 850 5 8 0 1 0 2 1
+pinseq=47
+T 1750 900 9 8 1 1 0 6 1
+pinlabel=DGND
+T 1750 900 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 2100 500 1800 500 1 0 0
+{
+T 1900 550 5 8 1 1 0 0 1
+pinnumber=94
+T 1900 450 5 8 0 1 0 2 1
+pinseq=48
+T 1750 500 9 8 1 1 0 6 1
+pinlabel=DGND
+T 1750 500 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 100 10500 400 10500 1 0 0
+{
+T 300 10550 5 8 1 1 0 6 1
+pinnumber=98
+T 300 10450 5 8 0 1 0 8 1
+pinseq=1
+T 450 10500 9 8 1 1 0 0 1
+pinlabel=AVDD
+T 450 10500 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 100 10100 400 10100 1 0 0
+{
+T 300 10150 5 8 1 1 0 6 1
+pinnumber=99
+T 300 10050 5 8 0 1 0 8 1
+pinseq=2
+T 450 10100 9 8 1 1 0 0 1
+pinlabel=AVDD
+T 450 10100 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 100 9700 400 9700 1 0 0
+{
+T 300 9750 5 8 1 1 0 6 1
+pinnumber=104
+T 300 9650 5 8 0 1 0 8 1
+pinseq=3
+T 450 9700 9 8 1 1 0 0 1
+pinlabel=AVDD
+T 450 9700 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 100 9300 400 9300 1 0 0
+{
+T 300 9350 5 8 1 1 0 6 1
+pinnumber=105
+T 300 9250 5 8 0 1 0 8 1
+pinseq=4
+T 450 9300 9 8 1 1 0 0 1
+pinlabel=AVDD
+T 450 9300 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 100 8900 400 8900 1 0 0
+{
+T 300 8950 5 8 1 1 0 6 1
+pinnumber=117
+T 300 8850 5 8 0 1 0 8 1
+pinseq=5
+T 450 8900 9 8 1 1 0 0 1
+pinlabel=AVDD
+T 450 8900 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 100 8500 400 8500 1 0 0
+{
+T 300 8550 5 8 1 1 0 6 1
+pinnumber=118
+T 300 8450 5 8 0 1 0 8 1
+pinseq=6
+T 450 8500 9 8 1 1 0 0 1
+pinlabel=AVDD
+T 450 8500 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 100 8100 400 8100 1 0 0
+{
+T 300 8150 5 8 1 1 0 6 1
+pinnumber=123
+T 300 8050 5 8 0 1 0 8 1
+pinseq=7
+T 450 8100 9 8 1 1 0 0 1
+pinlabel=AVDD
+T 450 8100 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 100 7700 400 7700 1 0 0
+{
+T 300 7750 5 8 1 1 0 6 1
+pinnumber=124
+T 300 7650 5 8 0 1 0 8 1
+pinseq=8
+T 450 7700 9 8 1 1 0 0 1
+pinlabel=AVDD
+T 450 7700 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 100 7300 400 7300 1 0 0
+{
+T 300 7350 5 8 1 1 0 6 1
+pinnumber=18
+T 300 7250 5 8 0 1 0 8 1
+pinseq=9
+T 450 7300 9 8 1 1 0 0 1
+pinlabel=AVDD
+T 450 7300 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 100 6900 400 6900 1 0 0
+{
+T 300 6950 5 8 1 1 0 6 1
+pinnumber=20
+T 300 6850 5 8 0 1 0 8 1
+pinseq=10
+T 450 6900 9 8 1 1 0 0 1
+pinlabel=AVDD
+T 450 6900 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 100 6500 400 6500 1 0 0
+{
+T 300 6550 5 8 1 1 0 6 1
+pinnumber=23
+T 300 6450 5 8 0 1 0 8 1
+pinseq=11
+T 450 6500 9 8 1 1 0 0 1
+pinlabel=AVDD
+T 450 6500 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 100 6100 400 6100 1 0 0
+{
+T 300 6150 5 8 1 1 0 6 1
+pinnumber=32
+T 300 6050 5 8 0 1 0 8 1
+pinseq=12
+T 450 6100 9 8 1 1 0 0 1
+pinlabel=AVDD
+T 450 6100 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 100 5700 400 5700 1 0 0
+{
+T 300 5750 5 8 1 1 0 6 1
+pinnumber=13
+T 300 5650 5 8 0 1 0 8 1
+pinseq=13
+T 450 5700 9 8 1 1 0 0 1
+pinlabel=AVDD
+T 450 5700 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 100 5300 400 5300 1 0 0
+{
+T 300 5350 5 8 1 1 0 6 1
+pinnumber=3
+T 300 5250 5 8 0 1 0 8 1
+pinseq=14
+T 450 5300 9 8 1 1 0 0 1
+pinlabel=AVDD
+T 450 5300 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 100 4900 400 4900 1 0 0
+{
+T 300 4950 5 8 1 1 0 6 1
+pinnumber=4
+T 300 4850 5 8 0 1 0 8 1
+pinseq=15
+T 450 4900 9 8 1 1 0 0 1
+pinlabel=AVDD
+T 450 4900 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 100 4500 400 4500 1 0 0
+{
+T 300 4550 5 8 1 1 0 6 1
+pinnumber=33
+T 300 4450 5 8 0 1 0 8 1
+pinseq=16
+T 450 4500 9 8 1 1 0 0 1
+pinlabel=DVDD
+T 450 4500 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 100 4100 400 4100 1 0 0
+{
+T 300 4150 5 8 1 1 0 6 1
+pinnumber=36
+T 300 4050 5 8 0 1 0 8 1
+pinseq=17
+T 450 4100 9 8 1 1 0 0 1
+pinlabel=DVDD
+T 450 4100 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 100 3700 400 3700 1 0 0
+{
+T 300 3750 5 8 1 1 0 6 1
+pinnumber=53
+T 300 3650 5 8 0 1 0 8 1
+pinseq=18
+T 450 3700 9 8 1 1 0 0 1
+pinlabel=DVDD
+T 450 3700 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 100 3300 400 3300 1 0 0
+{
+T 300 3350 5 8 1 1 0 6 1
+pinnumber=59
+T 300 3250 5 8 0 1 0 8 1
+pinseq=19
+T 450 3300 9 8 1 1 0 0 1
+pinlabel=DVDD
+T 450 3300 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 100 2900 400 2900 1 0 0
+{
+T 300 2950 5 8 1 1 0 6 1
+pinnumber=61
+T 300 2850 5 8 0 1 0 8 1
+pinseq=20
+T 450 2900 9 8 1 1 0 0 1
+pinlabel=DVDD
+T 450 2900 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 100 2500 400 2500 1 0 0
+{
+T 300 2550 5 8 1 1 0 6 1
+pinnumber=66
+T 300 2450 5 8 0 1 0 8 1
+pinseq=21
+T 450 2500 9 8 1 1 0 0 1
+pinlabel=DVDD
+T 450 2500 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 100 2100 400 2100 1 0 0
+{
+T 300 2150 5 8 1 1 0 6 1
+pinnumber=93
+T 300 2050 5 8 0 1 0 8 1
+pinseq=22
+T 450 2100 9 8 1 1 0 0 1
+pinlabel=DVDD
+T 450 2100 5 8 0 1 0 2 1
+pintype=pwr
+}
+B 400 100 1400 10800 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 1800 11000 8 10 1 1 0 6 1
+refdes=U?
+T 400 11000 9 10 1 0 0 0 1
+AD986X-PWR
+T 400 11200 5 10 0 0 0 0 1
+device=AD986X
+T 400 11400 5 10 0 0 0 0 1
+footprint=LQFP128
+T 400 11600 5 10 0 0 0 0 1
+author=mettus
+T 400 11800 5 10 0 0 0 0 1
+documentation=http://www.analog.com
+T 400 12000 5 10 0 0 0 0 1
+description=MxFE
+T 400 12200 5 10 0 0 0 0 1
+numslots=0
+T 400 12400 5 10 0 0 0 0 1
+comment=Part 1 of 7

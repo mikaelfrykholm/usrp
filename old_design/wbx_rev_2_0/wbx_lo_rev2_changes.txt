@@ -1,0 +1,85 @@
+
+
+Layout Changes
+- Move all of the following to the upper left side of the board, and 
+    lay out like on page AN85-2 of app note
+      - C284-C287, C296-C298
+      - U205
+      - L203, L204
+      - D201, D202
+      - R204, R205
+- Move C282 to top side, right near U209 pin 16
+- If possible, move C280 and C281 to top, near U209 pins 7 and 15
+- Put direct traces between top layer decoupling caps and power pins
+    of U103
+- Put C130-C135 on top layer (this avoids vias in filter)
+- Add a little space between L102 and L107.  Same for L105 and L109.
+    This gives better IQ isolation.
+- R21X labels are on vias (on back)
+- C106 and C107 should have direct traces to L113 and L114 on top layer
+- Need real 50 ohm balanced, protected traces on nets clock_rx_p and clock_rx_n
+- LNA layout (around U4) --
+      - C205 and L99 need to be in a straight line
+      - R68, L98, C97, C98 need to be close to U4, connected on top layer,
+         should look like schematic
+- C93 should be close to its pin, don't run long line in parallel 
+- Open up space on left of U2 -- too much coupling
+
+- Moved bias resistors from U210 (divider) to top layer
+
+
+Part Value Changes, same footprint
+- C284, C286 (4.7uF ceramic) are now X5R, and are 35V or 50V rated
+- R204 is now 9.53K, 1% metal film
+- L203 is a 1206 Ferrite Bead
+- R95 is now 1K
+- R206 is now 49.9 ohms
+- Removed J201
+- R213 is now 49.9 Ohms
+
+Footprint Changes, same part
+- C47, C126, C208, C228 changed from 1206 to 1206P to get polarity indicator
+
+
+Part Changes, different footprint
+- C284 changed from 0603 to 1206, same part as C286
+- L204 is still 10uH, but is now part number MP2-100-R, with a
+     footprint of MP2
+- U101 is a different part now
+- C123 and C126 are different
+
+Schematic changes, added parts
+- Added C296, C297, C298 to switcher
+- Added C42, place it right next to U7
+- Added C270, R252, R253, place them near U208
+- Added C254, should be placed right at U207 pin 14
+- Added ATN1, ATN101, ATN102
+- Added U105, L120, C170-C172 power amp
+- Added R155, should be placed close to U103
+- Added R218, C273, should be near switcher
+- Added RSSI circuit -- U3, C20-C26, R70, R71.  All but R's should be
+    close to each other
+- Added R72, R73, C56, should be near U2
+- Added R245-258, T200, T101
+Schematic changes, removed parts
+- Removed R2, R3, R12, R114, R115, R129, R130, R131, R155 (attenuators)
+- Removed C292, C293, T200, R212, R213, J203
+
+Connectivity changes
+- U207 now on 5V_COM (was on 5V_RX)
+- Switcher now on 6V_TX (was on 5V_COM)
+- Got rid of 3_3V_SW, now on 3_3V_COM net
+- T2, T100 had connections reassigned for better flow
+- io_tx_01, io_tx_02, io_tx_03 instead of just io_tx_01
+- Removed DGND, everything is on AGND
+- Swapped RX diff pairs
+
+Open Issues
+- Values of 3 attenuators, close to source or dest?
+- Loop filter
+- Examine all RF paths
+
+
+Not Doing
+- Tranformer in LNA path
+- 64 Mhz filtering? differential to SE xformer?

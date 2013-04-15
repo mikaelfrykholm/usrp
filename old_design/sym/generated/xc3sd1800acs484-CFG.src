@@ -1,0 +1,40 @@
+
+[options]
+wordswap=yes
+rotate_labels=yes
+sort_labels=no
+generate_pinseq=yes
+sym_width=3600
+pinwidthvertikal=400
+pinwidthhorizontal=400
+[geda_attr]
+version=20060906
+name=XC3SD1800ACS484-CFG
+device=XC3SD1800ACS484
+refdes=U?
+footprint=CS484
+description=Xilinx Spartan 3A-DSP 1800 CS484
+documentation=http://www.xilinx.com
+author=xilinxgen.py
+numslots=0
+[pins]
+
+V19		io	line	b		SUSPEND
+F7		io	line	b		IO_L31N_0/PUDC_B
+
+V6		io	line	l		IO_L02P_2/M2
+AA3		io	line	l		IO_L01P_2/M1
+AB3		io	line	l		IO_L01N_2/M0
+
+W6		io	line	l		IO_L07N_2/VS2
+AB8		io	line	l		IO_L09P_2/VS1
+AB9		io	line	l		IO_L09N_2/VS0
+
+U7		io	line	r		IO_L02N_2/CSO_B
+V17		io	line	r		IO_L31N_2/CCLK
+V13		io	line	r		IO_L20N_2/MOSI/CSI_B
+W17		io	line	r		IO_L31P_2/D0/DIN/MISO
+
+A2		io	line	r		PROG_B
+AB21		io	line	r		DONE
+W15		io	line	r		IO_L24P_2/INIT_B

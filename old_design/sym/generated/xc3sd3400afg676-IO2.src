@@ -1,0 +1,113 @@
+
+[options]
+wordswap=yes
+rotate_labels=yes
+sort_labels=yes
+generate_pinseq=yes
+sym_width=6000
+pinwidthvertikal=400
+pinwidthhorizontal=400
+[geda_attr]
+version=20060906
+name=XC3SD3400AFG676-IO2
+device=XC3SD3400AFG676
+refdes=U?
+footprint=FG676
+description=Xilinx Spartan 3A-DSP 1800/3400 FG676
+documentation=http://www.xilinx.com
+author=xilinxgen.py
+numslots=0
+[pins]
+AA9		in	line	r		IP_2/VREF_2
+AA10		io	line	l		IO_L12N_2
+AA17		io	line	l		IO_L43P_2
+AA18		io	line	l		IO_L47N_2
+AA20		in	line	r		IP_2/VREF_2
+AB6		in	line	r		IP_2/VREF_2
+AB7		io	line	l		IO_L14N_2
+AB8		pwr	line	b		VCCO_2
+AB9		io	line	l		IO_L15P_2
+AB12		io	line	l		IO_L21P_2
+AB13		in	line	r		IP_2
+AB14		pwr	line	b		VCCO_2
+AB16		io	line	l		IO_L38N_2
+AB18		io	line	l		IO_L47P_2
+AB19		pwr	line	b		VCCO_2
+AC6		io	line	l		IO_L08P_2
+AC8		io	line	l		IO_L14P_2
+AC9		io	line	l		IO_L15N_2
+AC10		in	line	r		IP_2/VREF_2
+AC11		io	line	l		IO_L23N_2
+AC12		io	line	l		IO_L21N_2
+AC13		in	line	r		IP_2
+AC14		io	line	l		IO_L29N_2
+AC15		io	line	l		IO_L30P_2
+AC16		io	line	l		IO_L38P_2
+AC17		in	line	r		IP_2
+AC19		io	line	l		IO_L40N_2
+AC20		io	line	l		IO_L41N_2
+AC21		io	line	l		IO_L45N_2
+AC22		io	line	l		IO_2
+AD6		io	line	l		IO_L08N_2
+AD7		io	line	l		IO_L11P_2
+AD9		in	line	r		IP_2
+AD10		in	line	r		IP_2
+AD11		io	line	l		IO_L23P_2
+AD12		in	line	r		IP_2/VREF_2
+AD14		io	line	l		IO_L29P_2
+AD16		in	line	r		IP_2
+AD17		io	line	l		IO_L33N_2
+AD19		io	line	l		IO_L40P_2
+AD20		io	line	l		IO_L41P_2
+AD21		io	line	l		IO_L44N_2
+AD22		io	line	l		IO_L45P_2
+AE3		io	line	l		IO_L06P_2
+AE4		io	line	l		IO_L07P_2
+AE5		pwr	line	b		VCCO_2
+AE6		io	line	l		IO_L10N_2
+AE7		io	line	l		IO_L11N_2
+AE8		io	line	l		IO_L18P_2
+AE11		pwr	line	b		VCCO_2
+AE16		pwr	line	b		VCCO_2
+AE17		io	line	l		IO_L33P_2
+AE19		io	line	l		IO_L37N_2
+AE20		io	line	l		IO_L39N_2
+AE21		io	line	l		IO_L44P_2
+AE22		pwr	line	b		VCCO_2
+AE23		io	line	l		IO_L48N_2
+AE25		io	line	l		IO_L51N_2
+AF3		io	line	l		IO_L06N_2
+AF4		io	line	l		IO_L07N_2
+AF5		io	line	l		IO_L10P_2
+AF7		pwr	line	b		VCCO_2
+AF8		io	line	l		IO_L18N_2
+AF15		in	line	r		IP_2/VREF_2
+AF17		in	line	r		IP_2/VREF_2
+AF19		io	line	l		IO_L37P_2
+AF20		io	line	l		IO_L39P_2
+AF22		in	line	r		IP_2/VREF_2
+AF23		io	line	l		IO_L48P_2
+AF25		io	line	l		IO_L51P_2
+U11		io	line	l		IO_L13N_2
+U15		io	line	l		IO_L35N_2
+U16		io	line	l		IO_L42N_2
+V10		io	line	l		IO_L09P_2
+V11		io	line	l		IO_L13P_2
+V12		io	line	l		IO_L16P_2
+V13		io	line	l		IO_L20P_2
+V14		io	line	l		IO_L31P_2
+V15		io	line	l		IO_L35P_2
+V16		io	line	l		IO_L42P_2
+V17		io	line	l		IO_L46N_2
+W9		io	line	l		IO_L05P_2
+W10		io	line	l		IO_L09N_2
+W11		pwr	line	b		VCCO_2
+W12		io	line	l		IO_L16N_2
+W13		io	line	l		IO_L20N_2
+W15		io	line	l		IO_L31N_2
+W16		pwr	line	b		VCCO_2
+W17		io	line	l		IO_L46P_2
+Y9		io	line	l		IO_L05N_2
+Y10		io	line	l		IO_L12P_2
+Y16		in	line	r		IP_2/VREF_2
+Y17		io	line	l		IO_L43N_2

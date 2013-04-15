@@ -1,0 +1,65 @@
+
+[options]
+wordswap=yes
+rotate_labels=yes
+sort_labels=no
+generate_pinseq=yes
+sym_width=3800
+pinwidthvertikal=400
+pinwidthhorizontal=400
+[geda_attr]
+version=20060906
+name=MICTOR43-LA
+device=MICTOR43-LA
+refdes=U?
+footprint=MICTOR43
+description=Mictor Logic Analyzer Connector, AMP pinout (38 pins)
+documentation=http://www.amp.com
+author=matt@ettus.com
+numslots=0
+[pins]
+5		in	line	l		CLK0
+7		in	line	l		A3[7]
+9		in	line	l		A3[6]
+11		in	line	l		A3[5]
+13		in	line	l		A3[4]
+15		in	line	l		A3[3]
+17		in	line	l		A3[2]
+19		in	line	l		A3[1]
+21		in	line	l		A3[0]
+23		in	line	l		A2[7]
+25		in	line	l		A2[6]
+27		in	line	l		A2[5]
+29		in	line	l		A2[4]
+31		in	line	l		A2[3]
+33		in	line	l		A2[2]
+35		in	line	l		A2[1]
+37		in	line	l		A2[0]
+
+6		in	line	r		CLK1
+8		in	line	r		A1[7]
+10		in	line	r		A1[6]
+12		in	line	r		A1[5]
+14		in	line	r		A1[4]
+16		in	line	r		A1[3]
+18		in	line	r		A1[2]
+20		in	line	r		A1[1]
+22		in	line	r		A1[0]
+24		in	line	r		A0[7]
+26		in	line	r		A0[6]
+28		in	line	r		A0[5]
+30		in	line	r		A0[4]
+32		in	line	r		A0[3]
+34		in	line	r		A0[2]
+36		in	line	r		A0[1]
+38		in	line	r		A0[0]
+
+39		pwr	line	b		GND
+40		pwr	line	b		GND
+41		pwr	line	b		GND
+42		pwr	line	b		GND
+43		pwr	line	b		GND
+1		in	line	b		NC
+2		in	line	b		NC
+3		in	line	b		NC
+4		in	line	b		NC

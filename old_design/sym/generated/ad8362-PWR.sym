@@ -1,0 +1,106 @@
+v 20060906 1
+P 800 100 800 400 1 0 0
+{
+T 850 200 5 8 1 1 0 0 1
+pinnumber=1
+T 850 200 5 8 0 1 0 2 1
+pinseq=1
+T 800 450 9 8 1 1 0 3 1
+pinlabel=COMM
+T 800 600 5 8 0 1 0 3 1
+pintype=pwr
+}
+P 1200 100 1200 400 1 0 0
+{
+T 1250 200 5 8 1 1 0 0 1
+pinnumber=8
+T 1250 200 5 8 0 1 0 2 1
+pinseq=2
+T 1200 450 9 8 1 1 0 3 1
+pinlabel=COMM
+T 1200 600 5 8 0 1 0 3 1
+pintype=pwr
+}
+P 1600 100 1600 400 1 0 0
+{
+T 1650 200 5 8 1 1 0 0 1
+pinnumber=10
+T 1650 200 5 8 0 1 0 2 1
+pinseq=3
+T 1600 450 9 8 1 1 0 3 1
+pinlabel=ACOM
+T 1600 600 5 8 0 1 0 3 1
+pintype=pwr
+}
+P 2000 100 2000 400 1 0 0
+{
+T 2050 200 5 8 1 1 0 0 1
+pinnumber=16
+T 2050 200 5 8 0 1 0 2 1
+pinseq=4
+T 2000 450 9 8 1 1 0 3 1
+pinlabel=ACOM
+T 2000 600 5 8 0 1 0 3 1
+pintype=pwr
+}
+P 1400 1900 1400 1600 1 0 0
+{
+T 1450 1750 5 8 1 1 0 0 1
+pinnumber=13
+T 1450 1750 5 8 0 1 0 2 1
+pinseq=5
+T 1400 1550 9 8 1 1 0 5 1
+pinlabel=VPOS
+T 1400 1400 5 8 0 1 0 5 1
+pintype=pwr
+}
+P 100 1200 400 1200 1 0 0
+{
+T 300 1250 5 8 1 1 0 6 1
+pinnumber=7
+T 300 1150 5 8 0 1 0 8 1
+pinseq=6
+T 450 1200 9 8 1 1 0 0 1
+pinlabel=PWDN
+T 450 1200 5 8 0 1 0 2 1
+pintype=in
+}
+P 2700 1200 2400 1200 1 0 0
+{
+T 2500 1250 5 8 1 1 0 0 1
+pinnumber=3
+T 2500 1150 5 8 0 1 0 2 1
+pinseq=7
+T 2350 1200 9 8 1 1 0 6 1
+pinlabel=DECL
+T 2350 1200 5 8 0 1 0 8 1
+pintype=pas
+}
+P 2700 800 2400 800 1 0 0
+{
+T 2500 850 5 8 1 1 0 0 1
+pinnumber=6
+T 2500 750 5 8 0 1 0 2 1
+pinseq=8
+T 2350 800 9 8 1 1 0 6 1
+pinlabel=DECL
+T 2350 800 5 8 0 1 0 8 1
+pintype=pas
+}
+B 400 400 2000 1200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 2400 1700 8 10 1 1 0 6 1
+refdes=U?
+T 1200 900 9 10 1 0 0 0 1
+AD8362-PWR
+T 1200 1200 5 10 0 0 0 0 1
+device=AD8362
+T 1200 1400 5 10 0 0 0 0 1
+footprint=TSSOP16
+T 1200 1600 5 10 0 0 0 0 1
+author=mettus
+T 1200 1800 5 10 0 0 0 0 1
+documentation=http://www.analog.com
+T 1200 2000 5 10 0 0 0 0 1
+description=Power Detector
+T 1200 2200 5 10 0 0 0 0 1
+numslots=0

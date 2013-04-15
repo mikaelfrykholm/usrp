@@ -1,0 +1,6 @@
+# List all schematics
+schematics txchar.sch
+
+output-name txchar
+
+elements-dir ./pkg/newlib

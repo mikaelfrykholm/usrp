@@ -1,0 +1,22 @@
+
+
+
+Layout Errors (Need to be fixed by Mike H)
+- T2, T100, T200 layout was not sized properly
+- D202 (footprint SMA_DIODE) needs a polarity marker
+
+
+
+Parts Placement Errors (manually fixed by Matt)
+- C47, C126, C208, C228 were all placed backwards, need to put
+polarity markers on layout
+- D202 placed backwards, need to put polarity marker on layout
+
+
+
+BOM Errors (believed to be fixed by Mike Y)
+- U8 should be AD8602ARMZ  (MSOP package)
+- U209 should be ADF4107BRUZ (TSSOP package)
+- D201 should be MMBD4148, digikey part number MMBD4148FSCT-ND
+
+

@@ -1,0 +1,156 @@
+v 20060906 1
+P 3100 4000 2800 4000 1 0 0
+{
+T 2900 4050 5 8 1 1 0 0 1
+pinnumber=12
+T 2900 3950 5 8 0 1 0 2 1
+pinseq=1
+T 2750 4000 9 8 1 1 0 6 1
+pinlabel=RFOUTA+
+T 2750 4000 5 8 0 1 0 8 1
+pintype=out
+}
+P 3100 3600 2900 3600 1 0 0
+{
+T 2900 3650 5 8 1 1 0 0 1
+pinnumber=13
+T 2900 3550 5 8 0 1 0 2 1
+pinseq=2
+T 2750 3600 9 8 1 1 0 6 1
+pinlabel=\_RFOUTA-\_
+T 2750 3600 5 8 0 1 0 8 1
+pintype=out
+}
+V 2850 3600 50 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 3100 2800 2800 2800 1 0 0
+{
+T 2900 2850 5 8 1 1 0 0 1
+pinnumber=14
+T 2900 2750 5 8 0 1 0 2 1
+pinseq=3
+T 2750 2800 9 8 1 1 0 6 1
+pinlabel=RFOUTB+
+T 2750 2800 5 8 0 1 0 8 1
+pintype=out
+}
+P 3100 2400 2900 2400 1 0 0
+{
+T 2900 2450 5 8 1 1 0 0 1
+pinnumber=15
+T 2900 2350 5 8 0 1 0 2 1
+pinseq=4
+T 2750 2400 9 8 1 1 0 6 1
+pinlabel=\_RFOUTB-\_
+T 2750 2400 5 8 0 1 0 8 1
+pintype=out
+}
+V 2850 2400 50 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 3100 1600 2800 1600 1 0 0
+{
+T 2900 1650 5 8 1 1 0 0 1
+pinnumber=7
+T 2900 1550 5 8 0 1 0 2 1
+pinseq=5
+T 2750 1600 9 8 1 1 0 6 1
+pinlabel=CPout
+T 2750 1600 5 8 0 1 0 8 1
+pintype=out
+}
+P 3100 1200 2800 1200 1 0 0
+{
+T 2900 1250 5 8 1 1 0 0 1
+pinnumber=20
+T 2900 1150 5 8 0 1 0 2 1
+pinseq=6
+T 2750 1200 9 8 1 1 0 6 1
+pinlabel=Vtune
+T 2750 1200 5 8 0 1 0 8 1
+pintype=out
+}
+P 100 4000 400 4000 1 0 0
+{
+T 300 4050 5 8 1 1 0 6 1
+pinnumber=29
+T 300 3950 5 8 0 1 0 8 1
+pinseq=7
+T 450 4000 9 8 1 1 0 0 1
+pinlabel=REFin
+T 450 4000 5 8 0 1 0 2 1
+pintype=in
+}
+P 3100 800 2800 800 1 0 0
+{
+T 2900 850 5 8 1 1 0 0 1
+pinnumber=5
+T 2900 750 5 8 0 1 0 2 1
+pinseq=8
+T 2750 800 9 8 1 1 0 6 1
+pinlabel=SW
+T 2750 800 5 8 0 1 0 8 1
+pintype=out
+}
+P 1000 100 1000 400 1 0 0
+{
+T 1050 200 5 8 1 1 0 0 1
+pinnumber=19
+T 1050 200 5 8 0 1 0 2 1
+pinseq=9
+T 1000 450 9 8 1 1 0 3 1
+pinlabel=TEMP
+T 1000 600 5 8 0 1 0 3 1
+pintype=pas
+}
+P 1400 100 1400 400 1 0 0
+{
+T 1450 200 5 8 1 1 0 0 1
+pinnumber=22
+T 1450 200 5 8 0 1 0 2 1
+pinseq=10
+T 1400 450 9 8 1 1 0 3 1
+pinlabel=Rset
+T 1400 600 5 8 0 1 0 3 1
+pintype=pas
+}
+P 1800 100 1800 400 1 0 0
+{
+T 1850 200 5 8 1 1 0 0 1
+pinnumber=23
+T 1850 200 5 8 0 1 0 2 1
+pinseq=11
+T 1800 450 9 8 1 1 0 3 1
+pinlabel=Vcom
+T 1800 600 5 8 0 1 0 3 1
+pintype=pas
+}
+P 2200 100 2200 400 1 0 0
+{
+T 2250 200 5 8 1 1 0 0 1
+pinnumber=24
+T 2250 200 5 8 0 1 0 2 1
+pinseq=12
+T 2200 450 9 8 1 1 0 3 1
+pinlabel=Vref
+T 2200 600 5 8 0 1 0 3 1
+pintype=pas
+}
+B 400 400 2400 4000 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 2800 4500 8 10 1 1 0 6 1
+refdes=U?
+T 1400 2300 9 10 1 0 0 0 1
+ADF4350-ANLG
+T 1400 2500 5 10 0 0 0 0 1
+device=ADF4350
+T 1400 2700 5 10 0 0 0 0 1
+footprint=CP-32
+T 1400 2900 5 10 0 0 0 0 1
+author=mettus
+T 1400 3100 5 10 0 0 0 0 1
+documentation=http://www.analog.com
+T 1400 3300 5 10 0 0 0 0 1
+description=Family of VCO/PLL Combo chips
+T 1400 3500 5 10 0 0 0 0 1
+numslots=0
+T 1400 3700 5 10 0 0 0 0 1
+comment=ADF4350-1 through -7
+T 1400 3900 5 10 0 0 0 0 1
+comment=Part 3 of 3

@@ -1,0 +1,293 @@
+v 20060906 1
+P 6700 8100 6400 8100 1 0 0
+{
+T 6500 8150 5 8 1 1 0 0 1
+pinnumber=AD4
+T 6500 8050 5 8 0 1 0 2 1
+pinseq=8
+T 6350 8100 9 8 1 1 0 6 1
+pinlabel=IO_L01N_2/M0
+T 6350 8100 5 8 0 1 0 8 1
+pintype=io
+}
+P 6700 7700 6400 7700 1 0 0
+{
+T 6500 7750 5 8 1 1 0 0 1
+pinnumber=AC4
+T 6500 7650 5 8 0 1 0 2 1
+pinseq=7
+T 6350 7700 9 8 1 1 0 6 1
+pinlabel=IO_L01P_2/M1
+T 6350 7700 5 8 0 1 0 8 1
+pintype=io
+}
+P 6700 7300 6400 7300 1 0 0
+{
+T 6500 7350 5 8 1 1 0 0 1
+pinnumber=AA7
+T 6500 7250 5 8 0 1 0 2 1
+pinseq=2
+T 6350 7300 9 8 1 1 0 6 1
+pinlabel=IO_L02N_2/CSO_B
+T 6350 7300 5 8 0 1 0 8 1
+pintype=io
+}
+P 6700 6900 6400 6900 1 0 0
+{
+T 6500 6950 5 8 1 1 0 0 1
+pinnumber=Y7
+T 6500 6850 5 8 0 1 0 2 1
+pinseq=23
+T 6350 6900 9 8 1 1 0 6 1
+pinlabel=IO_L02P_2/M2
+T 6350 6900 5 8 0 1 0 8 1
+pintype=io
+}
+P 6700 6500 6400 6500 1 0 0
+{
+T 6500 6550 5 8 1 1 0 0 1
+pinnumber=AA12
+T 6500 6450 5 8 0 1 0 2 1
+pinseq=3
+T 6350 6500 9 8 1 1 0 6 1
+pinlabel=IO_L17N_2/VS2
+T 6350 6500 5 8 0 1 0 8 1
+pintype=io
+}
+P 6700 6100 6400 6100 1 0 0
+{
+T 6500 6150 5 8 1 1 0 0 1
+pinnumber=Y12
+T 6500 6050 5 8 0 1 0 2 1
+pinseq=24
+T 6350 6100 9 8 1 1 0 6 1
+pinlabel=IO_L17P_2/RDWR_B
+T 6350 6100 5 8 0 1 0 8 1
+pintype=io
+}
+P 6700 5700 6400 5700 1 0 0
+{
+T 6500 5750 5 8 1 1 0 0 1
+pinnumber=AF9
+T 6500 5650 5 8 0 1 0 2 1
+pinseq=16
+T 6350 5700 9 8 1 1 0 6 1
+pinlabel=IO_L19N_2/VS0
+T 6350 5700 5 8 0 1 0 8 1
+pintype=io
+}
+P 6700 5300 6400 5300 1 0 0
+{
+T 6500 5350 5 8 1 1 0 0 1
+pinnumber=AE9
+T 6500 5250 5 8 0 1 0 2 1
+pinseq=10
+T 6350 5300 9 8 1 1 0 6 1
+pinlabel=IO_L19P_2/VS1
+T 6350 5300 5 8 0 1 0 8 1
+pintype=io
+}
+P 6700 4900 6400 4900 1 0 0
+{
+T 6500 4950 5 8 1 1 0 0 1
+pinnumber=AF10
+T 6500 4850 5 8 0 1 0 2 1
+pinseq=17
+T 6350 4900 9 8 1 1 0 6 1
+pinlabel=IO_L22N_2/D6
+T 6350 4900 5 8 0 1 0 8 1
+pintype=io
+}
+P 6700 4500 6400 4500 1 0 0
+{
+T 6500 4550 5 8 1 1 0 0 1
+pinnumber=AE10
+T 6500 4450 5 8 0 1 0 2 1
+pinseq=11
+T 6350 4500 9 8 1 1 0 6 1
+pinlabel=IO_L22P_2/D7
+T 6350 4500 5 8 0 1 0 8 1
+pintype=io
+}
+P 6700 4100 6400 4100 1 0 0
+{
+T 6500 4150 5 8 1 1 0 0 1
+pinnumber=AE12
+T 6500 4050 5 8 0 1 0 2 1
+pinseq=12
+T 6350 4100 9 8 1 1 0 6 1
+pinlabel=IO_L24N_2/D4
+T 6350 4100 5 8 0 1 0 8 1
+pintype=io
+}
+P 6700 3700 6400 3700 1 0 0
+{
+T 6500 3750 5 8 1 1 0 0 1
+pinnumber=AF12
+T 6500 3650 5 8 0 1 0 2 1
+pinseq=18
+T 6350 3700 9 8 1 1 0 6 1
+pinlabel=IO_L24P_2/D5
+T 6350 3700 5 8 0 1 0 8 1
+pintype=io
+}
+P 6700 3300 6400 3300 1 0 0
+{
+T 6500 3350 5 8 1 1 0 0 1
+pinnumber=AB15
+T 6500 3250 5 8 0 1 0 2 1
+pinseq=5
+T 6350 3300 9 8 1 1 0 6 1
+pinlabel=IO_L30N_2/MOSI/CSI_B
+T 6350 3300 5 8 0 1 0 8 1
+pintype=io
+}
+P 6700 2900 6400 2900 1 0 0
+{
+T 6500 2950 5 8 1 1 0 0 1
+pinnumber=AE15
+T 6500 2850 5 8 0 1 0 2 1
+pinseq=13
+T 6350 2900 9 8 1 1 0 6 1
+pinlabel=IO_L32N_2/DOUT
+T 6350 2900 5 8 0 1 0 8 1
+pintype=io
+}
+P 6700 2500 6400 2500 1 0 0
+{
+T 6500 2550 5 8 1 1 0 0 1
+pinnumber=Y15
+T 6500 2450 5 8 0 1 0 2 1
+pinseq=25
+T 6350 2500 9 8 1 1 0 6 1
+pinlabel=IO_L34N_2/D3
+T 6350 2500 5 8 0 1 0 8 1
+pintype=io
+}
+P 6700 2100 6400 2100 1 0 0
+{
+T 6500 2150 5 8 1 1 0 0 1
+pinnumber=AA15
+T 6500 2050 5 8 0 1 0 2 1
+pinseq=4
+T 6350 2100 9 8 1 1 0 6 1
+pinlabel=IO_L34P_2/INIT_B
+T 6350 2100 5 8 0 1 0 8 1
+pintype=io
+}
+P 6700 1700 6400 1700 1 0 0
+{
+T 6500 1750 5 8 1 1 0 0 1
+pinnumber=AE18
+T 6500 1650 5 8 0 1 0 2 1
+pinseq=14
+T 6350 1700 9 8 1 1 0 6 1
+pinlabel=IO_L36N_2/D1
+T 6350 1700 5 8 0 1 0 8 1
+pintype=io
+}
+P 6700 1300 6400 1300 1 0 0
+{
+T 6500 1350 5 8 1 1 0 0 1
+pinnumber=AF18
+T 6500 1250 5 8 0 1 0 2 1
+pinseq=19
+T 6350 1300 9 8 1 1 0 6 1
+pinlabel=IO_L36P_2/D2
+T 6350 1300 5 8 0 1 0 8 1
+pintype=io
+}
+P 6700 900 6400 900 1 0 0
+{
+T 6500 950 5 8 1 1 0 0 1
+pinnumber=AE24
+T 6500 850 5 8 0 1 0 2 1
+pinseq=15
+T 6350 900 9 8 1 1 0 6 1
+pinlabel=IO_L52N_2/CCLK
+T 6350 900 5 8 0 1 0 8 1
+pintype=io
+}
+P 6700 500 6400 500 1 0 0
+{
+T 6500 550 5 8 1 1 0 0 1
+pinnumber=AF24
+T 6500 450 5 8 0 1 0 2 1
+pinseq=20
+T 6350 500 9 8 1 1 0 6 1
+pinlabel=IO_L52P_2/D0/DIN/MISO
+T 6350 500 5 8 0 1 0 8 1
+pintype=io
+}
+P 100 8100 400 8100 1 0 0
+{
+T 300 8150 5 8 1 1 0 6 1
+pinnumber=AB21
+T 300 8050 5 8 0 1 0 8 1
+pinseq=6
+T 450 8100 9 8 1 1 0 0 1
+pinlabel=DONE
+T 450 8100 5 8 0 1 0 2 1
+pintype=io
+}
+P 100 7700 400 7700 1 0 0
+{
+T 300 7750 5 8 1 1 0 6 1
+pinnumber=AD15
+T 300 7650 5 8 0 1 0 8 1
+pinseq=9
+T 450 7700 9 8 1 1 0 0 1
+pinlabel=IO_L32P_2/AWAKE
+T 450 7700 5 8 0 1 0 2 1
+pintype=io
+}
+P 100 7300 400 7300 1 0 0
+{
+T 300 7350 5 8 1 1 0 6 1
+pinnumber=G8
+T 300 7250 5 8 0 1 0 8 1
+pinseq=21
+T 450 7300 9 8 1 1 0 0 1
+pinlabel=IO_L52N_0/PUDC_B
+T 450 7300 5 8 0 1 0 2 1
+pintype=io
+}
+P 100 6900 400 6900 1 0 0
+{
+T 300 6950 5 8 1 1 0 6 1
+pinnumber=A2
+T 300 6850 5 8 0 1 0 8 1
+pinseq=1
+T 450 6900 9 8 1 1 0 0 1
+pinlabel=PROG_B
+T 450 6900 5 8 0 1 0 2 1
+pintype=io
+}
+P 100 6500 400 6500 1 0 0
+{
+T 300 6550 5 8 1 1 0 6 1
+pinnumber=V20
+T 300 6450 5 8 0 1 0 8 1
+pinseq=22
+T 450 6500 9 8 1 1 0 0 1
+pinlabel=SUSPEND
+T 450 6500 5 8 0 1 0 2 1
+pintype=io
+}
+B 400 100 6000 8400 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 6400 8600 8 10 1 1 0 6 1
+refdes=U?
+T 400 8600 9 10 1 0 0 0 1
+XC3SD3400AFG676-CFG
+T 400 8800 5 10 0 0 0 0 1
+device=XC3SD3400AFG676
+T 400 9000 5 10 0 0 0 0 1
+footprint=FG676
+T 400 9200 5 10 0 0 0 0 1
+author=xilinxgen.py
+T 400 9400 5 10 0 0 0 0 1
+documentation=http://www.xilinx.com
+T 400 9600 5 10 0 0 0 0 1
+description=Xilinx Spartan 3A-DSP 1800/3400 FG676
+T 400 9800 5 10 0 0 0 0 1
+numslots=0

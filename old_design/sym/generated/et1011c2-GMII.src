@@ -1,0 +1,79 @@
+# This is the template file for creating symbols with tragesym
+# every line starting with '#' is a comment line.
+
+[options]
+# rotate_labels rotates the pintext of top and bottom pins
+# wordswap swaps labels if the pin is on the right side an looks like this:
+# "PB1 (CLK)"
+wordswap=yes
+rotate_labels=yes
+sort_labels=no
+generate_pinseq=yes
+sym_width=2400
+pinwidthvertikal=400
+pinwidthhorizontal=400
+
+[geda_attr]
+# name will be printed in the top of the symbol
+# if you have a device with slots, you'll have to use slot= and slotdef=
+# use comment= if there are special information you want to add
+version=20060906
+name=ET1011C2-GMII
+device=ET1011C2
+refdes=U?
+footprint=MLCC84
+description=LSI TruePHY
+documentation=NA
+author=mettus
+numslots=0
+#slot=1
+#slotdef=1:
+#slotdef=2:
+#slotdef=3:
+#slotdef=4:
+comment=Part 4 of 7
+#comment=
+#comment=
+
+[pins]
+# tabseparated list of pin descriptions
+# pinnr is the physical number of the pin
+# seq is the pinseq= attribute, leave it blank if it doesn't matter
+# type can be (in, out, io, oc, oe, pas, tp, tri, clk, pwr)
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net
+# posit. can be (l,r,t,b) or empty for nets
+# net specifies the name of the Vcc or GND name
+# label represents the pinlabel. 
+#	negation lines can be added with _Q_ 
+#	if you want to add a "_" or "\" use "\_" and "\\" as escape sequences
+#-----------------------------------------------------
+#pinnr	seq	type	style	posit.	net	label	
+#-----------------------------------------------------
+73		out	line	l		COL
+74		out	line	l		CRS
+72		out	line	l		RX_CLK
+70		out	line	l		RX_ER
+69		out	line	l		RX_DV
+68		out	line	l		RXD0
+67		out	line	l		RXD1
+66		out	line	l		RXD2
+65		out	line	l		RXD3
+62		out	line	l		RXD4
+61		out	line	l		RXD5
+60		out	line	l		RXD6
+59		out	line	l		RXD7
+
+77		in	line	r		GTX_CLK
+78		in	line	r		TX_ER
+79		in	line	r		TX_EN
+
+80		in	line	r		TXD0
+81		in	line	r		TXD1
+82		in	line	r		TXD2
+83		in	line	r		TXD3
+84		in	line	r		TXD4
+1		in	line	r		TXD5
+2		in	line	r		TXD6
+3		in	line	r		TXD7
+
+75		out	line	r		TX_CLK

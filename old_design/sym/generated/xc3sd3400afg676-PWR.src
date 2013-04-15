@@ -1,0 +1,180 @@
+
+[options]
+wordswap=yes
+rotate_labels=yes
+sort_labels=yes
+generate_pinseq=yes
+sym_width=6000
+pinwidthvertikal=400
+pinwidthhorizontal=400
+[geda_attr]
+version=20060906
+name=XC3SD3400AFG676-PWR
+device=XC3SD3400AFG676
+refdes=U?
+footprint=FG676
+description=Xilinx Spartan 3A-DSP 1800/3400 FG676
+documentation=http://www.xilinx.com
+author=xilinxgen.py
+numslots=0
+[pins]
+A1		pwr	line	r		GND
+A5		pwr	line	r		GND
+A6		pwr	line	r		GND
+A11		pwr	line	r		GND
+A16		pwr	line	r		GND
+A21		pwr	line	r		GND
+A23		pwr	line	r		GND
+A24		pwr	line	l		VCCAUX
+A26		pwr	line	r		GND
+AA1		pwr	line	r		GND
+AA4		pwr	line	r		GND
+AA6		pwr	line	r		GND
+AA8		pwr	line	l		VCCINT
+AA11		pwr	line	r		GND
+AA16		pwr	line	r		GND
+AA19		pwr	line	r		GND
+AA21		pwr	line	r		GND
+AA26		pwr	line	r		GND
+AB3		pwr	line	r		GND
+AB4		pwr	line	l		VCCAUX
+AB5		pwr	line	l		VCCAUX
+AB10		pwr	line	r		GND
+AB11		pwr	line	l		VCCAUX
+AB17		pwr	line	l		VCCAUX
+AB20		pwr	line	r		GND
+AB22		pwr	line	l		VCCAUX
+AC5		pwr	line	r		GND
+AC7		pwr	line	r		GND
+AC18		pwr	line	r		GND
+AD3		pwr	line	r		GND
+AD5		pwr	line	r		GND
+AD8		pwr	line	r		GND
+AD13		pwr	line	r		GND
+AD18		pwr	line	r		GND
+AD23		pwr	line	r		GND
+AD24		pwr	line	r		GND
+AF1		pwr	line	r		GND
+AF2		pwr	line	l		VCCAUX
+AF6		pwr	line	r		GND
+AF11		pwr	line	r		GND
+AF16		pwr	line	r		GND
+AF21		pwr	line	r		GND
+AF26		pwr	line	r		GND
+B24		pwr	line	r		GND
+B25		pwr	line	r		GND
+C3		pwr	line	r		GND
+C4		pwr	line	l		VCCINT
+C9		pwr	line	r		GND
+C14		pwr	line	r		GND
+C19		pwr	line	r		GND
+C24		pwr	line	r		GND
+D1		pwr	line	l		VCCAUX
+D2		pwr	line	r		GND
+D5		pwr	line	l		VCCINT
+D15		pwr	line	r		GND
+D19		pwr	line	r		GND
+E5		pwr	line	l		VCCAUX
+E6		pwr	line	l		VCCINT
+E9		pwr	line	r		GND
+E16		pwr	line	l		VCCAUX
+E20		pwr	line	l		VCCAUX
+E22		pwr	line	l		VCCAUX
+F1		pwr	line	r		GND
+F6		pwr	line	r		GND
+F9		pwr	line	l		VCCAUX
+F10		pwr	line	l		VCCINT
+F11		pwr	line	r		GND
+F16		pwr	line	r		GND
+F18		pwr	line	l		VCCINT
+F21		pwr	line	r		GND
+F26		pwr	line	r		GND
+G2		pwr	line	r		GND
+G5		pwr	line	r		GND
+G16		pwr	line	r		GND
+G18		pwr	line	l		VCCINT
+G26		pwr	line	l		VCCAUX
+H3		pwr	line	r		GND
+H8		pwr	line	r		GND
+H14		pwr	line	r		GND
+H19		pwr	line	r		GND
+H23		pwr	line	l		VCCAUX
+J18		pwr	line	l		VCCAUX
+J24		pwr	line	r		GND
+K10		pwr	line	r		GND
+K13		pwr	line	l		VCCAUX
+K15		pwr	line	l		VCCINT
+K17		pwr	line	r		GND
+L1		pwr	line	r		GND
+L5		pwr	line	l		VCCAUX
+L6		pwr	line	r		GND
+L11		pwr	line	r		GND
+L12		pwr	line	l		VCCINT
+L13		pwr	line	r		GND
+L14		pwr	line	l		VCCINT
+L15		pwr	line	r		GND
+L16		pwr	line	l		VCCINT
+L21		pwr	line	r		GND
+L26		pwr	line	r		GND
+M11		pwr	line	l		VCCINT
+M12		pwr	line	r		GND
+M13		pwr	line	l		VCCINT
+M14		pwr	line	r		GND
+M15		pwr	line	l		VCCINT
+M16		pwr	line	r		GND
+M17		pwr	line	l		VCCINT
+N3		pwr	line	r		GND
+N8		pwr	line	r		GND
+N10		pwr	line	l		VCCAUX
+N11		pwr	line	r		GND
+N12		pwr	line	l		VCCINT
+N13		pwr	line	l		VCCINT
+N14		pwr	line	l		VCCINT
+N15		pwr	line	r		GND
+N16		pwr	line	l		VCCINT
+P11		pwr	line	l		VCCINT
+P12		pwr	line	r		GND
+P13		pwr	line	l		VCCINT
+P14		pwr	line	l		VCCINT
+P15		pwr	line	l		VCCINT
+P16		pwr	line	r		GND
+P17		pwr	line	l		VCCAUX
+P19		pwr	line	r		GND
+P24		pwr	line	r		GND
+R11		pwr	line	r		GND
+R12		pwr	line	l		VCCINT
+R13		pwr	line	r		GND
+R14		pwr	line	l		VCCINT
+R15		pwr	line	r		GND
+R16		pwr	line	l		VCCINT
+T1		pwr	line	r		GND
+T6		pwr	line	r		GND
+T11		pwr	line	l		VCCINT
+T12		pwr	line	r		GND
+T13		pwr	line	l		VCCINT
+T14		pwr	line	r		GND
+T15		pwr	line	l		VCCINT
+T16		pwr	line	r		GND
+T21		pwr	line	r		GND
+T22		pwr	line	l		VCCAUX
+T26		pwr	line	r		GND
+U10		pwr	line	r		GND
+U12		pwr	line	l		VCCINT
+U13		pwr	line	r		GND
+U14		pwr	line	l		VCCAUX
+U17		pwr	line	r		GND
+U25		pwr	line	r		GND
+V3		pwr	line	r		GND
+V9		pwr	line	l		VCCAUX
+W8		pwr	line	r		GND
+W14		pwr	line	r		GND
+W18		pwr	line	l		VCCINT
+W19		pwr	line	r		GND
+W24		pwr	line	r		GND
+W25		pwr	line	r		GND
+W26		pwr	line	l		VCCAUX
+Y4		pwr	line	l		VCCINT
+Y8		pwr	line	l		VCCINT
+Y11		pwr	line	l		VCCINT
+Y18		pwr	line	l		VCCINT
+Y19		pwr	line	l		VCCINT

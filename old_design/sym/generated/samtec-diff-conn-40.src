@@ -1,0 +1,181 @@
+# This is the template file for creating symbols with tragesym
+# every line starting with '#' is a comment line.
+
+[options]
+# rotate_labels rotates the pintext of top and bottom pins
+# wordswap swaps labels if the pin is on the right side an looks like this:
+# "PB1 (CLK)"
+wordswap=yes
+rotate_labels=yes
+sort_labels=no
+generate_pinseq=yes
+sym_width=1400
+pinwidthvertikal=400
+pinwidthhorizontal=400
+
+[geda_attr]
+# name will be printed in the top of the symbol
+# if you have a device with slots, you'll have to use slot= and slotdef=
+# use comment= if there are special information you want to add
+version=20060906
+name=SAMTEC-DIFF-CONN-40
+device=SAMTEC-DIFF-CONN-40
+refdes=J?
+footprint=SAMTEC-DIFF-CONN-40
+description=Samtec Differential Connector, 40 pairs
+documentation=http://www.samtec.com
+author=mettus
+numslots=0
+#slot=1
+#slotdef=1:
+#slotdef=2:
+#slotdef=3:
+#slotdef=4:
+#comment=
+#comment=
+#comment=
+
+[pins]
+# tabseparated list of pin descriptions
+# pinnr is the physical number of the pin
+# seq is the pinseq= attribute, leave it blank if it doesn't matter
+# type can be (in, out, io, oc, oe, pas, tp, tri, clk, pwr)
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net
+# posit. can be (l,r,t,b) or empty for nets
+# net specifies the name of the Vcc or GND name
+# label represents the pinlabel. 
+#	negation lines can be added with _Q_ 
+#	if you want to add a "_" or "\" use "\_" and "\\" as escape sequences
+#-----------------------------------------------------
+#pinnr	seq	type	style	posit.	net	label	
+#-----------------------------------------------------
+A1		io	line	l		A1_P
+A2		io	dot	l		\_A1_N\_
+#spacer	l
+A3		io	line	l		A1_P
+A4		io	dot	l		\_A1_N\_
+#spacer	l
+A5		io	line	l		A1_P
+A6		io	dot	l		\_A1_N\_
+#spacer	l
+A7		io	line	l		A1_P
+A8		io	dot	l		\_A1_N\_
+#spacer	l
+A9		io	line	l		A1_P
+A10		io	dot	l		\_A1_N\_
+#spacer	l
+A11		io	line	l		A1_P
+A12		io	dot	l		\_A1_N\_
+#spacer	l
+A13		io	line	l		A1_P
+A14		io	dot	l		\_A1_N\_
+#spacer	l
+A15		io	line	l		A1_P
+A16		io	dot	l		\_A1_N\_
+#spacer	l
+A17		io	line	l		A1_P
+A18		io	dot	l		\_A1_N\_
+#spacer	l
+A19		io	line	l		A1_P
+A20		io	dot	l		\_A1_N\_
+#spacer	l
+#spacer	l
+A21		io	line	l		A1_P
+A22		io	dot	l		\_A1_N\_
+#spacer	l
+A23		io	line	l		A1_P
+A24		io	dot	l		\_A1_N\_
+#spacer	l
+A25		io	line	l		A1_P
+A26		io	dot	l		\_A1_N\_
+#spacer	l
+A27		io	line	l		A1_P
+A28		io	dot	l		\_A1_N\_
+#spacer	l
+A29		io	line	l		A1_P
+A30		io	dot	l		\_A1_N\_
+#spacer	l
+A31		io	line	l		A1_P
+A32		io	dot	l		\_A1_N\_
+#spacer	l
+A33		io	line	l		A1_P
+A34		io	dot	l		\_A1_N\_
+#spacer	l
+A35		io	line	l		A1_P
+A36		io	dot	l		\_A1_N\_
+#spacer	l
+A37		io	line	l		A1_P
+A38		io	dot	l		\_A1_N\_
+#spacer	l
+A39		io	line	l		A1_P
+A40		io	dot	l		\_A1_N\_
+
+B1		io	line	r		B1_P
+B2		io	dot	r		\_B1_N\_
+#spacer	r
+B3		io	line	r		B1_P
+B4		io	dot	r		\_B1_N\_
+#spacer	r
+B5		io	line	r		B1_P
+B6		io	dot	r		\_B1_N\_
+#spacer	r
+B7		io	line	r		B1_P
+B8		io	dot	r		\_B1_N\_
+#spacer	r
+B9		io	line	r		B1_P
+B10		io	dot	r		\_B1_N\_
+#spacer	r
+B11		io	line	r		B1_P
+B12		io	dot	r		\_B1_N\_
+#spacer	r
+B13		io	line	r		B1_P
+B14		io	dot	r		\_B1_N\_
+#spacer	r
+B15		io	line	r		B1_P
+B16		io	dot	r		\_B1_N\_
+#spacer	r
+B17		io	line	r		B1_P
+B18		io	dot	r		\_B1_N\_
+#spacer	r
+B19		io	line	r		B1_P
+B20		io	dot	r		\_B1_N\_
+#spacer	r
+#spacer	r
+B21		io	line	r		B1_P
+B22		io	dot	r		\_B1_N\_
+#spacer	r
+B23		io	line	r		B1_P
+B24		io	dot	r		\_B1_N\_
+#spacer	r
+B25		io	line	r		B1_P
+B26		io	dot	r		\_B1_N\_
+#spacer	r
+B27		io	line	r		B1_P
+B28		io	dot	r		\_B1_N\_
+#spacer	r
+B29		io	line	r		B1_P
+B30		io	dot	r		\_B1_N\_
+#spacer	r
+B31		io	line	r		B1_P
+B32		io	dot	r		\_B1_N\_
+#spacer	r
+B33		io	line	r		B1_P
+B34		io	dot	r		\_B1_N\_
+#spacer	r
+B35		io	line	r		B1_P
+B36		io	dot	r		\_B1_N\_
+#spacer	r
+B37		io	line	r		B1_P
+B38		io	dot	r		\_B1_N\_
+#spacer	r
+B39		io	line	r		B1_P
+B40		io	dot	r		\_B1_N\_
+#
+G1		pwr	line	l		GND
+G2		pwr	line	r		GND
+G3		pwr	line	l		GND
+G4		pwr	line	r		GND
+G5		pwr	line	l		GND
+G6		pwr	line	r		GND
+G7		pwr	line	l		GND
+G8		pwr	line	r		GND

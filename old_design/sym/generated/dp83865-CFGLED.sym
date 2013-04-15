@@ -1,0 +1,185 @@
+v 20060906 1
+P 100 4100 400 4100 1 0 0
+{
+T 300 4150 5 8 1 1 0 6 1
+pinnumber=1
+T 300 4050 5 8 0 1 0 8 1
+pinseq=1
+T 450 4100 9 8 1 1 0 0 1
+pinlabel=NON_IEEE_STRAP
+T 450 4100 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 3700 400 3700 1 0 0
+{
+T 300 3750 5 8 1 1 0 6 1
+pinnumber=6
+T 300 3650 5 8 0 1 0 8 1
+pinseq=2
+T 450 3700 9 8 1 1 0 0 1
+pinlabel=MAN_MDIX_STRAP/TX_TCLK
+T 450 3700 5 8 0 1 0 2 1
+pintype=in
+}
+P 5900 4100 5600 4100 1 0 0
+{
+T 5700 4150 5 8 1 1 0 0 1
+pinnumber=7
+T 5700 4050 5 8 0 1 0 2 1
+pinseq=3
+T 5550 4100 9 8 1 1 0 6 1
+pinlabel=ACTIVITY_LED/SPEED0_STRAP
+T 5550 4100 5 8 0 1 0 8 1
+pintype=io
+}
+P 5900 3700 5600 3700 1 0 0
+{
+T 5700 3750 5 8 1 1 0 0 1
+pinnumber=8
+T 5700 3650 5 8 0 1 0 2 1
+pinseq=4
+T 5550 3700 9 8 1 1 0 6 1
+pinlabel=LINK10_LED/RLED/SPEED1_STRAP
+T 5550 3700 5 8 0 1 0 8 1
+pintype=io
+}
+P 5900 3300 5600 3300 1 0 0
+{
+T 5700 3350 5 8 1 1 0 0 1
+pinnumber=9
+T 5700 3250 5 8 0 1 0 2 1
+pinseq=5
+T 5550 3300 9 8 1 1 0 6 1
+pinlabel=LINK100_LED/DUPLEX_STRAP
+T 5550 3300 5 8 0 1 0 8 1
+pintype=io
+}
+P 5900 2900 5600 2900 1 0 0
+{
+T 5700 2950 5 8 1 1 0 0 1
+pinnumber=10
+T 5700 2850 5 8 0 1 0 2 1
+pinseq=6
+T 5550 2900 9 8 1 1 0 6 1
+pinlabel=LINK1000_LED/AN_EN_STRAP
+T 5550 2900 5 8 0 1 0 8 1
+pintype=io
+}
+P 5900 2500 5600 2500 1 0 0
+{
+T 5700 2550 5 8 1 1 0 0 1
+pinnumber=13
+T 5700 2450 5 8 0 1 0 2 1
+pinseq=7
+T 5550 2500 9 8 1 1 0 6 1
+pinlabel=DUPLEX_LED/PHYADDR0_STRAP
+T 5550 2500 5 8 0 1 0 8 1
+pintype=io
+}
+P 100 3300 400 3300 1 0 0
+{
+T 300 3350 5 8 1 1 0 6 1
+pinnumber=14
+T 300 3250 5 8 0 1 0 8 1
+pinseq=8
+T 450 3300 9 8 1 1 0 0 1
+pinlabel=PHYADDR1_STRAP
+T 450 3300 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 2900 400 2900 1 0 0
+{
+T 300 2950 5 8 1 1 0 6 1
+pinnumber=17
+T 300 2850 5 8 0 1 0 8 1
+pinseq=9
+T 450 2900 9 8 1 1 0 0 1
+pinlabel=PHYADDR2_STRAP
+T 450 2900 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 2500 400 2500 1 0 0
+{
+T 300 2550 5 8 1 1 0 6 1
+pinnumber=18
+T 300 2450 5 8 0 1 0 8 1
+pinseq=10
+T 450 2500 9 8 1 1 0 0 1
+pinlabel=PHYADDR3_STRAP
+T 450 2500 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 2100 400 2100 1 0 0
+{
+T 300 2150 5 8 1 1 0 6 1
+pinnumber=95
+T 300 2050 5 8 0 1 0 8 1
+pinseq=11
+T 450 2100 9 8 1 1 0 0 1
+pinlabel=PHYADDR4_STRAP
+T 450 2100 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 1700 400 1700 1 0 0
+{
+T 300 1750 5 8 1 1 0 6 1
+pinnumber=94
+T 300 1650 5 8 0 1 0 8 1
+pinseq=12
+T 450 1700 9 8 1 1 0 0 1
+pinlabel=MULTI_EN_STRAP/TX_TRIGGER
+T 450 1700 5 8 0 1 0 2 1
+pintype=io
+}
+P 100 1300 400 1300 1 0 0
+{
+T 300 1350 5 8 1 1 0 6 1
+pinnumber=89
+T 300 1250 5 8 0 1 0 8 1
+pinseq=13
+T 450 1300 9 8 1 1 0 0 1
+pinlabel=MDIX_EN_STRAP
+T 450 1300 5 8 0 1 0 2 1
+pintype=io
+}
+P 100 900 400 900 1 0 0
+{
+T 300 950 5 8 1 1 0 6 1
+pinnumber=88
+T 300 850 5 8 0 1 0 8 1
+pinseq=14
+T 450 900 9 8 1 1 0 0 1
+pinlabel=MAC_CLK_EN_STRAP/TX_SYN_CLK
+T 450 900 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 500 400 500 1 0 0
+{
+T 300 550 5 8 1 1 0 6 1
+pinnumber=34
+T 300 450 5 8 0 1 0 8 1
+pinseq=15
+T 450 500 9 8 1 1 0 0 1
+pinlabel=VDD_SEL_STRAP
+T 450 500 5 8 0 1 0 2 1
+pintype=in
+}
+B 400 100 5200 4400 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 5600 4600 8 10 1 1 0 6 1
+refdes=U?
+T 400 4600 9 10 1 0 0 0 1
+DP83865-CFGLED
+T 400 4800 5 10 0 0 0 0 1
+device=DP83865
+T 400 5000 5 10 0 0 0 0 1
+footprint=PQFP-128
+T 400 5200 5 10 0 0 0 0 1
+author=mettus
+T 400 5400 5 10 0 0 0 0 1
+documentation=NA
+T 400 5600 5 10 0 0 0 0 1
+description=National Semi GigPHYter Gigabit Ethernet MAC
+T 400 5800 5 10 0 0 0 0 1
+numslots=0
+T 400 6000 5 10 0 0 0 0 1
+comment=Part 7 of 7

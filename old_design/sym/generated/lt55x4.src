@@ -1,0 +1,77 @@
+# This is the template file for creating symbols with tragesym
+# every line starting with '#' is a comment line.
+
+[options]
+# rotate_labels rotates the pintext of top and bottom pins
+# wordswap swaps labels if the pin is on the right side an looks like this:
+# "PB1 (CLK)"
+wordswap=yes
+rotate_labels=yes
+sort_labels=no
+generate_pinseq=yes
+sym_width=3600
+pinwidthvertikal=400
+pinwidthhorizontal=400
+
+[geda_attr]
+# name will be printed in the top of the symbol
+# if you have a device with slots, you'll have to use slot= and slotdef=
+# use comment= if there are special information you want to add
+version=20060906
+name=LT55X4
+device=LT55X4
+refdes=U?
+footprint=TSSOP20
+description=Differential VGA
+documentation=http://www.linear.com
+author=mettus
+numslots=0
+#slot=1
+#slotdef=1:
+#slotdef=2:
+#slotdef=3:
+#slotdef=4:
+#comment=
+#comment=
+#comment=
+
+[pins]
+# tabseparated list of pin descriptions
+# pinnr is the physical number of the pin
+# seq is the pinseq= attribute, leave it blank if it doesn't matter
+# type can be (in, out, io, oc, oe, pas, tp, tri, clk, pwr)
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net
+# posit. can be (l,r,t,b) or empty for nets
+# net specifies the name of the Vcc or GND name
+# label represents the pinlabel. 
+#	negation lines can be added with _Q_ 
+#	if you want to add a "_" or "\" use "\_" and "\\" as escape sequences
+#-----------------------------------------------------
+#pinnr	seq	type	style	posit.	net	label	
+#-----------------------------------------------------
+2		pwr	line	t		Vcc1
+19		pwr	line	t		Vcc2
+
+5		in	line	l		IN+
+6		in	dot	l		\_IN-\_
+
+15		out	line	r		OUT+
+16		out	dot	r		\_OUT-\_
+
+
+1		in	line	r		ENA
+20		in	line	r		ENB
+9		in	line	l		PGA0
+10		in	line	l		PGA1
+11		in	line	l		PGA2
+12		in	line	l		PGA3
+
+3		pwr	line	b		GND
+4		pwr	line	b		GND
+7		pwr	line	b		GND
+8		pwr	line	b		GND
+13		pwr	line	b		GND
+14		pwr	line	b		GND
+17		pwr	line	b		GND
+18		pwr	line	b		GND
+21		pwr 	line	b		GND_EP

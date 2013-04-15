@@ -1,0 +1,6 @@
+# List all schematics
+schematics wbrx.sch
+
+output-name wbrx
+
+elements-dir ../pkg/newlib

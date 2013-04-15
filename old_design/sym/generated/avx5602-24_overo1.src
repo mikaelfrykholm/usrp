@@ -1,0 +1,120 @@
+# This is the template file for creating symbols with tragesym
+# every line starting with '#' is a comment line.
+
+[options]
+# rotate_labels rotates the pintext of top and bottom pins
+# wordswap swaps labels if the pin is on the right side an looks like this:
+# "PB1 (CLK)"
+wordswap=yes
+rotate_labels=yes
+sort_labels=no
+generate_pinseq=yes
+sym_width=3500
+pinwidthvertikal=400
+pinwidthhorizontal=400
+
+[geda_attr]
+# name will be printed in the top of the symbol
+# if you have a device with slots, you'll have to use slot= and slotdef=
+# use comment= if there are special information you want to add
+version=20090328
+name=AVX 5602-24 Overo1
+device=AVX5602-24
+refdes=J?
+footprint=AVX5602-24
+description=70 pin avx header taylored for overo
+documentation=http://www.avx.com/prodinfo_listing.asp
+author=jblum
+numslots=0
+#slot=1
+#slotdef=1:
+#slotdef=2:
+#slotdef=3:
+#slotdef=4:
+#comment=
+#comment=
+
+[pins]
+# tabseparated list of pin descriptions
+# pinnr is the physical number of the pin
+# seq is the pinseq= attribute, leave it blank if it doesn't matter
+# type can be (in, out, io, oc, oe, pas, tp, tri, clk, pwr)
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net
+# posit. can be (l,r,t,b) or empty for nets
+# net specifies the name of the Vcc or GND name
+# label represents the pinlabel. 
+#	negation lines can be added with _Q_ 
+#	if you want to add a "_" or "\" use "\_" and "\\" as escape sequences
+#-----------------------------------------------------
+#pinnr	seq	type	style	posit.	net	label	
+#-----------------------------------------------------
+1		io	line	l		N_MANUAL_RESET
+2		io	line	l		GPIO71_L_DD01
+3		io	line	l		GPIO70_L_DD00
+4		io	line	l		GPIO73_L_DD03
+5		io	line	l		GPIO75_L_DD05
+6		io	line	l		GPIO72_L_DD02
+7		io	line	l		GPIO74_L_DD04
+8		io	line	l		GPIO127_TS_IRQ
+9		io	line	l		GPIO0_WAKEUP
+10		io	line	l		GPIO185_I2C3_SDA
+11		io	line	l		GPIO80_L_DD10
+12		io	line	l		GPIO81_L_DD11
+13		io	line	l		GPIO184_L_I2C3_SCL
+14		io	line	l		GPIO128_GPS_PPS
+15		io	line	l		GPIO92_L_DD22
+16		io	line	l		GPIO147_GPT8__PWM
+17		io	line	l		GPIO83_L_DD13
+18		io	line	l		GPIO144_GPT9_PWM
+19		io	line	l		GPIO84_L_DD14
+20		io	line	l		GPIO85_L_DD15
+21		io	line	l		GPIO146_GPT11_PWM
+22		io	line	l		GPIO163_IR_CTS3
+23		io	line	l		GPIO91_L_DD21
+24		io	line	l		GPIO87_L_DD17
+25		io	line	l		GPIO88_L_DD18
+26		io	line	l		GPIO166_IR_TXD3
+27		io	line	l		GPIO89_L_DD19
+28		io	line	l		GPIO79_L_DD09
+29		io	line	l		GPIO77_L_DD07
+30		io	line	l		GPIO78_L_DD08
+31		io	line	l		GPIO165_IR_RXD3
+32		io	line	l		GPIO66_L_PCLK
+33		io	line	l		GPIO76_L_DD06
+34		io	line	l		GPIO68_L_FCLK
+35		io	line	l		GPIO67_L_LCLK
+70		io	line	r		GND
+69		io	line	r		HSORF
+68		io	line	r		HSOLF
+67		io	line	r		VSYSTEM
+66		io	line	r		VSYSTEM
+65		io	line	r		POWERON
+64		io	line	r		ADCIN7
+63		io	line	r		NC
+62		io	line	r		NC
+61		io	line	r		GPIO93_L_DD23
+60		io	line	r		GPIO82_L_DD12
+59		io	line	r		SYSEN
+58		io	line	r		ADCIN2
+57		io	line	r		MIC_MAIN_MF
+56		io	line	r		GND
+55		io	line	r		GPIO145_GPT10_PWM
+54		io	line	r		USBOTG_VBUS
+53		io	line	r		ADCIN6
+52		io	line	r		VBACKUP
+51		io	line	r		ADCIN5
+50		io	line	r		AGND
+49		io	line	r		PWM1
+48		io	line	r		ADCIN3
+47		io	line	r		GPIO170_HDQ_1WIRE
+46		io	line	r		USBOTG_ID
+45		io	line	r		GPIO90_L_DD20
+44		io	line	r		GPIO86_L_DD16
+43		io	line	r		GPIO69_L_BIAS
+42		io	line	r		PWM0
+41		io	line	r		AUXRF
+40		io	line	r		ADCIN4
+39		io	line	r		MIC_SUB_MF
+38		io	line	r		AUXLF
+37		io	line	r		USBOTG_DM
+36		io	line	r		USBOTG_DP

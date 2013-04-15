@@ -1,0 +1,260 @@
+v 20060906 1
+P 3500 4400 3200 4400 1 0 0
+{
+T 3300 4450 5 8 1 1 0 0 1
+pinnumber=5
+T 3300 4350 5 8 0 1 0 2 1
+pinseq=2
+T 3150 4400 9 8 1 1 0 6 1
+pinlabel=GND
+T 3150 4400 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 3500 4000 3200 4000 1 0 0
+{
+T 3300 4050 5 8 1 1 0 0 1
+pinnumber=13
+T 3300 3950 5 8 0 1 0 2 1
+pinseq=4
+T 3150 4000 9 8 1 1 0 6 1
+pinlabel=GND
+T 3150 4000 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 3500 3600 3200 3600 1 0 0
+{
+T 3300 3650 5 8 1 1 0 0 1
+pinnumber=18
+T 3300 3550 5 8 0 1 0 2 1
+pinseq=5
+T 3150 3600 9 8 1 1 0 6 1
+pinlabel=GND
+T 3150 3600 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 3500 3200 3200 3200 1 0 0
+{
+T 3300 3250 5 8 1 1 0 0 1
+pinnumber=28
+T 3300 3150 5 8 0 1 0 2 1
+pinseq=9
+T 3150 3200 9 8 1 1 0 6 1
+pinlabel=GND
+T 3150 3200 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 3500 2800 3200 2800 1 0 0
+{
+T 3300 2850 5 8 1 1 0 0 1
+pinnumber=33
+T 3300 2750 5 8 0 1 0 2 1
+pinseq=10
+T 3150 2800 9 8 1 1 0 6 1
+pinlabel=GND
+T 3150 2800 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 3500 2400 3200 2400 1 0 0
+{
+T 3300 2450 5 8 1 1 0 0 1
+pinnumber=43
+T 3300 2350 5 8 0 1 0 2 1
+pinseq=12
+T 3150 2400 9 8 1 1 0 6 1
+pinlabel=GND
+T 3150 2400 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 3500 2000 3200 2000 1 0 0
+{
+T 3300 2050 5 8 1 1 0 0 1
+pinnumber=52
+T 3300 1950 5 8 0 1 0 2 1
+pinseq=14
+T 3150 2000 9 8 1 1 0 6 1
+pinlabel=GNDA
+T 3150 2000 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 3500 1600 3200 1600 1 0 0
+{
+T 3300 1650 5 8 1 1 0 0 1
+pinnumber=58
+T 3300 1550 5 8 0 1 0 2 1
+pinseq=18
+T 3150 1600 9 8 1 1 0 6 1
+pinlabel=GNDA
+T 3150 1600 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 3500 1200 3200 1200 1 0 0
+{
+T 3300 1250 5 8 1 1 0 0 1
+pinnumber=61
+T 3300 1150 5 8 0 1 0 2 1
+pinseq=19
+T 3150 1200 9 8 1 1 0 6 1
+pinlabel=GNDA
+T 3150 1200 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 3500 800 3200 800 1 0 0
+{
+T 3300 850 5 8 1 1 0 0 1
+pinnumber=65
+T 3300 750 5 8 0 1 0 2 1
+pinseq=20
+T 3150 800 9 8 1 1 0 6 1
+pinlabel=GND_EP
+T 3150 800 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 100 4400 400 4400 1 0 0
+{
+T 300 4450 5 8 1 1 0 6 1
+pinnumber=1
+T 300 4350 5 8 0 1 0 8 1
+pinseq=1
+T 450 4400 9 8 1 1 0 0 1
+pinlabel=VDD
+T 450 4400 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 100 4000 400 4000 1 0 0
+{
+T 300 4050 5 8 1 1 0 6 1
+pinnumber=9
+T 300 3950 5 8 0 1 0 8 1
+pinseq=3
+T 450 4000 9 8 1 1 0 0 1
+pinlabel=VDD
+T 450 4000 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 100 3600 400 3600 1 0 0
+{
+T 300 3650 5 8 1 1 0 6 1
+pinnumber=23
+T 300 3550 5 8 0 1 0 8 1
+pinseq=6
+T 450 3600 9 8 1 1 0 0 1
+pinlabel=VDD
+T 450 3600 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 100 3200 400 3200 1 0 0
+{
+T 300 3250 5 8 1 1 0 6 1
+pinnumber=38
+T 300 3150 5 8 0 1 0 8 1
+pinseq=11
+T 450 3200 9 8 1 1 0 0 1
+pinlabel=VDD
+T 450 3200 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 100 2800 400 2800 1 0 0
+{
+T 300 2850 5 8 1 1 0 6 1
+pinnumber=48
+T 300 2750 5 8 0 1 0 8 1
+pinseq=13
+T 450 2800 9 8 1 1 0 0 1
+pinlabel=VDD
+T 450 2800 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 100 2400 400 2400 1 0 0
+{
+T 300 2450 5 8 1 1 0 6 1
+pinnumber=55
+T 300 2350 5 8 0 1 0 8 1
+pinseq=15
+T 450 2400 9 8 1 1 0 0 1
+pinlabel=VDDA
+T 450 2400 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 100 2000 400 2000 1 0 0
+{
+T 300 2050 5 8 1 1 0 6 1
+pinnumber=57
+T 300 1950 5 8 0 1 0 8 1
+pinseq=17
+T 450 2000 9 8 1 1 0 0 1
+pinlabel=VDDA
+T 450 2000 5 8 0 1 0 2 1
+pintype=pwr
+}
+P 1000 100 1000 400 1 0 0
+{
+T 950 300 5 8 1 1 90 6 1
+pinnumber=24
+T 1050 300 5 8 0 1 90 8 1
+pinseq=21
+T 1000 450 9 8 1 1 90 0 1
+pinlabel=ENABLE
+T 1000 450 5 8 0 1 90 2 1
+pintype=in
+}
+P 1400 100 1400 400 1 0 0
+{
+T 1350 300 5 8 1 1 90 6 1
+pinnumber=21
+T 1450 300 5 8 0 1 90 8 1
+pinseq=22
+T 1400 450 9 8 1 1 90 0 1
+pinlabel=LOOPEN
+T 1400 450 5 8 0 1 90 2 1
+pintype=in
+}
+P 1800 100 1800 400 1 0 0
+{
+T 1750 300 5 8 1 1 90 6 1
+pinnumber=26
+T 1850 300 5 8 0 1 90 8 1
+pinseq=7
+T 1800 450 9 8 1 1 90 0 1
+pinlabel=PRBSEN
+T 1800 450 5 8 0 1 90 2 1
+pintype=in
+}
+P 2200 100 2200 400 1 0 0
+{
+T 2150 300 5 8 1 1 90 6 1
+pinnumber=56
+T 2250 300 5 8 0 1 90 8 1
+pinseq=16
+T 2200 450 9 8 1 1 90 0 1
+pinlabel=Rref
+T 2200 450 5 8 0 1 90 2 1
+pintype=in
+}
+P 2600 100 2600 400 1 0 0
+{
+T 2550 300 5 8 1 1 90 6 1
+pinnumber=27
+T 2650 300 5 8 0 1 90 8 1
+pinseq=8
+T 2600 450 9 8 1 1 90 0 1
+pinlabel=TESTEN
+T 2600 450 5 8 0 1 90 2 1
+pintype=in
+}
+B 400 400 2800 4400 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 3200 4900 8 10 1 1 0 6 1
+refdes=U?
+T 1600 2500 9 10 1 0 0 0 1
+TLK2XX1-PWR
+T 1600 2700 5 10 0 0 0 0 1
+device=TLK2XX1
+T 1600 2900 5 10 0 0 0 0 1
+footprint=VQFP64
+T 1600 3100 5 10 0 0 0 0 1
+author=mettus
+T 1600 3300 5 10 0 0 0 0 1
+documentation=http://www.ti.com
+T 1600 3500 5 10 0 0 0 0 1
+description=TI SERDES, TLK2501, 2701, and 2711
+T 1600 3700 5 10 0 0 0 0 1
+numslots=0

@@ -1,0 +1,89 @@
+# This is the template file for creating symbols with tragesym
+# every line starting with '#' is a comment line.
+
+[options]
+# rotate_labels rotates the pintext of top and bottom pins
+# wordswap swaps labels if the pin is on the right side an looks like this:
+# "PB1 (CLK)"
+wordswap=yes
+rotate_labels=yes
+sort_labels=no
+generate_pinseq=yes
+sym_width=1800
+pinwidthvertikal=400
+pinwidthhorizontal=400
+
+[geda_attr]
+# name will be printed in the top of the symbol
+# if you have a device with slots, you'll have to use slot= and slotdef=
+# use comment= if there are special information you want to add
+version=20060906
+name=ADS62P4X-LVDS-ADC
+device=ADS62P4X
+refdes=U?
+footprint=QFN64
+description=TI Dual 14-bit 125/105/80/65 MS/s ADC
+documentation=NA
+author=mettus
+numslots=0
+#slot=1
+#slotdef=1:
+#slotdef=2:
+#slotdef=3:
+#slotdef=4:
+comment=Part 3 of 3
+#comment=
+#comment=
+
+[pins]
+# tabseparated list of pin descriptions
+# pinnr is the physical number of the pin
+# seq is the pinseq= attribute, leave it blank if it doesn't matter
+# type can be (in, out, io, oc, oe, pas, tp, tri, clk, pwr)
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net
+# posit. can be (l,r,t,b) or empty for nets
+# net specifies the name of the Vcc or GND name
+# label represents the pinlabel. 
+#	negation lines can be added with _Q_ 
+#	if you want to add a "_" or "\" use "\_" and "\\" as escape sequences
+#-----------------------------------------------------
+#pinnr	seq	type	style	posit.	net	label	
+#-----------------------------------------------------
+
+
+29		in	line	l		INP_A
+30		in	dot	l		\_INN_A\_
+19		in	line	l		INP_B
+20		in	dot	l		\_INN_B\_
+41		out	line	r		DA_0_1_P
+40		out	dot	r		\_DA_0_1_N\_
+43		out	line	r		DA_2_3_P
+42		out	dot	r		\_DA_2_3_N\_
+45		out	line	r		DA_4_5_P
+44		out	dot	r		\_DA_4_5_N\_
+47		out	line	r		DA_6_7_P
+46		out	dot	r		\_DA_6_7_N\_
+51		out	line	r		DA_8_9_P
+50		out	dot	r		\_DA_8_9_N\_
+53		out	line	r		DA_10_11_P
+52		out	dot	r		\_DA_10_11_N\_
+55		out	line	r		DA_12_13_P
+54		out	dot	r		\_DA_12_13_N\_
+61		out	line	r		DB_0_1_P
+60		out	dot	r		\_DB_0_1_N\_
+63		out	line	r		DB_2_3_P
+62		out	dot	r		\_DB_2_3_N\_
+3 		out	line	r		DB_4_5_P
+2		out	dot	r		\_DB_4_5_N\_
+5		out	line	r		DB_6_7_P
+4		out	dot	r		\_DB_6_7_N\_
+7		out	line	r		DB_8_9_P
+6		out	dot	r		\_DB_8_9_N\_
+9		out	line	r		DB_10_11_P
+8		out	dot	r		\_DB_10_11_N\_
+11		out	line	r		DB_12_13_P
+10		out	dot	r		\_DB_12_13_N\_
+25		in	clk	l		CLKinP
+26		in	dotclk	l		\_CLKinN\_
+57		out	clk	r		CLKoutP
+56		out	dotclk	r		\_CLKoutN\_

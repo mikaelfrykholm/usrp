@@ -1,0 +1,126 @@
+# This is the template file for creating symbols with tragesym
+# every line starting with '#' is a comment line.
+
+[options]
+# rotate_labels rotates the pintext of top and bottom pins
+# wordswap swaps labels if the pin is on the right side an looks like this:
+# "PB1 (CLK)"
+wordswap=yes
+rotate_labels=yes
+sort_labels=no
+generate_pinseq=yes
+sym_width=1400
+pinwidthvertikal=400
+pinwidthhorizontal=400
+
+[geda_attr]
+# name will be printed in the top of the symbol
+# if you have a device with slots, you'll have to use slot= and slotdef=
+# use comment= if there are special information you want to add
+version=20060906
+name=CY7C1356C-BZ-PWR
+device=CY7C1356C-BZ
+refdes=U?
+footprint=FBGA165
+description=512Kx18 ZBT/NoBL SRAM, 165 pin FBGA package
+documentation=http://www.cypress.com
+author=mettus
+numslots=0
+#slot=1
+#slotdef=1:
+#slotdef=2:
+#slotdef=3:
+#slotdef=4:
+#comment=
+#comment=
+#comment=
+
+[pins]
+# tabseparated list of pin descriptions
+# pinnr is the physical number of the pin
+# seq is the pinseq= attribute, leave it blank if it doesn't matter
+# type can be (in, out, io, oc, oe, pas, tp, tri, clk, pwr)
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net
+# posit. can be (l,r,t,b) or empty for nets
+# net specifies the name of the Vcc or GND name
+# label represents the pinlabel. 
+#	negation lines can be added with _Q_ 
+#	if you want to add a "_" or "\" use "\_" and "\\" as escape sequences
+#-----------------------------------------------------
+#pinnr	seq	type	style	posit.	net	label	
+#-----------------------------------------------------
+C4		pwr	line	r		GND
+C5		pwr	line	r		GND
+C6		pwr	line	r		GND
+C7		pwr	line	r		GND
+C8		pwr	line	r		GND
+D5		pwr	line	r		GND
+D6		pwr	line	r		GND
+D7		pwr	line	r		GND
+E5		pwr	line	r		GND
+E6		pwr	line	r		GND
+E7		pwr	line	r		GND
+F5		pwr	line	r		GND
+F6		pwr	line	r		GND
+F7		pwr	line	r		GND
+G5		pwr	line	r		GND
+G6		pwr	line	r		GND
+G7		pwr	line	r		GND
+H5		pwr	line	r		GND
+H6		pwr	line	r		GND
+H7		pwr	line	r		GND
+J5		pwr	line	r		GND
+J6		pwr	line	r		GND
+J7		pwr	line	r		GND
+K5		pwr	line	r		GND
+K6		pwr	line	r		GND
+K7		pwr	line	r		GND
+L5		pwr	line	r		GND
+L6		pwr	line	r		GND
+L7		pwr	line	r		GND
+M5		pwr	line	r		GND
+M6		pwr	line	r		GND
+M7		pwr	line	r		GND
+N4		pwr	line	r		GND
+N8		pwr	line	r		GND
+
+C3		pwr	line	l		VDDQ
+D3		pwr	line	l		VDDQ
+E3		pwr	line	l		VDDQ
+F3		pwr	line	l		VDDQ
+G3		pwr	line	l		VDDQ
+J3		pwr	line	l		VDDQ
+K3		pwr	line	l		VDDQ
+L3		pwr	line	l		VDDQ
+M3		pwr	line	l		VDDQ
+N3		pwr	line	l		VDDQ
+C9		pwr	line	l		VDDQ
+D9		pwr	line	l		VDDQ
+E9		pwr	line	l		VDDQ
+F9		pwr	line	l		VDDQ
+G9		pwr	line	l		VDDQ
+J9		pwr	line	l		VDDQ
+K9		pwr	line	l		VDDQ
+L9		pwr	line	l		VDDQ
+M9		pwr	line	l		VDDQ
+N9		pwr	line	l		VDDQ
+
+D4		pwr	line	l		VDD
+E4		pwr	line	l		VDD
+F4		pwr	line	l		VDD
+G4		pwr	line	l		VDD
+H4		pwr	line	l		VDD
+J4		pwr	line	l		VDD
+K4		pwr	line	l		VDD
+L4		pwr	line	l		VDD
+M4		pwr	line	l		VDD
+
+D8		pwr	line	l		VDD
+E8		pwr	line	l		VDD
+F8		pwr	line	l		VDD
+G8		pwr	line	l		VDD
+H8		pwr	line	l		VDD
+J8		pwr	line	l		VDD
+K8		pwr	line	l		VDD
+L8		pwr	line	l		VDD
+M8		pwr	line	l		VDD

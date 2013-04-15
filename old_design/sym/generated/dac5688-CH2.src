@@ -1,0 +1,69 @@
+# This is the template file for creating symbols with tragesym
+# every line starting with '#' is a comment line.
+
+[options]
+# rotate_labels rotates the pintext of top and bottom pins
+# wordswap swaps labels if the pin is on the right side an looks like this:
+# "PB1 (CLK)"
+wordswap=yes
+rotate_labels=yes
+sort_labels=no
+generate_pinseq=yes
+sym_width=2400
+pinwidthvertikal=400
+pinwidthhorizontal=400
+
+[geda_attr]
+# name will be printed in the top of the symbol
+# if you have a device with slots, you'll have to use slot= and slotdef=
+# use comment= if there are special information you want to add
+version=20060906
+name=DAC5688-CH2
+device=DAC5688
+refdes=U?
+footprint=QFN64_9x9
+description=800 MS/s 16-bit DAC
+documentation=NA
+author=mettus
+numslots=0
+#slot=1
+#slotdef=1:
+#slotdef=2:
+#slotdef=3:
+#slotdef=4:
+comment=Part 4 of 4
+#comment=
+#comment=
+
+[pins]
+# tabseparated list of pin descriptions
+# pinnr is the physical number of the pin
+# seq is the pinseq= attribute, leave it blank if it doesn't matter
+# type can be (in, out, io, oc, oe, pas, tp, tri, clk, pwr)
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net
+# posit. can be (l,r,t,b) or empty for nets
+# net specifies the name of the Vcc or GND name
+# label represents the pinlabel. 
+#	negation lines can be added with _Q_ 
+#	if you want to add a "_" or "\" use "\_" and "\\" as escape sequences
+#-----------------------------------------------------
+#pinnr	seq	type	style	posit.	net	label	
+#-----------------------------------------------------
+43		in	line	l		DB15_P2/MUX
+42		in	line	l		DB14_P2
+41		in	line	l		DB13_P2
+40		in	line	l		DB12_P2
+38		in	line	l		DB11_P2
+37		in	line	l		DB10_P2
+36		in	line	l		DB9_P2
+35		in	line	l		DB8_P2
+34		in	line	l		DB7_P2
+33		in	line	l		DB6_P2
+32		in	line	l		DB5_P2
+31		in	line	l		DB4_P2
+30		in	line	l		DB3_P2
+29		in	line	l		DB2_P2
+28		in	line	l		DB1_P2
+27		in	line	l		DB0_P2
+61		out	line	r		IOUT2_P
+60		out	line	r		\_IOUT2_N\_

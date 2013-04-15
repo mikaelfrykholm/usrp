@@ -1,0 +1,4 @@
+(component-library "../sym")
+(component-library "../sym/generated")
+(paper-size 17.0 11.0) ; tabloid
+

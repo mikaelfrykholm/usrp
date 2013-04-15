@@ -1,0 +1,115 @@
+# This is the template file for creating symbols with tragesym
+# every line starting with '#' is a comment line.
+
+[options]
+# rotate_labels rotates the pintext of top and bottom pins
+# wordswap swaps labels if the pin is on the right side an looks like this:
+# "PB1 (CLK)"
+wordswap=yes
+rotate_labels=yes
+sort_labels=no
+generate_pinseq=yes
+sym_width=3700
+pinwidthvertikal=400
+pinwidthhorizontal=400
+
+[geda_attr]
+# name will be printed in the top of the symbol
+# if you have a device with slots, you'll have to use slot= and slotdef=
+# use comment= if there are special information you want to add
+version=20090328
+name=TFP410
+device=TFP410PAP
+refdes=U?
+footprint=HTQFP (PAP)
+description=DVI display driver
+documentation=http://focus.ti.com/docs/prod/folders/print/tfp410.html
+author=jblum
+numslots=0
+#slot=1
+#slotdef=1:
+#slotdef=2:
+#slotdef=3:
+#slotdef=4:
+#comment=
+#comment=
+
+[pins]
+# tabseparated list of pin descriptions
+# pinnr is the physical number of the pin
+# seq is the pinseq= attribute, leave it blank if it doesn't matter
+# type can be (in, out, io, oc, oe, pas, tp, tri, clk, pwr)
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net
+# posit. can be (l,r,t,b) or empty for nets
+# net specifies the name of the Vcc or GND name
+# label represents the pinlabel. 
+#	negation lines can be added with _Q_ 
+#	if you want to add a "_" or "\" use "\_" and "\\" as escape sequences
+#-----------------------------------------------------
+#pinnr	seq	type	style	posit.	net	label	
+#-----------------------------------------------------
+57		in	line	l		IDCK+
+56		in	line	l		IDCK-
+63		in	line	l		DATA0
+62		in	line	l		DATA1
+61		in	line	l		DATA2
+60		in	line	l		DATA3
+59		in	line	l		DATA4
+58		in	line	l		DATA5
+55		in	line	l		DATA6
+54		in	line	l		DATA7
+53		in	line	l		DATA8
+52		in	line	l		DATA9
+51		in	line	l		DATA10
+50		in	line	l		DATA11
+47		in	line	l		DATA12
+46		in	line	l		DATA13
+45		in	line	l		DATA14
+44		in	line	l		DATA15
+43		in	line	l		DATA16
+42		in	line	l		DATA17
+41		in	line	l		DATA18
+40		in	line	l		DATA19
+39		in	line	l		DATA20
+38		in	line	l		DATA21
+37		in	line	l		DATA22
+36		in	line	l		DATA23
+2		in	line	l		DE
+4		in	line	l		VSYNC
+5		in	line	l		HSYNC
+3		in	line	l		VREF
+9		in	line	l		EDGE/HTPLG
+35		in	line	l		DKEN
+11		out	line	l		MSEN/PO1
+10		in	line	l		\_PD\_
+13		in	line	l		ISEL/\_RST\_
+6		in	line	l		CTL3/A3/DK3
+7		in	line	l		CTL2/A2/DK2
+8		in	line	l		CTL1/A1/DK1
+15		io	line	l		BSEL/SCL
+14		io	line	l		DSEL/SDA
+16		pwr	line	b		DGND
+48		pwr	line	b		DGND
+64		pwr	line	b		DGND
+17		pwr	line	b		PGND
+20		pwr	line	b		TGND
+26		pwr	line	b		TGND
+32		pwr	line	b		TGND
+65		pwr	line	b		TP
+31		out	line	r		TX2+
+30		out	line	r		TX2-
+28		out	line	r		TX1+
+27		out	line	r		TX1-
+25		out	line	r		TX0+
+24		out	line	r		TX0-
+22		out	line	r		TXC+
+21		out	line	r		TXC-
+19		in	line	r		TFADJ
+49		io	line	r		NC
+34		io	line	r		RESERVED
+1		pwr	line	t		DVDD
+12		pwr	line	t		DVDD
+33		pwr	line	t		DVDD
+18		pwr	line	t		PVDD
+23		pwr	line	t		TVDD
+29		pwr	line	t		TVDD

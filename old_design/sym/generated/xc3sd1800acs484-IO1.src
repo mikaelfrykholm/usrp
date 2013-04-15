@@ -1,0 +1,96 @@
+
+[options]
+wordswap=yes
+rotate_labels=yes
+sort_labels=yes
+generate_pinseq=yes
+sym_width=3200
+pinwidthvertikal=400
+pinwidthhorizontal=400
+[geda_attr]
+version=20060906
+name=XC3SD1800ACS484-IO1
+device=XC3SD1800ACS484
+refdes=U?
+footprint=CS484
+description=Xilinx Spartan 3A-DSP 1800 CS484
+documentation=http://www.xilinx.com
+author=xilinxgen.py
+numslots=0
+[pins]
+AA22		io	line	l		IO_L02N_1/LDC0
+C21		in	line	r		IP_L39N_1
+C22		io	line	r		IP_L39P_1/VREF_1
+D20		io	line	l		IO_L36P_1/A20
+D21		io	line	l		IO_L37P_1/A22
+D22		io	line	l		IO_L37N_1/A23
+E19		io	line	l		IO_L36N_1/A21
+E20		io	line	l		IO_L35N_1
+E21		pwr	line	b		VCCO_1
+E22		io	line	l		IO_L33N_1
+F18		io	line	l		IO_L38N_1/A25
+F19		io	line	l		IO_L38P_1/A24
+F20		io	line	l		IO_L30N_1/A19
+F21		io	line	l		IO_L35P_1
+F22		io	line	l		IO_L33P_1
+G17		io	line	l		IO_L34P_1
+G18		io	line	l		IO_L34N_1
+G19		io	line	l		IO_L30P_1/A18
+G20		in	line	r		IP_L31N_1
+G22		io	line	l		IO_L28N_1
+H17		io	line	l		IO_L26P_1/A14
+H18		io	line	l		IO_L26N_1/A15
+H20		io	line	l		IO_L32N_1
+H21		io	line	r		IP_L31P_1/VREF_1
+H22		io	line	l		IO_L28P_1
+J17		io	line	l		IO_L29N_1/A17
+J18		pwr	line	b		VCCO_1
+J19		io	line	l		IO_L32P_1
+J20		io	line	l		IO_L25N_1/A13
+J21		in	line	r		IP_L27P_1
+J22		in	line	r		IP_L27N_1
+K16		io	line	l		IO_L29P_1/A16
+K17		in	line	r		IP_L23N_1
+K18		io	line	l		IO_L24N_1
+K19		io	line	l		IO_L24P_1
+K20		io	line	l		IO_L25P_1/A12
+K21		pwr	line	b		VCCO_1
+K22		io	line	l		IO_L22N_1/A11
+L18		io	line	r		IP_L23P_1/VREF_1
+L22		io	line	l		IO_L22P_1/A10
+M22		io	line	l		IO_L17N_1/A9
+N17		io	line	l		IO_L13P_1/A2
+N19		io	line	l		IO_L15N_1/A7
+N20		io	line	l		IO_L15P_1/A6
+N22		io	line	l		IO_L17P_1/A8
+P16		io	line	l		IO_L13N_1/A3
+P17		io	line	r		IP_L12N_1/VREF_1
+P18		pwr	line	b		VCCO_1
+P19		io	line	l		IO_L10P_1
+P20		in	line	r		IP_L16N_1
+P21		pwr	line	b		VCCO_1
+P22		io	line	l		IO_L14N_1/A5
+R17		in	line	r		IP_L12P_1
+R18		io	line	l		IO_L10N_1
+R19		io	line	l		IO_L07P_1
+R20		io	line	l		IO_L07N_1
+R21		io	line	r		IP_L16P_1/VREF_1
+R22		io	line	l		IO_L14P_1/A4
+T17		io	line	l		IO_L05N_1
+T18		io	line	l		IO_L05P_1
+T20		io	line	l		IO_L09N_1
+T22		io	line	r		IO_L11N_1/VREF_1
+U18		io	line	l		IO_L01P_1/HDC
+U19		io	line	l		IO_L01N_1/LDC2
+U20		io	line	l		IO_L09P_1
+U21		io	line	r		IP_L08N_1/VREF_1
+U22		io	line	l		IO_L11P_1
+V20		io	line	l		IO_L03N_1/A1
+V21		pwr	line	b		VCCO_1
+V22		in	line	r		IP_L08P_1
+W19		io	line	l		IO_L03P_1/A0
+W20		io	line	r		IP_L04N_1/VREF_1
+W21		in	line	r		IP_L04P_1
+W22		io	line	l		IO_L06P_1
+Y21		io	line	l		IO_L02P_1/LDC1
+Y22		io	line	l		IO_L06N_1

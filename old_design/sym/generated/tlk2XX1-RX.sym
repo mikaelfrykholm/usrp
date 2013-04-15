@@ -1,0 +1,263 @@
+v 20060906 1
+P 3700 8100 3500 8100 1 0 0
+{
+T 3500 8150 5 8 1 1 0 0 1
+pinnumber=53
+T 3500 8050 5 8 0 1 0 2 1
+pinseq=21
+T 3350 8100 9 8 1 1 0 6 1
+pinlabel=\_DINRXN\_
+T 3350 8100 5 8 0 1 0 8 1
+pintype=in
+}
+V 3450 8100 50 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 3700 7700 3400 7700 1 0 0
+{
+T 3500 7750 5 8 1 1 0 0 1
+pinnumber=54
+T 3500 7650 5 8 0 1 0 2 1
+pinseq=22
+T 3350 7700 9 8 1 1 0 6 1
+pinlabel=DINRXP
+T 3350 7700 5 8 0 1 0 8 1
+pintype=in
+}
+P 100 8100 400 8100 1 0 0
+{
+T 300 8150 5 8 1 1 0 6 1
+pinnumber=25
+T 300 8050 5 8 0 1 0 8 1
+pinseq=1
+T 450 8100 9 8 1 1 0 0 1
+pinlabel=LCKREFN
+T 450 8100 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 7700 400 7700 1 0 0
+{
+T 300 7750 5 8 1 1 0 6 1
+pinnumber=29
+T 300 7650 5 8 0 1 0 8 1
+pinseq=2
+T 450 7700 9 8 1 1 0 0 1
+pinlabel=RKLSB/RX_ER/PRBS_PASS
+T 450 7700 5 8 0 1 0 2 1
+pintype=out
+}
+P 100 7300 400 7300 1 0 0
+{
+T 300 7350 5 8 1 1 0 6 1
+pinnumber=30
+T 300 7250 5 8 0 1 0 8 1
+pinseq=3
+T 450 7300 9 8 1 1 0 0 1
+pinlabel=RKMSB/RX_DV/LOS
+T 450 7300 5 8 0 1 0 2 1
+pintype=out
+}
+P 100 6900 400 6900 1 0 0
+{
+T 300 6950 5 8 1 1 0 6 1
+pinnumber=51
+T 300 6850 5 8 0 1 0 8 1
+pinseq=20
+T 450 6900 9 8 1 1 0 0 1
+pinlabel=RXD0
+T 450 6900 5 8 0 1 0 2 1
+pintype=out
+}
+P 100 6500 400 6500 1 0 0
+{
+T 300 6550 5 8 1 1 0 6 1
+pinnumber=50
+T 300 6450 5 8 0 1 0 8 1
+pinseq=19
+T 450 6500 9 8 1 1 0 0 1
+pinlabel=RXD1
+T 450 6500 5 8 0 1 0 2 1
+pintype=out
+}
+P 100 6100 400 6100 1 0 0
+{
+T 300 6150 5 8 1 1 0 6 1
+pinnumber=49
+T 300 6050 5 8 0 1 0 8 1
+pinseq=18
+T 450 6100 9 8 1 1 0 0 1
+pinlabel=RXD2
+T 450 6100 5 8 0 1 0 2 1
+pintype=out
+}
+P 100 5700 400 5700 1 0 0
+{
+T 300 5750 5 8 1 1 0 6 1
+pinnumber=47
+T 300 5650 5 8 0 1 0 8 1
+pinseq=17
+T 450 5700 9 8 1 1 0 0 1
+pinlabel=RXD3
+T 450 5700 5 8 0 1 0 2 1
+pintype=out
+}
+P 100 5300 400 5300 1 0 0
+{
+T 300 5350 5 8 1 1 0 6 1
+pinnumber=46
+T 300 5250 5 8 0 1 0 8 1
+pinseq=16
+T 450 5300 9 8 1 1 0 0 1
+pinlabel=RXD4
+T 450 5300 5 8 0 1 0 2 1
+pintype=out
+}
+P 100 4900 400 4900 1 0 0
+{
+T 300 4950 5 8 1 1 0 6 1
+pinnumber=45
+T 300 4850 5 8 0 1 0 8 1
+pinseq=15
+T 450 4900 9 8 1 1 0 0 1
+pinlabel=RXD5
+T 450 4900 5 8 0 1 0 2 1
+pintype=out
+}
+P 100 4500 400 4500 1 0 0
+{
+T 300 4550 5 8 1 1 0 6 1
+pinnumber=44
+T 300 4450 5 8 0 1 0 8 1
+pinseq=14
+T 450 4500 9 8 1 1 0 0 1
+pinlabel=RXD6
+T 450 4500 5 8 0 1 0 2 1
+pintype=out
+}
+P 100 4100 400 4100 1 0 0
+{
+T 300 4150 5 8 1 1 0 6 1
+pinnumber=42
+T 300 4050 5 8 0 1 0 8 1
+pinseq=13
+T 450 4100 9 8 1 1 0 0 1
+pinlabel=RXD7
+T 450 4100 5 8 0 1 0 2 1
+pintype=out
+}
+P 100 3700 400 3700 1 0 0
+{
+T 300 3750 5 8 1 1 0 6 1
+pinnumber=40
+T 300 3650 5 8 0 1 0 8 1
+pinseq=11
+T 450 3700 9 8 1 1 0 0 1
+pinlabel=RXD8
+T 450 3700 5 8 0 1 0 2 1
+pintype=out
+}
+P 100 3300 400 3300 1 0 0
+{
+T 300 3350 5 8 1 1 0 6 1
+pinnumber=39
+T 300 3250 5 8 0 1 0 8 1
+pinseq=10
+T 450 3300 9 8 1 1 0 0 1
+pinlabel=RXD9
+T 450 3300 5 8 0 1 0 2 1
+pintype=out
+}
+P 100 2900 400 2900 1 0 0
+{
+T 300 2950 5 8 1 1 0 6 1
+pinnumber=37
+T 300 2850 5 8 0 1 0 8 1
+pinseq=9
+T 450 2900 9 8 1 1 0 0 1
+pinlabel=RXD10
+T 450 2900 5 8 0 1 0 2 1
+pintype=out
+}
+P 100 2500 400 2500 1 0 0
+{
+T 300 2550 5 8 1 1 0 6 1
+pinnumber=36
+T 300 2450 5 8 0 1 0 8 1
+pinseq=8
+T 450 2500 9 8 1 1 0 0 1
+pinlabel=RXD11
+T 450 2500 5 8 0 1 0 2 1
+pintype=out
+}
+P 100 2100 400 2100 1 0 0
+{
+T 300 2150 5 8 1 1 0 6 1
+pinnumber=35
+T 300 2050 5 8 0 1 0 8 1
+pinseq=7
+T 450 2100 9 8 1 1 0 0 1
+pinlabel=RXD12
+T 450 2100 5 8 0 1 0 2 1
+pintype=out
+}
+P 100 1700 400 1700 1 0 0
+{
+T 300 1750 5 8 1 1 0 6 1
+pinnumber=34
+T 300 1650 5 8 0 1 0 8 1
+pinseq=6
+T 450 1700 9 8 1 1 0 0 1
+pinlabel=RXD13
+T 450 1700 5 8 0 1 0 2 1
+pintype=out
+}
+P 100 1300 400 1300 1 0 0
+{
+T 300 1350 5 8 1 1 0 6 1
+pinnumber=32
+T 300 1250 5 8 0 1 0 8 1
+pinseq=5
+T 450 1300 9 8 1 1 0 0 1
+pinlabel=RXD14
+T 450 1300 5 8 0 1 0 2 1
+pintype=out
+}
+P 100 900 400 900 1 0 0
+{
+T 300 950 5 8 1 1 0 6 1
+pinnumber=31
+T 300 850 5 8 0 1 0 8 1
+pinseq=4
+T 450 900 9 8 1 1 0 0 1
+pinlabel=RXD15
+T 450 900 5 8 0 1 0 2 1
+pintype=out
+}
+P 100 500 400 500 1 0 0
+{
+T 300 550 5 8 1 1 0 6 1
+pinnumber=41
+T 300 450 5 8 0 1 0 8 1
+pinseq=12
+T 525 500 9 8 1 1 0 0 1
+pinlabel=RX_CLK
+T 525 500 5 8 0 1 0 2 1
+pintype=out
+}
+L 500 500 400 575 3 0 0 0 -1 -1
+L 500 500 400 425 3 0 0 0 -1 -1
+B 400 100 3000 8400 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 3400 8600 8 10 1 1 0 6 1
+refdes=U?
+T 400 8600 9 10 1 0 0 0 1
+TLK2XX1-RX
+T 400 8800 5 10 0 0 0 0 1
+device=TLK2X01
+T 400 9000 5 10 0 0 0 0 1
+footprint=VQFP64
+T 400 9200 5 10 0 0 0 0 1
+author=mettus
+T 400 9400 5 10 0 0 0 0 1
+documentation=http://www.ti.com
+T 400 9600 5 10 0 0 0 0 1
+description=TI SERDES, TLK2501, 2701, and 2711
+T 400 9800 5 10 0 0 0 0 1
+numslots=0

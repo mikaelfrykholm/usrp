@@ -1,0 +1,106 @@
+v 20090328 2
+P 100 2800 400 2800 1 0 0
+{
+T 300 2850 5 8 1 1 0 6 1
+pinnumber=5
+T 300 2750 5 8 0 1 0 8 1
+pinseq=5
+T 450 2800 9 8 1 1 0 0 1
+pinlabel=Vin
+T 450 2800 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 2000 400 2000 1 0 0
+{
+T 300 2050 5 8 1 1 0 6 1
+pinnumber=6
+T 300 1950 5 8 0 1 0 8 1
+pinseq=6
+T 450 2000 9 8 1 1 0 0 1
+pinlabel=Vbias
+T 450 2000 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 1600 400 1600 1 0 0
+{
+T 300 1650 5 8 1 1 0 6 1
+pinnumber=7
+T 300 1550 5 8 0 1 0 8 1
+pinseq=7
+T 450 1600 9 8 1 1 0 0 1
+pinlabel=EN
+T 450 1600 5 8 0 1 0 2 1
+pintype=in
+}
+P 100 800 400 800 1 0 0
+{
+T 300 850 5 8 1 1 0 6 1
+pinnumber=1
+T 300 750 5 8 0 1 0 8 1
+pinseq=1
+T 450 800 9 8 1 1 0 0 1
+pinlabel=SS
+T 450 800 5 8 0 1 0 2 1
+pintype=in
+}
+P 5100 3200 4800 3200 1 0 0
+{
+T 4900 3250 5 8 1 1 0 0 1
+pinnumber=3
+T 4900 3150 5 8 0 1 0 2 1
+pinseq=3
+T 4750 3200 9 8 1 1 0 6 1
+pinlabel=Vout
+T 4750 3200 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 5100 1200 4800 1200 1 0 0
+{
+T 4900 1250 5 8 1 1 0 0 1
+pinnumber=2
+T 4900 1150 5 8 0 1 0 2 1
+pinseq=2
+T 4750 1200 9 8 1 1 0 6 1
+pinlabel=FB
+T 4750 1200 5 8 0 1 0 8 1
+pintype=in
+}
+P 3600 100 3600 400 1 0 0
+{
+T 3550 300 5 8 1 1 90 6 1
+pinnumber=8
+T 3650 300 5 8 0 1 90 8 1
+pinseq=8
+T 3600 450 9 8 1 1 90 0 1
+pinlabel=GND_TAB
+T 3600 450 5 8 0 1 90 2 1
+pintype=pwr
+}
+P 4000 100 4000 400 1 0 0
+{
+T 3950 300 5 8 1 1 90 6 1
+pinnumber=4
+T 4050 300 5 8 0 1 90 8 1
+pinseq=4
+T 4000 450 9 8 1 1 90 0 1
+pinlabel=GND
+T 4000 450 5 8 0 1 90 2 1
+pintype=pwr
+}
+B 400 400 4400 4000 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 4800 4500 8 10 1 1 0 6 1
+refdes=U?
+T 400 4500 9 10 1 0 0 0 1
+TPS74401KTW
+T 400 4700 5 10 0 0 0 0 1
+device=TPS74401KTW
+T 400 4900 5 10 0 0 0 0 1
+footprint=DDPAK7
+T 400 5100 5 10 0 0 0 0 1
+author=mettus
+T 400 5300 5 10 0 0 0 0 1
+documentation=http://www.ti.com
+T 400 5500 5 10 0 0 0 0 1
+description=TI LDO Regulator
+T 400 5700 5 10 0 0 0 0 1
+numslots=0

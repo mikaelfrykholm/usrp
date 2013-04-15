@@ -1,0 +1,6 @@
+# List all schematics
+schematics anr_int.sch
+
+output-name anr_int
+
+elements-dir ../pkg/newlib

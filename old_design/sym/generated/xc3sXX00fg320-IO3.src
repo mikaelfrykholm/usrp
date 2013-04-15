@@ -1,0 +1,52 @@
+
+[options]
+wordswap=yes
+rotate_labels=yes
+sort_labels=yes
+generate_pinseq=yes
+sym_width=3200
+pinwidthvertikal=400
+pinwidthhorizontal=400
+[geda_attr]
+version=20060906
+name=XC3SXX00FG320-IO3
+device=XC3SXX00FG320
+refdes=U?
+footprint=FG320
+description=Xilinx Spartan 3 400/1000/1500 FG320
+documentation=http://www.xilinx.com
+author=xilinxgen.py
+numslots=0
+[pins]
+K12		pwr	line	b		VCCO_3
+K13		io	line	l		IO_L39N_3
+K14		io	line	l		IO_L39P_3
+K15		io	line	l		IO
+K17		io	line	r		IO_L40N_3/VREF_3
+K18		io	line	l		IO_L40P_3
+L12		pwr	line	b		VCCO_3
+L13		io	line	l		IO_L27P_3
+L14		io	line	l		IO_L27N_3
+L15		io	line	l		IO_L34N_3
+L16		io	line	r		IO_L34P_3/VREF_3
+L17		io	line	l		IO_L35P_3
+L18		io	line	l		IO_L35N_3
+M14		io	line	l		IO_L22N_3
+M15		io	line	l		IO_L23N_3
+M16		io	line	r		IO_L23P_3/VREF_3
+M18		io	line	l		IO_L24N_3
+N14		io	line	l		IO_L22P_3
+N15		io	line	l		IO_L21P_3
+N16		pwr	line	b		VCCO_3
+N17		io	line	l		IO_L24P_3
+P15		io	line	l		IO_L21N_3
+P16		io	line	l		IO_L17N_3
+P17		io	line	l		IO_L20P_3
+P18		io	line	l		IO_L20N_3
+R16		io	line	r		IO_L17P_3/VREF_3
+R17		io	line	l		IO_L19N_3
+R18		io	line	l		IO_L19P_3
+T16		io	line	l		IO_L01P_3/VRN_3/DCI
+T17		io	line	l		IO_L01N_3/VRP_3/DCI
+T18		io	line	l		IO_L16N_3
+U18		io	line	l		IO_L16P_3

@@ -1,0 +1,125 @@
+# This is the template file for creating symbols with tragesym
+# every line starting with '#' is a comment line.
+
+[options]
+# rotate_labels rotates the pintext of top and bottom pins
+# wordswap swaps labels if the pin is on the right side an looks like this:
+# "PB1 (CLK)"
+wordswap=yes
+rotate_labels=yes
+sort_labels=no
+generate_pinseq=yes
+sym_width=1400
+pinwidthvertikal=400
+pinwidthhorizontal=400
+
+[geda_attr]
+# name will be printed in the top of the symbol
+# if you have a device with slots, you'll have to use slot= and slotdef=
+# use comment= if there are special information you want to add
+version=20060906
+name=DP83865-PWR
+device=DP83865
+refdes=U?
+footprint=PQFP-128
+description=National Semi GigPHYter Gigabit Ethernet MAC
+documentation=NA
+author=mettus
+numslots=0
+#slot=1
+#slotdef=1:
+#slotdef=2:
+#slotdef=3:
+#slotdef=4:
+comment=Part 1 of 7
+#comment=
+#comment=
+
+[pins]
+# tabseparated list of pin descriptions
+# pinnr is the physical number of the pin
+# seq is the pinseq= attribute, leave it blank if it doesn't matter
+# type can be (in, out, io, oc, oe, pas, tp, tri, clk, pwr)
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net
+# posit. can be (l,r,t,b) or empty for nets
+# net specifies the name of the Vcc or GND name
+# label represents the pinlabel. 
+#	negation lines can be added with _Q_ 
+#	if you want to add a "_" or "\" use "\_" and "\\" as escape sequences
+#-----------------------------------------------------
+#pinnr	seq	type	style	posit.	net	label	
+#-----------------------------------------------------
+4		pwr	line	l		IO_Vdd
+15		pwr	line	l		IO_Vdd
+21		pwr	line	l		IO_Vdd
+29		pwr	line	l		IO_Vdd
+37		pwr	line	l		IO_Vdd
+42		pwr	line	l		IO_Vdd
+53		pwr	line	l		IO_Vdd
+58		pwr	line	l		IO_Vdd
+69		pwr	line	l		IO_Vdd
+77		pwr	line	l		IO_Vdd
+83		pwr	line	l		IO_Vdd
+90		pwr	line	l		IO_Vdd
+
+11		pwr	line	l		Core_Vdd
+19		pwr	line	l		Core_Vdd
+25		pwr	line	l		Core_Vdd
+35		pwr	line	l		Core_Vdd
+48		pwr	line	l		Core_Vdd
+63		pwr	line	l		Core_Vdd
+73		pwr	line	l		Core_Vdd
+92		pwr	line	l		Core_Vdd
+
+101		pwr	line	l		2V5_Avdd1
+96		pwr	line	l		2V5_Avdd2
+
+103		pwr	line	l		1V8_AVdd1
+105		pwr	line	l		1V8_AVdd1
+111		pwr	line	l		1V8_AVdd1
+117		pwr	line	l		1V8_AVdd1
+123		pwr	line	l		1V8_AVdd1
+
+98		pwr	line	l		1V8_AVdd2
+100		pwr	line	l		1V8_AVdd3
+
+5		pwr	line	r		Vss
+12		pwr	line	r		Vss
+16		pwr	line	r		Vss
+20		pwr	line	r		Vss
+22		pwr	line	r		Vss
+26		pwr	line	r		Vss
+30		pwr	line	r		Vss
+36		pwr	line	r		Vss
+38		pwr	line	r		Vss
+43		pwr	line	r		Vss
+49		pwr	line	r		Vss
+54		pwr	line	r		Vss
+59		pwr	line	r		Vss
+64		pwr	line	r		Vss
+70		pwr	line	r		Vss
+74		pwr	line	r		Vss
+78		pwr	line	r		Vss
+82		pwr	line	r		Vss
+91		pwr	line	r		Vss
+93		pwr	line	r		Vss
+97		pwr	line	r		Vss
+99		pwr	line	r		Vss
+104		pwr	line	r		Vss
+106		pwr	line	r		Vss
+107		pwr	line	r		Vss
+110		pwr	line	r		Vss
+112		pwr	line	r		Vss
+113		pwr	line	r		Vss
+116		pwr	line	r		Vss
+118		pwr	line	r		Vss
+119		pwr	line	r		Vss
+122		pwr	line	r		Vss
+124		pwr	line	r		Vss
+125		pwr	line	r		Vss
+128		pwr	line	r		Vss
+
+102		in	line	b		BG_REF
+2		in	line	l		NC
+23		in	line	l		NC
+84		in	line	l		NC

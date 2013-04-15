@@ -1,0 +1,28 @@
+
+[options]
+wordswap=yes
+rotate_labels=yes
+sort_labels=yes
+generate_pinseq=yes
+sym_width=3200
+pinwidthvertikal=400
+pinwidthhorizontal=400
+[geda_attr]
+version=20060906
+name=XC3SXX00FG456-CLK
+device=XC3SXX00FG456
+refdes=U?
+footprint=FG456
+description=Xilinx Spartan 3 400/1000/1500/2000 FG456
+documentation=http://www.xilinx.com
+author=xilinxgen.py
+numslots=0
+[pins]
+A11		clk	clk	l		IO_L32P_0/GCLK6
+B11		clk	clk	l		IO_L32N_0/GCLK7
+B12		clk	clk	l		IO_L32N_1/GCLK5
+C12		clk	clk	l		IO_L32P_1/GCLK4
+Y11		clk	clk	l		IO_L32P_5/GCLK2
+AA11		clk	clk	l		IO_L32N_5/GCLK3
+AA12		clk	clk	l		IO_L32N_4/GCLK1
+AB12		clk	clk	l		IO_L32P_4/GCLK0

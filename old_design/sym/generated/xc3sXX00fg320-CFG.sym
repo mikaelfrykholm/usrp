@@ -1,0 +1,227 @@
+v 20060906 1
+P 3900 4900 3600 4900 1 0 0
+{
+T 3700 4950 5 8 1 1 0 0 1
+pinnumber=V3
+T 3700 4850 5 8 0 1 0 2 1
+pinseq=17
+T 3550 4900 9 8 1 1 0 6 1
+pinlabel=IO_L01N_5/RDWR_B
+T 3550 4900 5 8 0 1 0 8 1
+pintype=io
+}
+P 3900 4500 3600 4500 1 0 0
+{
+T 3700 4550 5 8 1 1 0 0 1
+pinnumber=V2
+T 3700 4450 5 8 0 1 0 2 1
+pinseq=16
+T 3550 4500 9 8 1 1 0 6 1
+pinlabel=IO_L01P_5/CS_B
+T 3550 4500 5 8 0 1 0 8 1
+pintype=io
+}
+P 3900 4100 3600 4100 1 0 0
+{
+T 3700 4150 5 8 1 1 0 0 1
+pinnumber=T12
+T 3700 4050 5 8 0 1 0 2 1
+pinseq=11
+T 3550 4100 9 8 1 1 0 6 1
+pinlabel=IO_L27N_4/DIN/D0
+T 3550 4100 5 8 0 1 0 8 1
+pintype=io
+}
+P 3900 3700 3600 3700 1 0 0
+{
+T 3700 3750 5 8 1 1 0 0 1
+pinnumber=R12
+T 3700 3650 5 8 0 1 0 2 1
+pinseq=8
+T 3550 3700 9 8 1 1 0 6 1
+pinlabel=IO_L27P_4/D1
+T 3550 3700 5 8 0 1 0 8 1
+pintype=io
+}
+P 3900 3300 3600 3300 1 0 0
+{
+T 3700 3350 5 8 1 1 0 0 1
+pinnumber=R7
+T 3700 3250 5 8 0 1 0 2 1
+pinseq=7
+T 3550 3300 9 8 1 1 0 6 1
+pinlabel=IO_L28N_5/D6
+T 3550 3300 5 8 0 1 0 8 1
+pintype=io
+}
+P 3900 2900 3600 2900 1 0 0
+{
+T 3700 2950 5 8 1 1 0 0 1
+pinnumber=T7
+T 3700 2850 5 8 0 1 0 2 1
+pinseq=10
+T 3550 2900 9 8 1 1 0 6 1
+pinlabel=IO_L28P_5/D7
+T 3550 2900 5 8 0 1 0 8 1
+pintype=io
+}
+P 3900 2500 3600 2500 1 0 0
+{
+T 3700 2550 5 8 1 1 0 0 1
+pinnumber=N11
+T 3700 2450 5 8 0 1 0 2 1
+pinseq=3
+T 3550 2500 9 8 1 1 0 6 1
+pinlabel=IO_L30N_4/D2
+T 3550 2500 5 8 0 1 0 8 1
+pintype=io
+}
+P 3900 2100 3600 2100 1 0 0
+{
+T 3700 2150 5 8 1 1 0 0 1
+pinnumber=P11
+T 3700 2050 5 8 0 1 0 2 1
+pinseq=5
+T 3550 2100 9 8 1 1 0 6 1
+pinlabel=IO_L30P_4/D3
+T 3550 2100 5 8 0 1 0 8 1
+pintype=io
+}
+P 3900 1700 3600 1700 1 0 0
+{
+T 3700 1750 5 8 1 1 0 0 1
+pinnumber=U10
+T 3700 1650 5 8 0 1 0 2 1
+pinseq=15
+T 3550 1700 9 8 1 1 0 6 1
+pinlabel=IO_L31N_4/INIT_B
+T 3550 1700 5 8 0 1 0 8 1
+pintype=io
+}
+P 3900 1300 3600 1300 1 0 0
+{
+T 3700 1350 5 8 1 1 0 0 1
+pinnumber=U9
+T 3700 1250 5 8 0 1 0 2 1
+pinseq=14
+T 3550 1300 9 8 1 1 0 6 1
+pinlabel=IO_L31N_5/D4
+T 3550 1300 5 8 0 1 0 8 1
+pintype=io
+}
+P 3900 900 3600 900 1 0 0
+{
+T 3700 950 5 8 1 1 0 0 1
+pinnumber=V10
+T 3700 850 5 8 0 1 0 2 1
+pinseq=19
+T 3550 900 9 8 1 1 0 6 1
+pinlabel=IO_L31P_4/DOUT/BUSY
+T 3550 900 5 8 0 1 0 8 1
+pintype=io
+}
+P 3900 500 3600 500 1 0 0
+{
+T 3700 550 5 8 1 1 0 0 1
+pinnumber=V9
+T 3700 450 5 8 0 1 0 2 1
+pinseq=18
+T 3550 500 9 8 1 1 0 6 1
+pinlabel=IO_L31P_5/D5
+T 3550 500 5 8 0 1 0 8 1
+pintype=io
+}
+P 100 4900 400 4900 1 0 0
+{
+T 300 4950 5 8 1 1 0 6 1
+pinnumber=T15
+T 300 4850 5 8 0 1 0 8 1
+pinseq=12
+T 450 4900 9 8 1 1 0 0 1
+pinlabel=CCLK
+T 450 4900 5 8 0 1 0 2 1
+pintype=io
+}
+P 100 4500 400 4500 1 0 0
+{
+T 300 4550 5 8 1 1 0 6 1
+pinnumber=R15
+T 300 4450 5 8 0 1 0 8 1
+pinseq=9
+T 450 4500 9 8 1 1 0 0 1
+pinlabel=DONE
+T 450 4500 5 8 0 1 0 2 1
+pintype=io
+}
+P 100 4100 400 4100 1 0 0
+{
+T 300 4150 5 8 1 1 0 6 1
+pinnumber=E6
+T 300 4050 5 8 0 1 0 8 1
+pinseq=2
+T 450 4100 9 8 1 1 0 0 1
+pinlabel=HSWAP_EN
+T 450 4100 5 8 0 1 0 2 1
+pintype=io
+}
+P 100 3700 400 3700 1 0 0
+{
+T 300 3750 5 8 1 1 0 6 1
+pinnumber=P5
+T 300 3650 5 8 0 1 0 8 1
+pinseq=4
+T 450 3700 9 8 1 1 0 0 1
+pinlabel=M0
+T 450 3700 5 8 0 1 0 2 1
+pintype=io
+}
+P 100 3300 400 3300 1 0 0
+{
+T 300 3350 5 8 1 1 0 6 1
+pinnumber=U3
+T 300 3250 5 8 0 1 0 8 1
+pinseq=13
+T 450 3300 9 8 1 1 0 0 1
+pinlabel=M1
+T 450 3300 5 8 0 1 0 2 1
+pintype=io
+}
+P 100 2900 400 2900 1 0 0
+{
+T 300 2950 5 8 1 1 0 6 1
+pinnumber=R4
+T 300 2850 5 8 0 1 0 8 1
+pinseq=6
+T 450 2900 9 8 1 1 0 0 1
+pinlabel=M2
+T 450 2900 5 8 0 1 0 2 1
+pintype=io
+}
+P 100 2500 400 2500 1 0 0
+{
+T 300 2550 5 8 1 1 0 6 1
+pinnumber=E5
+T 300 2450 5 8 0 1 0 8 1
+pinseq=1
+T 450 2500 9 8 1 1 0 0 1
+pinlabel=PROG_B
+T 450 2500 5 8 0 1 0 2 1
+pintype=io
+}
+B 400 100 3200 5200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 3600 5400 8 10 1 1 0 6 1
+refdes=U?
+T 400 5400 9 10 1 0 0 0 1
+XC3SXX00FG320-CFG
+T 400 5600 5 10 0 0 0 0 1
+device=XC3SXX00FG320
+T 400 5800 5 10 0 0 0 0 1
+footprint=FG320
+T 400 6000 5 10 0 0 0 0 1
+author=xilinxgen.py
+T 400 6200 5 10 0 0 0 0 1
+documentation=http://www.xilinx.com
+T 400 6400 5 10 0 0 0 0 1
+description=Xilinx Spartan 3 400/1000/1500 FG320
+T 400 6600 5 10 0 0 0 0 1
+numslots=0

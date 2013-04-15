@@ -1,0 +1,28 @@
+
+[options]
+wordswap=yes
+rotate_labels=yes
+sort_labels=yes
+generate_pinseq=yes
+sym_width=3200
+pinwidthvertikal=400
+pinwidthhorizontal=400
+[geda_attr]
+version=20060906
+name=XC3SD1800ACS484-BOTCLK
+device=XC3SD1800ACS484
+refdes=U?
+footprint=CS484
+description=Xilinx Spartan 3A-DSP 1800 CS484
+documentation=http://www.xilinx.com
+author=xilinxgen.py
+numslots=0
+[pins]
+AA12		clk	clk	l		IO_L16P_2/GCLK14
+AA14		clk	clk	l		IO_L18N_2/GCLK2
+AB12		clk	clk	l		IO_L16N_2/GCLK15
+AB13		clk	clk	l		IO_L18P_2
+U12		clk	clk	l		IO_L17P_2/GCLK0
+V12		clk	clk	l		IO_L17N_2/GCLK1
+Y10		clk	clk	l		IO_L15N_2/GCLK13
+Y11		clk	clk	l		IO_L15P_2/GCLK12

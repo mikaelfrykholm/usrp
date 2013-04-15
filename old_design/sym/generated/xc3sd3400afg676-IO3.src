@@ -1,0 +1,145 @@
+
+[options]
+wordswap=yes
+rotate_labels=yes
+sort_labels=yes
+generate_pinseq=yes
+sym_width=6000
+pinwidthvertikal=400
+pinwidthhorizontal=400
+[geda_attr]
+version=20060906
+name=XC3SD3400AFG676-IO3
+device=XC3SD3400AFG676
+refdes=U?
+footprint=FG676
+description=Xilinx Spartan 3A-DSP 1800/3400 FG676
+documentation=http://www.xilinx.com
+author=xilinxgen.py
+numslots=0
+[pins]
+AA2		io	line	l		IO_L55P_3
+AA3		io	line	l		IO_L55N_3
+AA5		in	line	r		IP_3/VREF_3
+AB1		io	line	l		IO_L60P_3
+AB2		pwr	line	b		VCCO_3
+AC1		io	line	l		IO_L60N_3
+AC2		io	line	l		IO_L64P_3
+AC3		io	line	l		IO_L64N_3
+AD1		io	line	l		IO_L65P_3
+AD2		io	line	l		IO_L65N_3
+AE1		in	line	r		IP_L66P_3
+AE2		in	line	r		IP_L66N_3/VREF_3
+B1		io	line	l		IO_L02N_3
+B2		io	line	l		IO_L02P_3
+C1		in	line	r		IP_3/VREF_3
+C2		pwr	line	b		VCCO_3
+D3		io	line	l		IO_L06P_3
+E1		io	line	l		IO_L11P_3
+E2		pwr	line	b		VCCO_3
+E3		io	line	l		IO_L07P_3
+E4		io	line	l		IO_L06N_3
+F2		io	line	l		IO_L11N_3
+F3		io	line	l		IO_L14N_3
+F4		io	line	l		IO_L07N_3
+F5		io	line	l		IO_L09P_3
+G1		in	line	r		IP_3
+G3		io	line	l		IO_L14P_3
+G4		io	line	l		IO_L09N_3
+G6		io	line	l		IO_L03P_3
+H1		io	line	l		IO_L17N_3
+H2		io	line	l		IO_L17P_3
+H4		in	line	r		IP_3/VREF_3
+H5		pwr	line	b		VCCO_3
+H6		io	line	l		IO_L10N_3
+H7		io	line	l		IO_L03N_3
+J1		in	line	r		IP_L24P_3
+J2		in	line	r		IP_L20N_3/VREF_3
+J3		in	line	r		IP_L20P_3
+J4		io	line	l		IO_L19N_3
+J5		io	line	l		IO_L19P_3
+J6		io	line	l		IO_L13N_3
+J7		io	line	l		IO_L10P_3
+J8		io	line	l		IO_L01P_3
+J9		io	line	l		IO_L01N_3
+K1		in	line	r		IP_L24N_3
+K2		io	line	l		IO_L23N_3
+K3		io	line	l		IO_L23P_3
+K4		io	line	l		IO_L22N_3
+K5		io	line	l		IO_L22P_3
+K6		io	line	l		IO_L18P_3
+K7		io	line	l		IO_L13P_3
+K8		io	line	l		IO_L05N_3
+K9		io	line	l		IO_L05P_3
+L2		pwr	line	b		VCCO_3
+L3		io	line	l		IO_L25N_3
+L4		io	line	l		IO_L25P_3
+L7		io	line	l		IO_L18N_3
+L8		pwr	line	b		VCCO_3
+L9		io	line	l		IO_L15N_3
+L10		io	line	l		IO_L15P_3
+M1		io	line	r		IO_L29N_3/VREF_3
+M2		io	line	l		IO_L29P_3
+M3		io	line	l		IO_L27N_3
+M4		io	line	l		IO_L27P_3
+M5		io	line	l		IO_L28P_3
+M6		io	line	l		IO_L28N_3
+M7		io	line	l		IO_L26N_3
+M8		io	line	l		IO_L26P_3
+M9		io	line	l		IO_L21N_3
+M10		io	line	l		IO_L21P_3
+N1		io	line	l		IO_L31P_3
+N2		io	line	l		IO_L31N_3
+N4		io	line	l		IO_L30N_3
+N5		io	line	l		IO_L30P_3
+P5		pwr	line	b		VCCO_3
+P6		io	line	l		IO_L39N_3
+P7		io	line	l		IO_L39P_3
+P8		io	line	l		IO_L41P_3
+P9		io	line	l		IO_L41N_3
+R1		io	line	r		IO_L36P_3/VREF_3
+R2		io	line	l		IO_L36N_3
+R3		io	line	l		IO_L37P_3
+R4		io	line	l		IO_L37N_3
+R5		io	line	l		IO_L40P_3
+R6		io	line	l		IO_L40N_3
+R7		io	line	l		IO_L45N_3
+R8		io	line	l		IO_L45P_3
+R9		io	line	l		IO_L43N_3
+R10		io	line	r		IO_L43P_3/VREF_3
+T2		pwr	line	b		VCCO_3
+T3		io	line	l		IO_L38P_3
+T4		io	line	l		IO_L38N_3
+T5		io	line	l		IO_L42P_3
+T7		io	line	l		IO_L51P_3
+T8		pwr	line	b		VCCO_3
+T9		io	line	l		IO_L48N_3
+T10		io	line	l		IO_L48P_3
+U1		io	line	l		IO_L44P_3
+U2		io	line	l		IO_L44N_3
+U3		in	line	r		IP_L46P_3
+U4		io	line	l		IO_L42N_3
+U5		io	line	l		IO_L49P_3
+U6		io	line	l		IO_L51N_3
+U7		io	line	l		IO_L56P_3
+U8		io	line	l		IO_L56N_3
+U9		io	line	l		IO_L61P_3
+V1		io	line	l		IO_L47P_3
+V2		io	line	l		IO_L47N_3
+V4		in	line	r		IP_L46N_3
+V5		io	line	l		IO_L49N_3
+V6		io	line	l		IO_L59N_3
+V7		io	line	l		IO_L59P_3
+V8		io	line	l		IO_L61N_3
+W1		in	line	r		IP_L50P_3
+W2		in	line	r		IP_L50N_3/VREF_3
+W3		io	line	l		IO_L52P_3
+W4		io	line	l		IO_L52N_3
+W5		pwr	line	b		VCCO_3
+W6		io	line	l		IO_L63N_3
+W7		io	line	l		IO_L63P_3
+Y1		io	line	l		IO_L53P_3
+Y2		io	line	l		IO_L53N_3
+Y3		in	line	r		IP_3
+Y5		io	line	l		IO_L57P_3
+Y6		io	line	l		IO_L57N_3

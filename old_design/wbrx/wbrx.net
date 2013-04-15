@@ -1,0 +1,90 @@
+unnamed_net44	T1-2 R8-2 
+unnamed_net43	R8-1 C24-1 R7-1 R6-2 
+unnamed_net42	T1-3 R11-1 
+unnamed_net41	T1-1 R10-1 
+unnamed_net40	C44-2 L4-2 U2-1 
+unnamed_net39	C67-2 R96-2 R94-1 
+unnamed_net38	R95-1 R93-2 C61-1 
+unnamed_net37	R51-1 U5-46 
+unnamed_net36	L1-2 U5-48 
+unnamed_net35	U5-29 C8-1 
+unnamed_net34	U5-9 C7-1 
+unnamed_net33	L2-2 C1-1 U3-2 
+unnamed_net32	L2-1 C2-1 U3-1 
+unnamed_net31	R61-1 C6-2 
+unnamed_net30	C1-2 U5-36 
+unnamed_net29	C2-2 U5-35 
+unnamed_net28	C4-2 R61-2 R60-1 U5-18 
+unnamed_net27	R60-2 C5-1 U5-8 
+unnamed_net26	R52-1 C3-2 U5-40 
+unnamed_net25	C66-1 U3-5 U5-39 
+unnamed_net24	C66-2 U3-4 U5-38 
+unnamed_net23	R55-2 R54-2 U5-12 
+unnamed_net22	R57-2 R56-2 U5-14 
+unnamed_net21	R59-2 R58-2 U5-13 
+unnamed_net20	U5-47 C87-2 R21-1 
+unnamed_net19	R14-1 C17-2 
+unnamed_net18	U5-30 C59-1 R13-2 
+unnamed_net17	U5-26 R14-2 R13-1 C16-2 
+unnamed_net16	U5-22 C63-2 
+unnamed_net15	R96-1 C68-2 C62-1 R95-2 C63-1 
+unnamed_net14	U5-2 C73-2 
+unnamed_net13	U5-3 C72-2 
+unnamed_net12	L5-2 C72-1 
+unnamed_net11	L99-1 C99-2 
+unnamed_net10	J3-1 C99-1 
+unnamed_net9	L99-2 U4-3 
+unnamed_net8	R99-1 U4-4 
+unnamed_net7	L98-2 C96-1 U4-6 
+unnamed_net6	R40-2 C96-2 R9-1 
+unnamed_net5	L5-1 R9-2 
+5V	C85-2 U5-44 C84-2 U5-41 C83-2 U5-37 C82-2 U5-33 C81-2 U5-31 C80-2 U5-27 U5-25 C79-2 U5-19 C78-2 U5-15 C77-2 U5-7 C76-2 U5-5 C75-2 U5-1 C74-2 C98-1 C97-1 L98-1 R99-2 C11-2 C12-2 U2-3 C42-1 C22-1 
+unnamed_net4	U5-43 C65-2 
+unnamed_net3	T1-4 C65-1 
+unnamed_net2	U5-42 C64-2 
+unnamed_net1	T1-6 C64-1 
+AUX_ADC_B1	J2-61 
+AUX_ADC_A1	J2-59 
+AUX_ADC_REF	J2-57 
+AUX_DAC_C	J2-55 
+AUX_DAC_B	R52-2 J2-53 
+AUX_DAC_A	R21-2 J2-51 
+AUX_DAC_D	J2-49 
+SEN_RX	R55-1 J2-35 
+VINP_A	C25-1 R10-2 J2-62 
+VINN_A	C26-1 R11-2 J2-60 
+VREF	J2-56 
+VINN_B	J2-52 
+VINP_B	J2-50 
+AVDD	R6-1 J2-45 J2-43 J2-46 J2-44 
+io_rx_00	R93-1 J2-36 
+io_rx_01	R56-1 J24-13 J2-34 
+io_rx_02	U5-16 J24-11 J2-32 
+io_rx_03	R58-1 J24-9 J2-30 
+io_rx_04	R54-1 J24-7 J2-28 
+SDI	J2-33 
+SDO	R57-1 J2-31 
+SCLK	R59-1 J2-29 
+RESET	J2-27 
+io_rx_05	J24-5 J2-26 
+io_rx_06	J24-3 J2-24 
+io_rx_07	J24-1 J2-22 
+I2C_A0	U1-1 J2-21 
+io_rx_08	J25-15 J2-20 
+I2C_A1	U1-2 J2-19 
+io_rx_09	J25-13 J2-18 
+SDA	U1-5 J2-17 
+io_rx_10	J25-11 J2-16 
+SCL	U1-6 J2-15 
+io_rx_11	J25-9 J2-14 
+clock_n	J2-13 
+io_rx_12	J25-7 J2-12 
+clock_p	R94-2 J2-11 
+io_rx_13	J25-5 J2-10 
+io_rx_14	J25-3 J2-8 
+DVDD	U1-8 U1-3 J2-9 J2-7 
+io_rx_15	J25-1 J2-6 
+6V	C43-2 L4-1 J2-5 J2-3 
+AGND	C68-1 C67-1 R7-2 C24-2 C26-2 C25-2 C62-2 C61-2 C3-1 R51-2 L1-1 C8-2 C7-2 U3-3 C5-2 C6-1 C4-1 U5-45 U5-10 U5-6 U5-49 U5-32 U5-34 U5-24 U5-28 U5-23 U5-20 U5-4 J3-5 J3-4 J3-3 J3-2 C87-1 C59-2 C17-1 \
+ C16-1 C81-1 C82-1 C83-1 C84-1 C85-1 C80-1 C75-1 C76-1 C77-1 C78-1 C79-1 C74-1 C73-1 R40-1 C97-2 C98-2 U4-5 U4-2 U4-1 C11-1 C12-1 C42-2 U2-2 U2-4 C44-1 C43-1 C22-2 J25-6 J25-4 J25-14 J25-12 J25-10 \
+ J25-16 J25-8 J25-2 J24-6 J24-4 J24-14 J24-12 J24-10 J24-16 J24-8 J24-2 U1-4 U1-7 J2-63 J2-47 J2-41 J2-37 J2-64 J2-58 J2-54 J2-48 J2-42 J2-38 J2-2 J2-1 

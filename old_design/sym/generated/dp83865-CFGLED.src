@@ -1,0 +1,67 @@
+# This is the template file for creating symbols with tragesym
+# every line starting with '#' is a comment line.
+
+[options]
+# rotate_labels rotates the pintext of top and bottom pins
+# wordswap swaps labels if the pin is on the right side an looks like this:
+# "PB1 (CLK)"
+wordswap=yes
+rotate_labels=yes
+sort_labels=no
+generate_pinseq=yes
+sym_width=5200
+pinwidthvertikal=400
+pinwidthhorizontal=400
+
+[geda_attr]
+# name will be printed in the top of the symbol
+# if you have a device with slots, you'll have to use slot= and slotdef=
+# use comment= if there are special information you want to add
+version=20060906
+name=DP83865-CFGLED
+device=DP83865
+refdes=U?
+footprint=PQFP-128
+description=National Semi GigPHYter Gigabit Ethernet MAC
+documentation=NA
+author=mettus
+numslots=0
+#slot=1
+#slotdef=1:
+#slotdef=2:
+#slotdef=3:
+#slotdef=4:
+comment=Part 7 of 7
+#comment=
+#comment=
+
+[pins]
+# tabseparated list of pin descriptions
+# pinnr is the physical number of the pin
+# seq is the pinseq= attribute, leave it blank if it doesn't matter
+# type can be (in, out, io, oc, oe, pas, tp, tri, clk, pwr)
+# style can be (line,dot,clk,dotclk,none). none if only want to add a net
+# posit. can be (l,r,t,b) or empty for nets
+# net specifies the name of the Vcc or GND name
+# label represents the pinlabel. 
+#	negation lines can be added with _Q_ 
+#	if you want to add a "_" or "\" use "\_" and "\\" as escape sequences
+#-----------------------------------------------------
+#pinnr	seq	type	style	posit.	net	label	
+#-----------------------------------------------------
+1		in	line	l		NON_IEEE_STRAP
+6		in	line	l		MAN_MDIX_STRAP/TX_TCLK
+7		io	line	r		ACTIVITY_LED/SPEED0_STRAP
+8		io	line	r		LINK10_LED/RLED/SPEED1_STRAP
+9		io	line	r		LINK100_LED/DUPLEX_STRAP
+10		io	line	r		LINK1000_LED/AN_EN_STRAP
+13		io	line	r		DUPLEX_LED/PHYADDR0_STRAP
+14		in	line	l		PHYADDR1_STRAP
+17		in	line	l		PHYADDR2_STRAP
+18		in	line	l		PHYADDR3_STRAP
+95		in	line	l		PHYADDR4_STRAP
+94		io	line	l		MULTI_EN_STRAP/TX_TRIGGER
+89		io	line	l		MDIX_EN_STRAP
+88		in	line	l		MAC_CLK_EN_STRAP/TX_SYN_CLK
+34		in	line	l		VDD_SEL_STRAP
+

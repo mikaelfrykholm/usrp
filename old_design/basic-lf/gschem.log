@@ -1,0 +1,36 @@
+gEDA/gschem version 1.4.3.20081231
+gEDA/gschem comes with ABSOLUTELY NO WARRANTY; see COPYING for more details.
+This is free software, and you are welcome to redistribute it under certain
+conditions; please see the COPYING file for more details.
+
+Read system-gafrc file [/etc/gEDA/system-gafrc]
+Did not find optional ~/.gEDA/gafrc file [/home/nldudok1/.gEDA/gafrc]
+Did not find optional local gafrc file [/pub/projects/gnuradio/svn/usrp-hw-latest-completest-rev11655/basic-lf/gafrc]
+Read system-gschemrc file [/etc/gEDA/system-gschemrc]
+Did not find optional ~/.gEDA/gschemrc file [/home/nldudok1/.gEDA/gschemrc]
+Read local gschemrc file [/pub/projects/gnuradio/svn/usrp-hw-latest-completest-rev11655/basic-lf/gschemrc]
+Read init scm file [/usr/share/gEDA/scheme/gschem.scm]
+Loading schematic [/pub/projects/gnuradio/svn/usrp-hw-latest-completest-rev11655/basic-lf/lfrx.sch]
+Did not find specified gafrc file [/pub/projects/gnuradio/svn/usrp-hw-latest-completest-rev11655/basic-lf/gafrc]
+WARNING: Symbol version mismatch on refdes C22 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C23 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C24 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C25 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C26 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C50 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+Saved as [/pub/projects/gnuradio/svn/usrp-hw-latest-completest-rev11655/basic-lf/mdvh_lfrx_simplified_for_ngspice.sch]
+Saved [/pub/projects/gnuradio/svn/usrp-hw-latest-completest-rev11655/basic-lf/mdvh_lfrx_simplified_for_ngspice.sch]
+Saved [/pub/projects/gnuradio/svn/usrp-hw-latest-completest-rev11655/basic-lf/mdvh_lfrx_simplified_for_ngspice.sch]
+Saved as [/pub/projects/spice/fully_differential_opamp/mdvh_lfrx_simplified_for_ngspice.sch]

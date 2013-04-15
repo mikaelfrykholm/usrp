@@ -1,0 +1,45 @@
+
+[options]
+wordswap=yes
+rotate_labels=yes
+sort_labels=yes
+generate_pinseq=yes
+sym_width=6000
+pinwidthvertikal=400
+pinwidthhorizontal=400
+[geda_attr]
+version=20060906
+name=XC3SD3400AFG676-CFG
+device=XC3SD3400AFG676
+refdes=U?
+footprint=FG676
+description=Xilinx Spartan 3A-DSP 1800/3400 FG676
+documentation=http://www.xilinx.com
+author=xilinxgen.py
+numslots=0
+[pins]
+A2		io	line	l		PROG_B
+AA7		io	line	r		IO_L02N_2/CSO_B
+AA12		io	line	r		IO_L17N_2/VS2
+AA15		io	line	r		IO_L34P_2/INIT_B
+AB15		io	line	r		IO_L30N_2/MOSI/CSI_B
+AB21		io	line	l		DONE
+AC4		io	line	r		IO_L01P_2/M1
+AD4		io	line	r		IO_L01N_2/M0
+AD15		io	line	l		IO_L32P_2/AWAKE
+AE9		io	line	r		IO_L19P_2/VS1
+AE10		io	line	r		IO_L22P_2/D7
+AE12		io	line	r		IO_L24N_2/D4
+AE15		io	line	r		IO_L32N_2/DOUT
+AE18		io	line	r		IO_L36N_2/D1
+AE24		io	line	r		IO_L52N_2/CCLK
+AF9		io	line	r		IO_L19N_2/VS0
+AF10		io	line	r		IO_L22N_2/D6
+AF12		io	line	r		IO_L24P_2/D5
+AF18		io	line	r		IO_L36P_2/D2
+AF24		io	line	r		IO_L52P_2/D0/DIN/MISO
+G8		io	line	l		IO_L52N_0/PUDC_B
+V20		io	line	l		SUSPEND
+Y7		io	line	r		IO_L02P_2/M2
+Y12		io	line	r		IO_L17P_2/RDWR_B
+Y15		io	line	r		IO_L34N_2/D3

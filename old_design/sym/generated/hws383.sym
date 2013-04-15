@@ -1,0 +1,150 @@
+v 20060906 1
+P 800 100 800 400 1 0 0
+{
+T 850 200 5 8 1 1 0 0 1
+pinnumber=1
+T 850 200 5 8 0 1 0 2 1
+pinseq=1
+T 800 450 9 8 1 1 0 3 1
+pinlabel=GND
+T 800 600 5 8 0 1 0 3 1
+pintype=pwr
+}
+P 1200 100 1200 400 1 0 0
+{
+T 1250 200 5 8 1 1 0 0 1
+pinnumber=2
+T 1250 200 5 8 0 1 0 2 1
+pinseq=2
+T 1200 450 9 8 1 1 0 3 1
+pinlabel=GND
+T 1200 600 5 8 0 1 0 3 1
+pintype=pwr
+}
+P 1600 100 1600 400 1 0 0
+{
+T 1650 200 5 8 1 1 0 0 1
+pinnumber=5
+T 1650 200 5 8 0 1 0 2 1
+pinseq=3
+T 1600 450 9 8 1 1 0 3 1
+pinlabel=GND
+T 1600 600 5 8 0 1 0 3 1
+pintype=pwr
+}
+P 2000 100 2000 400 1 0 0
+{
+T 2050 200 5 8 1 1 0 0 1
+pinnumber=8
+T 2050 200 5 8 0 1 0 2 1
+pinseq=4
+T 2000 450 9 8 1 1 0 3 1
+pinlabel=GND
+T 2000 600 5 8 0 1 0 3 1
+pintype=pwr
+}
+P 2400 100 2400 400 1 0 0
+{
+T 2450 200 5 8 1 1 0 0 1
+pinnumber=9
+T 2450 200 5 8 0 1 0 2 1
+pinseq=5
+T 2400 450 9 8 1 1 0 3 1
+pinlabel=GND
+T 2400 600 5 8 0 1 0 3 1
+pintype=pwr
+}
+P 2800 100 2800 400 1 0 0
+{
+T 2850 200 5 8 1 1 0 0 1
+pinnumber=11
+T 2850 200 5 8 0 1 0 2 1
+pinseq=6
+T 2800 450 9 8 1 1 0 3 1
+pinlabel=GND
+T 2800 600 5 8 0 1 0 3 1
+pintype=pwr
+}
+P 1600 1900 1600 1600 1 0 0
+{
+T 1650 1750 5 8 1 1 0 0 1
+pinnumber=3
+T 1650 1750 5 8 0 1 0 2 1
+pinseq=7
+T 1600 1550 9 8 1 1 0 5 1
+pinlabel=VC1
+T 1600 1400 5 8 0 1 0 5 1
+pintype=in
+}
+P 2000 1900 2000 1600 1 0 0
+{
+T 2050 1750 5 8 1 1 0 0 1
+pinnumber=7
+T 2050 1750 5 8 0 1 0 2 1
+pinseq=8
+T 2000 1550 9 8 1 1 0 5 1
+pinlabel=VC2
+T 2000 1400 5 8 0 1 0 5 1
+pintype=in
+}
+P 100 1200 400 1200 1 0 0
+{
+T 300 1250 5 8 1 1 0 6 1
+pinnumber=4
+T 300 1150 5 8 0 1 0 8 1
+pinseq=9
+T 450 1200 9 8 1 1 0 0 1
+pinlabel=ANT1
+T 450 1200 5 8 0 1 0 2 1
+pintype=io
+}
+P 100 800 400 800 1 0 0
+{
+T 300 850 5 8 1 1 0 6 1
+pinnumber=6
+T 300 750 5 8 0 1 0 8 1
+pinseq=10
+T 450 800 9 8 1 1 0 0 1
+pinlabel=ANT2
+T 450 800 5 8 0 1 0 2 1
+pintype=io
+}
+P 3500 1200 3200 1200 1 0 0
+{
+T 3300 1250 5 8 1 1 0 0 1
+pinnumber=10
+T 3300 1150 5 8 0 1 0 2 1
+pinseq=11
+T 3150 1200 9 8 1 1 0 6 1
+pinlabel=RX
+T 3150 1200 5 8 0 1 0 8 1
+pintype=io
+}
+P 3500 800 3200 800 1 0 0
+{
+T 3300 850 5 8 1 1 0 0 1
+pinnumber=12
+T 3300 750 5 8 0 1 0 2 1
+pinseq=12
+T 3150 800 9 8 1 1 0 6 1
+pinlabel=TX
+T 3150 800 5 8 0 1 0 8 1
+pintype=io
+}
+B 400 400 2800 1200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 3200 1700 8 10 1 1 0 6 1
+refdes=U?
+T 1600 900 9 10 1 0 0 0 1
+HWS383
+T 1600 1200 5 10 0 0 0 0 1
+device=HWS383
+T 1600 1400 5 10 0 0 0 0 1
+footprint=HWS383
+T 1600 1600 5 10 0 0 0 0 1
+author=mettus
+T 1600 1800 5 10 0 0 0 0 1
+documentation=NA
+T 1600 2000 5 10 0 0 0 0 1
+description=Hexawave RF Transfer Switch
+T 1600 2200 5 10 0 0 0 0 1
+numslots=0

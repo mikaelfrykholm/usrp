@@ -1,0 +1,34 @@
+# $Id$
+# PcbXY Version 1.0
+# Date: Mon Dec 24 21:51:56 2007 UTC
+# Author: Matt Ettus
+# Title: RX Daughterboard - PCB X-Y
+# RefDes, Description, Value, X, Y, rotation, top/bottom
+# X,Y in mils.  rotation in degrees.
+# --------------------------------------------
+U1,"SO8","unknown",982.00,2075.00,90,top
+J16,"CONNECTOR-8-2","unknown",1055.00,1785.00,0,top
+J24,"CONNECTOR-8-2","unknown",155.00,1675.00,90,top
+J38,"CONNECTOR-4-1","unknown",1100.00,1290.00,0,top
+J25,"CONNECTOR-8-2","unknown",160.00,500.00,90,top
+C22,"0603","10pF",1660.00,1540.00,90,top
+R4,"0603","50",1590.00,1540.00,270,top
+T1,"MINICIRCUITS_CD542","unknown",1700.00,1830.00,0,top
+R7,"0603","1K",2000.00,1870.00,90,top
+R6,"0603","1K",1925.00,1765.00,90,top
+C24,"0603",".1uF",1930.00,1870.00,90,top
+R8,"0603","None",2000.00,1765.00,90,top
+R9,"0603","50",2255.00,2105.00,0,top
+C26,"0603","10pF",2250.00,1525.00,90,top
+C25,"0603","10pF",2335.00,1525.00,90,top
+R11,"0603","50",2175.00,1525.00,270,top
+R5,"0603","50",1825.00,1540.00,270,top
+J19,"SMA_VERT","unknown",2235.00,2315.00,180,top
+J18,"SMA_VERT","unknown",1605.00,2315.00,180,top
+J17,"CONNECTOR-5-2","unknown",2035.00,1325.00,0,top
+J15,"CONNECTOR-10-2","unknown",1220.00,355.00,0,top
+R10,"0603","50",2410.00,1525.00,270,top
+J2,"PMC-REVERSE","unknown",1560.16,1030.00,0,bottom
+C23,"0603","10pF",1755.00,1540.00,90,top
+T2,"MINICIRCUITS_CD542","unknown",2295.00,1805.00,0,top
+R3,"0603","50",1580.00,2100.00,180,top

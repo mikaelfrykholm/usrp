@@ -1,0 +1,92 @@
+
+[options]
+wordswap=yes
+rotate_labels=yes
+sort_labels=yes
+generate_pinseq=yes
+sym_width=3200
+pinwidthvertikal=400
+pinwidthhorizontal=400
+[geda_attr]
+version=20060906
+name=XC3SXX00FG456-PWR
+device=XC3SXX00FG456
+refdes=U?
+footprint=FG456
+description=Xilinx Spartan 3 400/1000/1500/2000 FG456
+documentation=http://www.xilinx.com
+author=xilinxgen.py
+numslots=0
+[pins]
+A1		pwr	line	r		GND
+A6		pwr	line	l		VCCAUX
+A17		pwr	line	l		VCCAUX
+A22		pwr	line	r		GND
+B2		pwr	line	r		GND
+B21		pwr	line	r		GND
+C9		pwr	line	r		GND
+C14		pwr	line	r		GND
+F1		pwr	line	l		VCCAUX
+F22		pwr	line	l		VCCAUX
+G7		pwr	line	l		VCCINT
+G8		pwr	line	l		VCCINT
+G15		pwr	line	l		VCCINT
+G16		pwr	line	l		VCCINT
+H7		pwr	line	l		VCCINT
+H16		pwr	line	l		VCCINT
+J3		pwr	line	r		GND
+J9		pwr	line	r		GND
+J10		pwr	line	r		GND
+J11		pwr	line	r		GND
+J12		pwr	line	r		GND
+J13		pwr	line	r		GND
+J14		pwr	line	r		GND
+J20		pwr	line	r		GND
+K9		pwr	line	r		GND
+K10		pwr	line	r		GND
+K11		pwr	line	r		GND
+K12		pwr	line	r		GND
+K13		pwr	line	r		GND
+K14		pwr	line	r		GND
+L9		pwr	line	r		GND
+L10		pwr	line	r		GND
+L11		pwr	line	r		GND
+L12		pwr	line	r		GND
+L13		pwr	line	r		GND
+L14		pwr	line	r		GND
+M9		pwr	line	r		GND
+M10		pwr	line	r		GND
+M11		pwr	line	r		GND
+M12		pwr	line	r		GND
+M13		pwr	line	r		GND
+M14		pwr	line	r		GND
+N9		pwr	line	r		GND
+N10		pwr	line	r		GND
+N11		pwr	line	r		GND
+N12		pwr	line	r		GND
+N13		pwr	line	r		GND
+N14		pwr	line	r		GND
+P3		pwr	line	r		GND
+P9		pwr	line	r		GND
+P10		pwr	line	r		GND
+P11		pwr	line	r		GND
+P12		pwr	line	r		GND
+P13		pwr	line	r		GND
+P14		pwr	line	r		GND
+P20		pwr	line	r		GND
+R7		pwr	line	l		VCCINT
+R16		pwr	line	l		VCCINT
+T7		pwr	line	l		VCCINT
+T8		pwr	line	l		VCCINT
+T15		pwr	line	l		VCCINT
+T16		pwr	line	l		VCCINT
+U1		pwr	line	l		VCCAUX
+U22		pwr	line	l		VCCAUX
+Y9		pwr	line	r		GND
+Y14		pwr	line	r		GND
+AA2		pwr	line	r		GND
+AA21		pwr	line	r		GND
+AB1		pwr	line	r		GND
+AB6		pwr	line	l		VCCAUX
+AB17		pwr	line	l		VCCAUX
+AB22		pwr	line	r		GND

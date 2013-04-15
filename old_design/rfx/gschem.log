@@ -1,0 +1,206 @@
+gEDA/gschem version 1.4.3.20081231
+gEDA/gschem comes with ABSOLUTELY NO WARRANTY; see COPYING for more details.
+This is free software, and you are welcome to redistribute it under certain
+conditions; please see the COPYING file for more details.
+
+Read system-gafrc file [/etc/gEDA/system-gafrc]
+Did not find optional ~/.gEDA/gafrc file [/home/nldudok1/.gEDA/gafrc]
+Read local gafrc file [/pub/shared/eigen_bedrijf/website/usrp-hw-rev11655-gEda-CAD-files/rfx/gafrc]
+Read system-gschemrc file [/etc/gEDA/system-gschemrc]
+Did not find optional ~/.gEDA/gschemrc file [/home/nldudok1/.gEDA/gschemrc]
+Did not find optional local gschemrc file [/pub/shared/eigen_bedrijf/website/usrp-hw-rev11655-gEda-CAD-files/rfx/gschemrc]
+Read init scm file [/usr/share/gEDA/scheme/gschem.scm]
+Loading schematic [/pub/shared/eigen_bedrijf/website/usrp-hw-rev11655-gEda-CAD-files/rfx/trans2400.sch]
+RC file [/pub/shared/eigen_bedrijf/website/usrp-hw-rev11655-gEda-CAD-files/rfx/gafrc] already read in.
+WARNING: Symbol version mismatch on refdes C157 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C158 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C159 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C160 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C161 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C162 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C163 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C164 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes L180 (inductor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes L181 (inductor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes L182 (inductor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes L183 (inductor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C165 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C166 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C167 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C168 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C169 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C170 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C171 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C172 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C173 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C174 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes L186 (inductor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes L187 (inductor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C175 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C177 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes L190 (inductor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes L191 (inductor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C178 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C104 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C101 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C103 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes L101 (inductor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C105 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes L113 (inductor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C107 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C106 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes L104 (inductor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C185 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C182 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C127 (capacitor-2.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C121 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C122 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes L112 (inductor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C125 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C111 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C186 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C126 (capacitor-2.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C120 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C123 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes L103 (inductor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C124 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C110 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C129 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C128 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C117 (capacitor-2.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes L114 (inductor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C183 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C184 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C108 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C109 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C102 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes L108 (inductor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
+WARNING: Symbol version mismatch on refdes C112 (capacitor-1.sym):
+	Symbol in library is newer than instantiated symbol
+	Minor version change (file 0.100, instantiated 0.000)
